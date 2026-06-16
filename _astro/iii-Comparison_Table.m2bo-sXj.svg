@@ -6,7 +6,7 @@
    version="1.1"
    id="svg64"
    sodipodi:docname="iii-Comparison_Table.svg"
-   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    height="745.26562"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,13 +22,13 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="3.5638182"
-     inkscape:cx="192.06928"
-     inkscape:cy="374.31764"
-     inkscape:window-width="1854"
-     inkscape:window-height="1011"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="0.89095455"
+     inkscape:cx="618.99903"
+     inkscape:cy="342.89067"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg64" />
   <defs
@@ -37,7 +37,7 @@
        inkscape:collect="always"
        xlink:href="#kgrid"
        id="pattern1"
-       patternTransform="matrix(1,0,0,0.99104477,0,-3.7182617e-6)" />
+       patternTransform="matrix(1,0,0,0.99104477,0.39682539,-0.39682911)" />
     <pattern
        id="kgrid"
        width="28"
@@ -150,8 +150,8 @@
      inkscape:label="background"
      style="display:inline;stroke-width:0.995511" />
   <rect
-     x="0"
-     y="0"
+     x="0.3968254"
+     y="-0.3968254"
      width="1300"
      height="745.26562"
      fill="url(#kgrid)"
@@ -169,9 +169,9 @@
      x="1027"
      y="88.406898"
      width="221"
-     height="615.39282"
+     height="548.23016"
      rx="12"
-     ry="15.009582"
+     ry="13.371469"
      fill="#f1f8f3"
      id="rect25"
      style="stroke-width:1.11839" />
@@ -220,7 +220,7 @@
      font-weight="700"
      fill="#1b2b22"
      text-anchor="middle"
-     id="text29">Large framework</text>
+     id="text29">Large Framework</text>
   <text
      x="687.5"
      y="148.79974"
@@ -295,7 +295,7 @@
      font-weight="600"
      fill="#1b2b22"
      text-anchor="start"
-     id="text35">Ecosystem agnostic? (no lock-in)</text>
+     id="text35">Ecosystem agnostic (no lock-in)</text>
   <circle
      cx="462.5"
      cy="201.79974"
@@ -401,9 +401,9 @@
      id="line39" />
   <line
      x1="55.971943"
-     y1="312.88181"
-     x2="1255.9719"
-     y2="312.88181"
+     y1="313.08023"
+     x2="1249.6227"
+     y2="313.08023"
      stroke="#d8d9cd"
      stroke-width="1"
      id="line39-6" />
@@ -414,7 +414,7 @@
      font-weight="600"
      fill="#1b2b22"
      text-anchor="start"
-     id="text40">Open source?</text>
+     id="text40">Open source</text>
   <g
      id="g3"
      transform="translate(0,-75.200249)">
@@ -522,7 +522,7 @@
      font-weight="600"
      fill="#1b2b22"
      text-anchor="start"
-     id="text35-9">Additional services for RAG apps?</text>
+     id="text35-9">Additional services for LLM apps</text>
   <text
      x="463.36914"
      y="368.69843"
@@ -630,113 +630,6 @@
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
      id="text41-45">no</text>
-  <text
-     x="464.61905"
-     y="439.61566"
-     font-size="10.5px"
-     font-weight="500"
-     fill="#6a7a70"
-     text-anchor="middle"
-     font-family="'Spline Sans Mono', monospace"
-     id="text36-8-5">yes</text>
-  <g
-     id="g2-47"
-     transform="translate(1.2499068,7.7169893)">
-    <circle
-       cx="688.36914"
-       cy="402.89868"
-       r="15"
-       fill="#239b72"
-       id="circle36-9-4" />
-    <polyline
-       points="681,276.5 685.5,281.5 694.5,271"
-       fill="none"
-       stroke="#ffffff"
-       stroke-width="2.6"
-       stroke-linecap="round"
-       stroke-linejoin="round"
-       id="polyline36-7-4"
-       transform="translate(0.8691406,125.89868)" />
-  </g>
-  <g
-     id="g2-4-3"
-     transform="translate(-223.75009,8.7169893)">
-    <circle
-       cx="688.36914"
-       cy="402.89868"
-       r="15"
-       fill="#239b72"
-       id="circle36-9-7-0" />
-    <polyline
-       points="681,276.5 685.5,281.5 694.5,271"
-       fill="none"
-       stroke="#ffffff"
-       stroke-width="2.6"
-       stroke-linecap="round"
-       stroke-linejoin="round"
-       id="polyline36-7-6-7"
-       transform="translate(0.8691406,125.89868)" />
-  </g>
-  <text
-     x="689.61902"
-     y="439.61566"
-     font-size="10.5px"
-     font-weight="500"
-     fill="#137e59"
-     text-anchor="middle"
-     font-family="'Spline Sans Mono', monospace"
-     id="text37-3-8">yes</text>
-  <circle
-     cx="914.61902"
-     cy="410.61566"
-     r="15"
-     fill="#239b72"
-     id="circle37-6-6" />
-  <polyline
-     points="906,276.5 910.5,281.5 919.5,271"
-     fill="none"
-     stroke="#ffffff"
-     stroke-width="2.6"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="polyline37-1-8"
-     transform="translate(2.1190468,133.61567)" />
-  <text
-     x="914.61902"
-     y="439.61566"
-     font-size="10.5px"
-     font-weight="500"
-     fill="#137e59"
-     text-anchor="middle"
-     font-family="'Spline Sans Mono', monospace"
-     id="text38-2-8">yes</text>
-  <g
-     id="g3-6-4"
-     transform="translate(677.36905,61.365671)">
-    <circle
-       cx="462.5"
-       cy="349"
-       r="14"
-       fill="#ffffff"
-       stroke="#d8d9cd"
-       stroke-width="1.5"
-       id="circle40-9-3" />
-    <path
-       d="m 457.5,344 10,10 m -10,0 10,-10"
-       stroke="#b6bbac"
-       stroke-width="1.9"
-       stroke-linecap="round"
-       id="path40-3-1" />
-  </g>
-  <text
-     x="1139.7203"
-     y="439.61566"
-     font-size="10.5px"
-     font-weight="500"
-     fill="#6a7a70"
-     text-anchor="middle"
-     font-family="'Spline Sans Mono', monospace"
-     id="text41-45-4">no</text>
   <line
      x1="50.869141"
      y1="382.69843"
@@ -745,25 +638,17 @@
      stroke="#d8d9cd"
      stroke-width="1"
      id="line39-9" />
-  <text
-     x="64.869141"
-     y="423.69843"
-     font-size="15px"
-     font-weight="600"
-     fill="#1b2b22"
-     text-anchor="start"
-     id="text40-4">Flexible support for other LLM apps?</text>
   <line
      x1="50"
-     y1="450.29974"
+     y1="382.29974"
      x2="1250"
-     y2="450.29974"
+     y2="382.29974"
      stroke="#d8d9cd"
      stroke-width="1"
      id="line44" />
   <rect
      x="50"
-     y="450.29974"
+     y="382.29974"
      width="1200"
      height="38"
      rx="0"
@@ -773,7 +658,7 @@
      id="rect44" />
   <text
      x="66"
-     y="473.29974"
+     y="405.29974"
      font-size="11px"
      font-weight="600"
      fill="#239b72"
@@ -783,37 +668,37 @@
      id="text45">EASE OF ADOPTION</text>
   <line
      x1="50"
-     y1="488.29974"
+     y1="420.29974"
      x2="1250"
-     y2="488.29974"
+     y2="420.29974"
      stroke="#d8d9cd"
      stroke-width="1"
      id="line45" />
   <text
      x="90"
-     y="529.29974"
+     y="461.29974"
      font-size="15px"
      font-weight="600"
      fill="#1b2b22"
      text-anchor="start"
-     id="text46">Framework ramp-up?</text>
+     id="text46">Framework ramp-up</text>
   <circle
      cx="462.5"
-     cy="517.29974"
+     cy="449.29974"
      r="14"
      fill="#ffffff"
      stroke="#d8d9cd"
      stroke-width="1.5"
      id="circle46" />
   <path
-     d="m 457.5,512.29975 10,10 m -10,0 10,-10"
+     d="m 457.5,444.29975 10,10 m -10,0 10,-10"
      stroke="#b6bbac"
      stroke-width="1.9"
      stroke-linecap="round"
      id="path46" />
   <text
      x="462.5"
-     y="546.29974"
+     y="478.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
@@ -822,39 +707,30 @@
      id="text47">significant</text>
   <circle
      cx="687.5"
-     cy="517.29974"
+     cy="449.29974"
      r="14"
      fill="#ffffff"
      stroke="#d8d9cd"
      stroke-width="1.5"
      id="circle47" />
   <path
-     d="m 682.5,512.29975 10,10 m -10,0 10,-10"
+     d="m 682.5,444.29975 10,10 m -10,0 10,-10"
      stroke="#b6bbac"
      stroke-width="1.9"
      stroke-linecap="round"
      id="path47" />
   <text
      x="687.5"
-     y="546.29974"
+     y="478.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
      id="text48">significant</text>
-  <text
-     x="912.5"
-     y="546.29974"
-     font-size="10.5px"
-     font-weight="500"
-     fill="#6a7a70"
-     text-anchor="middle"
-     font-family="'Spline Sans Mono', monospace"
-     id="text49">some</text>
   <circle
      cx="1137.5"
-     cy="517.29974"
+     cy="449.29974"
      r="15"
      fill="#239b72"
      id="circle49" />
@@ -866,10 +742,10 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="polyline49"
-     transform="translate(0,58.299751)" />
+     transform="translate(0,-9.700249)" />
   <text
      x="1137.5"
-     y="546.29974"
+     y="478.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#137e59"
@@ -878,37 +754,37 @@
      id="text50">none</text>
   <line
      x1="50"
-     y1="560.29974"
+     y1="492.29974"
      x2="1250"
-     y2="560.29974"
+     y2="492.29974"
      stroke="#d8d9cd"
      stroke-width="1"
      id="line50" />
   <text
      x="90"
-     y="601.29974"
+     y="533.29974"
      font-size="15px"
      font-weight="600"
      fill="#1b2b22"
      text-anchor="start"
-     id="text51">Data migrations?</text>
+     id="text51">Data migrations</text>
   <circle
      cx="462.5"
-     cy="589.29974"
+     cy="521.29974"
      r="14"
      fill="#ffffff"
      stroke="#d8d9cd"
      stroke-width="1.5"
      id="circle51" />
   <path
-     d="m 457.5,584.29975 10,10 m -10,0 10,-10"
+     d="m 457.5,516.29975 10,10 m -10,0 10,-10"
      stroke="#b6bbac"
      stroke-width="1.9"
      stroke-linecap="round"
      id="path51" />
   <text
      x="462.5"
-     y="618.29974"
+     y="550.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
@@ -917,19 +793,19 @@
      id="text52">significant</text>
   <circle
      cx="687.5"
-     cy="589.29974"
+     cy="521.29974"
      r="14"
      fill="none"
      stroke="#5bc29f"
      stroke-width="1.8"
      id="circle52" />
   <path
-     d="m 687.5,575.29975 a 14,14 0 0 0 0,28 z"
+     d="m 687.5,507.29975 a 14,14 0 0 0 0,28 z"
      fill="#5bc29f"
      id="path52" />
   <text
      x="687.5"
-     y="618.29974"
+     y="550.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
@@ -938,7 +814,7 @@
      id="text53">some</text>
   <circle
      cx="912.5"
-     cy="589.29974"
+     cy="521.29974"
      r="15"
      fill="#239b72"
      id="circle53" />
@@ -950,10 +826,10 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="polyline53"
-     transform="translate(0,58.299751)" />
+     transform="translate(0,-9.700249)" />
   <text
      x="912.5"
-     y="618.29974"
+     y="550.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#137e59"
@@ -962,7 +838,7 @@
      id="text54">none</text>
   <circle
      cx="1137.5"
-     cy="589.29974"
+     cy="521.29974"
      r="15"
      fill="#239b72"
      id="circle54" />
@@ -974,10 +850,10 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="polyline54"
-     transform="translate(0,58.299751)" />
+     transform="translate(0,-9.700249)" />
   <text
      x="1137.5"
-     y="618.29974"
+     y="550.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#137e59"
@@ -986,35 +862,35 @@
      id="text55">none</text>
   <line
      x1="50"
-     y1="632.29974"
+     y1="564.29974"
      x2="1250"
-     y2="632.29974"
+     y2="564.29974"
      stroke="#d8d9cd"
      stroke-width="1"
      id="line55" />
   <text
      x="90"
-     y="673.29974"
+     y="605.29974"
      font-size="15px"
      font-weight="600"
      fill="#1b2b22"
      text-anchor="start"
-     id="text56">Automatic updating?</text>
+     id="text56">Automatic updating</text>
   <circle
      cx="462.5"
-     cy="661.29974"
+     cy="593.29974"
      r="14"
      fill="none"
      stroke="#5bc29f"
      stroke-width="1.8"
      id="circle56" />
   <path
-     d="m 462.5,647.29975 a 14,14 0 0 0 0,28 z"
+     d="m 462.5,579.29975 a 14,14 0 0 0 0,28 z"
      fill="#5bc29f"
      id="path56" />
   <text
      x="462.5"
-     y="690.29974"
+     y="622.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
@@ -1023,19 +899,19 @@
      id="text57">some</text>
   <circle
      cx="687.5"
-     cy="661.29974"
+     cy="593.29974"
      r="14"
      fill="none"
      stroke="#5bc29f"
      stroke-width="1.8"
      id="circle57" />
   <path
-     d="m 687.5,647.29975 a 14,14 0 0 0 0,28 z"
+     d="m 687.5,579.29975 a 14,14 0 0 0 0,28 z"
      fill="#5bc29f"
      id="path57" />
   <text
      x="687.5"
-     y="690.29974"
+     y="622.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
@@ -1044,7 +920,7 @@
      id="text58">some</text>
   <circle
      cx="912.5"
-     cy="661.29974"
+     cy="593.29974"
      r="15"
      fill="#239b72"
      id="circle58" />
@@ -1056,10 +932,10 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="polyline58"
-     transform="translate(0,58.299751)" />
+     transform="translate(0,-9.700249)" />
   <text
      x="912.5"
-     y="690.29974"
+     y="622.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#137e59"
@@ -1068,7 +944,7 @@
      id="text59">yes</text>
   <circle
      cx="1137.5"
-     cy="661.29974"
+     cy="593.29974"
      r="15"
      fill="#239b72"
      id="circle59" />
@@ -1080,10 +956,10 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="polyline59"
-     transform="translate(0,58.299751)" />
+     transform="translate(0,-9.700249)" />
   <text
      x="1137.5"
-     y="690.29974"
+     y="622.29974"
      font-size="10.5px"
      font-weight="500"
      fill="#137e59"
@@ -1092,27 +968,27 @@
      id="text60">yes</text>
   <line
      x1="50"
-     y1="704.29974"
-     x2="1250"
-     y2="704.29974"
+     y1="636.10132"
+     x2="1242.4603"
+     y2="636.10132"
      stroke="#d8d9cd"
-     stroke-width="1"
+     stroke-width="0.999997"
      id="line60" />
   <line
      x1="361.86594"
      y1="74.799751"
      x2="361.86594"
-     y2="703.79974"
+     y2="636.73682"
      stroke="#d8d9cd"
      stroke-width="1.12612"
      id="line61" />
   <rect
      x="1027.1172"
      y="88.027977"
-     width="220.76575"
-     height="614.65466"
-     rx="11.987281"
-     ry="14.991577"
+     width="222.35306"
+     height="548.6145"
+     rx="12.073469"
+     ry="13.380839"
      fill="none"
      stroke="#239b72"
      stroke-width="2.23425"
@@ -1190,15 +1066,26 @@
        style="display:none">unfavorable</text>
   </g>
   <circle
-     cx="911.96576"
-     cy="516.74005"
+     cx="914.32452"
+     cy="449.57538"
      r="14"
-     fill="none"
-     stroke="#5bc29f"
-     stroke-width="1.8"
-     id="circle52-8" />
+     fill="#ffffff"
+     stroke="#d8d9cd"
+     stroke-width="1.5"
+     id="circle47-8" />
   <path
-     d="m 911.96571,502.74008 a 14,14 0 0 0 0,28 z"
-     fill="#5bc29f"
-     id="path52-8" />
+     d="m 909.32452,444.57541 10,10 m -10,0 10,-10"
+     stroke="#b6bbac"
+     stroke-width="1.9"
+     stroke-linecap="round"
+     id="path47-2" />
+  <text
+     x="914.32452"
+     y="478.57538"
+     font-size="10.5px"
+     font-weight="500"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text48-4">significant</text>
 </svg>
