@@ -6,7 +6,7 @@
    version="1.1"
    id="svg82"
    sodipodi:docname="ii-RAG_with_SpruceUp.svg"
-   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -21,12 +21,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="0.89095454"
-     inkscape:cx="517.98378"
-     inkscape:cy="409.67298"
-     inkscape:window-width="1854"
-     inkscape:window-height="1011"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:cx="568.49141"
+     inkscape:cy="292.38304"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg82" />
   <defs
@@ -215,57 +215,6 @@
      stroke="#239b72"
      stroke-width="1.6"
      id="rect29" />
-  <circle
-     cx="91.650795"
-     cy="142.82539"
-     r="10"
-     fill="none"
-     stroke="#239b72"
-     stroke-width="1.6"
-     opacity="0.5"
-     id="circle29" />
-  <circle
-     cx="91.650795"
-     cy="142.82539"
-     r="15"
-     fill="none"
-     stroke="#239b72"
-     stroke-width="1.6"
-     opacity="0.34"
-     id="circle30" />
-  <circle
-     class="spring"
-     cx="91.650795"
-     cy="142.82539"
-     r="11"
-     fill="none"
-     stroke="#239b72"
-     stroke-width="1.6"
-     id="circle31" />
-  <circle
-     class="spdot"
-     cx="91.650795"
-     cy="142.82539"
-     r="4.5"
-     fill="#4ec62a"
-     id="circle32" />
-  <text
-     x="115.65079"
-     y="138.82539"
-     font-size="14.5px"
-     font-weight="700"
-     fill="#137e59"
-     text-anchor="start"
-     id="text32">Monitor</text>
-  <text
-     x="115.65079"
-     y="155.82539"
-     font-size="10.5px"
-     font-weight="500"
-     fill="#239b72"
-     text-anchor="start"
-     font-family="'Spline Sans Mono', monospace"
-     id="text33">watching · live</text>
   <rect
      x="65.650795"
      y="206.31746"
@@ -277,60 +226,6 @@
      stroke="#c4c8ba"
      stroke-width="1.4"
      id="rect33" />
-  <text
-     x="121.65079"
-     y="246.31746"
-     font-size="16.5px"
-     font-weight="600"
-     fill="#1b2b22"
-     text-anchor="start"
-     id="text34">Data corpus</text>
-  <text
-     x="121.65079"
-     y="266.31747"
-     font-size="11.5px"
-     font-weight="400"
-     fill="#6a7a70"
-     text-anchor="start"
-     font-family="'Spline Sans Mono', monospace"
-     id="text35">files</text>
-  <path
-     d="m 84.650794,238.31746 18.699996,-7.3 7.3,7.3 v 26 H 84.650794 Z"
-     fill="#f0eee4"
-     stroke="#6a7a70"
-     stroke-width="1.4"
-     stroke-linejoin="round"
-     id="path35" />
-  <path
-     d="m 82.150794,235.81746 18.699996,-7.3 7.3,7.3 v 26 H 82.150794 Z"
-     fill="#ffffff"
-     stroke="#6a7a70"
-     stroke-width="1.4"
-     stroke-linejoin="round"
-     id="path36" />
-  <path
-     d="m 79.650794,233.31746 18.7,-7.3 7.299996,7.3 v 26 H 79.650794 Z"
-     fill="#eefbe6"
-     stroke="#35a016"
-     stroke-width="1.4"
-     stroke-linejoin="round"
-     id="path37" />
-  <circle
-     class="spring"
-     cx="103.65079"
-     cy="228.31746"
-     r="6"
-     fill="none"
-     stroke="#4ec62a"
-     stroke-width="1.4"
-     id="circle37" />
-  <circle
-     class="spdot"
-     cx="103.65079"
-     cy="228.31746"
-     r="5.5"
-     fill="#4ec62a"
-     id="circle38" />
   <path
      d="m 143.65079,169.62539 c 0,13.41944 0,20.12915 0,33.54859"
      fill="none"
@@ -966,8 +861,8 @@
        id="text76">top-k chunks</text>
   </g>
   <text
-     x="1028.6335"
-     y="412.13339"
+     x="1031.1591"
+     y="418.02594"
      font-size="10.5px"
      font-weight="600"
      fill="#137e59"
@@ -975,8 +870,8 @@
      font-family="'Spline Sans Mono', monospace"
      id="text77">prompt</text>
   <text
-     x="1028.8976"
-     y="423.13339"
+     x="1032.8259"
+     y="433.79611"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
@@ -984,13 +879,9 @@
      font-family="'Spline Sans Mono', monospace"
      id="text78"><tspan
        sodipodi:role="line"
-       id="tspan82"
-       x="1028.8976"
-       y="423.13339">query</tspan><tspan
-       sodipodi:role="line"
        id="tspan83"
-       x="1028.8976"
-       y="436.25839">+ context</tspan></text>
+       x="1032.8259"
+       y="433.79611">query + context</tspan></text>
   <line
      x1="970.90363"
      y1="454.31747"
@@ -1111,4 +1002,123 @@
        font-family="'Spline Sans Mono', monospace"
        id="text82">response to user</text>
   </g>
+  <ellipse
+     cx="92.141258"
+     cy="234.03015"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.6"
+     opacity="0.5"
+     id="circle29"
+     rx="11.719577"
+     ry="11.455026" />
+  <ellipse
+     cx="92.141258"
+     cy="234.03015"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.6"
+     opacity="0.34"
+     id="circle30"
+     rx="17.579365"
+     ry="17.182539" />
+  <ellipse
+     class="spring"
+     cx="92.141258"
+     cy="234.03015"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.6"
+     id="circle31"
+     rx="12.891535"
+     ry="12.600529" />
+  <ellipse
+     class="spdot"
+     cx="92.141258"
+     cy="234.03015"
+     fill="#4ec62a"
+     id="circle32"
+     style="stroke-width:1"
+     rx="5.2738094"
+     ry="5.1547618" />
+  <text
+     x="121.4984"
+     y="245.84094"
+     font-size="14.5px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="start"
+     id="text32"
+     style="font-size:17.1667px"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:17.1667px;font-family:Montserrat, system-ui, sans-serif;-inkscape-font-specification:'Montserrat, system-ui, sans-serif Semi-Bold';fill:#1a1a1a"
+       id="tspan1">Monitor</tspan></text>
+  <text
+     x="110.14315"
+     y="267.91986"
+     font-size="10.5px"
+     font-weight="500"
+     fill="#239b72"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text33"
+     style="font-size:11.5px"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Spline Sans Mono', monospace;-inkscape-font-specification:'Spline Sans Mono, monospace';fill:#666666"
+       id="tspan4">live watching</tspan></text>
+  <text
+     x="109.11268"
+     y="141.84286"
+     font-size="16.5px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="start"
+     id="text34">Data corpus</text>
+  <text
+     x="134.90634"
+     y="156.28734"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#6a7a70"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text35">files</text>
+  <path
+     d="m 79.831593,137.81112 13.43374,-5.85159 5.244188,5.85159 v 20.84127 H 79.831593 Z"
+     fill="#f0eee4"
+     stroke="#6a7a70"
+     stroke-width="1.4"
+     stroke-linejoin="round"
+     id="path35" />
+  <path
+     d="m 78.035638,135.80715 13.433741,-5.85159 5.244182,5.85159 v 20.84127 H 78.035638 Z"
+     fill="#ffffff"
+     stroke="#6a7a70"
+     stroke-width="1.4"
+     stroke-linejoin="round"
+     id="path36" />
+  <path
+     d="m 76.239683,133.80318 13.433741,-5.85159 5.244188,5.85159 v 20.84127 H 76.239683 Z"
+     fill="#eefbe6"
+     stroke="#35a016"
+     stroke-width="1.4"
+     stroke-linejoin="round"
+     id="path37" />
+  <ellipse
+     class="spring"
+     cx="93.480843"
+     cy="129.79524"
+     fill="none"
+     stroke="#4ec62a"
+     stroke-width="1.4"
+     id="circle37"
+     rx="4.3102918"
+     ry="4.8095241" />
+  <ellipse
+     class="spdot"
+     cx="93.480843"
+     cy="129.79524"
+     fill="#4ec62a"
+     id="circle38"
+     style="stroke-width:0.999999"
+     rx="3.9511008"
+     ry="4.4087305" />
 </svg>
