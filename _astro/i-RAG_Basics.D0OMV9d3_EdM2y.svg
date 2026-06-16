@@ -5,7 +5,7 @@
    font-family="'Montserrat',system-ui,sans-serif"
    version="1.1"
    id="svg49"
-   sodipodi:docname="i-RAG_Basics (1).svg"
+   sodipodi:docname="i-RAG_Basics.svg"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -19,9 +19,9 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#505050"
-   inkscape:zoom="0.88660312"
-   inkscape:cx="584.81635"
-   inkscape:cy="264.49264"
+   inkscape:zoom="1.7732062"
+   inkscape:cx="839.43986"
+   inkscape:cy="305.94298"
    inkscape:window-width="1920"
    inkscape:window-height="1009"
    inkscape:window-x="-8"
@@ -658,8 +658,8 @@
      id="text43">top-k chunks</text>
 </g>
 <text
-   x="993.8866"
-   y="341.26471"
+   x="996.98834"
+   y="355.64545"
    font-size="10.5px"
    font-weight="600"
    fill="#137e59"
@@ -667,8 +667,8 @@
    font-family="'Spline Sans Mono', monospace"
    id="text44">prompt</text>
 <text
-   x="994.15063"
-   y="354.45209"
+   x="997.25238"
+   y="368.83282"
    font-size="10.5px"
    font-weight="500"
    fill="#6a7a70"
@@ -676,13 +676,9 @@
    font-family="'Spline Sans Mono', monospace"
    id="text45"><tspan
      sodipodi:role="line"
-     id="tspan49"
-     x="994.15063"
-     y="354.45209">query</tspan><tspan
-     sodipodi:role="line"
      id="tspan50"
-     x="994.15063"
-     y="367.57709">+ context</tspan></text>
+     x="997.25238"
+     y="368.83282">query + context</tspan></text>
 <line
    x1="943.38373"
    y1="388.37238"
@@ -813,6 +809,7 @@
      font-family="'Spline Sans Mono', monospace"
      id="text49">response to user</text>
 </g>
+
 
 
 
