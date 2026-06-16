@@ -1,4 +1,4 @@
-# SpruceUp.ai Case Studies
+# SpruceUp.ai Case Study
 
 This repository contains the static files for the **SpruceUp.ai** case study website. 
 
