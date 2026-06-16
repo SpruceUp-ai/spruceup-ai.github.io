@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 771.46539 336.45023"
+   width="771.46539"
+   font-family="Montserrat, system-ui, sans-serif"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="vi-Ordered_Idempotent_Writes.svg"
+   height="336.45023"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.4148128"
+     inkscape:cx="369.30681"
+     inkscape:cy="122.27766"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27" />
+  <defs
+     id="defs5">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#kgrid"
+       id="pattern28"
+       patternTransform="matrix(0.87660822,0,0,1,5.078125e-6,0)" />
+    <pattern
+       id="kgrid"
+       width="28"
+       height="28"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M28 0H0V28"
+         fill="none"
+         stroke="#1b2b22"
+         stroke-width="1"
+         opacity="0.035"
+         id="path1" />
+    </pattern>
+    <marker
+       id="mG"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#239b72"
+         id="path2" />
+    </marker>
+    <marker
+       id="mW"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#bf6253"
+         id="path3" />
+    </marker>
+    <marker
+       id="mI"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#6a7a70"
+         id="path4" />
+    </marker>
+    <marker
+       id="mD"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#137e59"
+         id="path5" />
+    </marker>
+  </defs>
+  <g
+     id="g30"
+     transform="scale(0.7458112,0.95582454)">
+    <rect
+       x="0"
+       y="0"
+       width="1034.3977"
+       height="352"
+       rx="0"
+       ry="0"
+       fill="#f5f3ec"
+       id="rect5"
+       style="stroke-width:0.936274" />
+    <rect
+       x="0"
+       y="0"
+       width="1034.3977"
+       height="352"
+       fill="url(#kgrid)"
+       id="rect6"
+       style="fill:url(#pattern28);stroke-width:0.936274" />
+  </g>
+  <path
+     d="m 100.39771,54 v -7 h 168 v 7"
+     fill="none"
+     stroke="#d8d9cd"
+     stroke-width="1.4"
+     id="path6" />
+  <text
+     x="184.39771"
+     y="40"
+     font-size="10px"
+     font-weight="600"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="1.2"
+     id="text6">VECTOR DB</text>
+  <path
+     d="m 326.39771,54 v -7 h 394 v 7"
+     fill="none"
+     stroke="#d8d9cd"
+     stroke-width="1.4"
+     id="path7" />
+  <text
+     x="523.39771"
+     y="40"
+     font-size="10px"
+     font-weight="600"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="1.2"
+     id="text7">MANIFEST</text>
+  <rect
+     x="109.39771"
+     y="86"
+     width="150"
+     height="58"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect7" />
+  <circle
+     cx="184.39771"
+     cy="86"
+     r="14"
+     fill="#239b72"
+     id="circle7" />
+  <text
+     x="184.39771"
+     y="91"
+     font-size="14px"
+     font-weight="700"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text8">1</text>
+  <text
+     x="184.39771"
+     y="121"
+     font-size="15px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text9">embeddings</text>
+  <rect
+     x="335.39771"
+     y="86"
+     width="150"
+     height="58"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect9" />
+  <circle
+     cx="410.39771"
+     cy="86"
+     r="14"
+     fill="#239b72"
+     id="circle9" />
+  <text
+     x="410.39771"
+     y="91"
+     font-size="14px"
+     font-weight="700"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text10">2</text>
+  <text
+     x="410.39771"
+     y="121"
+     font-size="15px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text11">chunks</text>
+  <rect
+     x="561.39771"
+     y="86"
+     width="150"
+     height="58"
+     rx="11"
+     ry="11"
+     fill="#eaf6ef"
+     stroke="#137e59"
+     stroke-width="1.7"
+     id="rect11" />
+  <circle
+     cx="636.39771"
+     cy="86"
+     r="14"
+     fill="#137e59"
+     id="circle11" />
+  <text
+     x="636.39771"
+     y="91"
+     font-size="14px"
+     font-weight="700"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text12">3</text>
+  <text
+     x="636.39771"
+     y="121"
+     font-size="15px"
+     font-weight="600"
+     fill="#137e59"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text13">files</text>
+  <line
+     x1="260.09772"
+     y1="115"
+     x2="334.69769"
+     y2="115"
+     stroke="#239b72"
+     stroke-width="7.92597"
+     stroke-linecap="butt"
+     opacity="0.3"
+     id="line13" />
+  <polyline
+     points="423.0,120.5 429.5,115.0 423.0,109.5"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline13"
+     transform="translate(-150.35028)" />
+  <polyline
+     points="442.0,120.5 448.5,115.0 442.0,109.5"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline14"
+     transform="translate(-145.60229)" />
+  <polyline
+     points="461.0,120.5 467.5,115.0 461.0,109.5"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline15"
+     transform="translate(-143.60314)" />
+  <line
+     x1="486.09772"
+     y1="115"
+     x2="560.54773"
+     y2="115"
+     stroke="#239b72"
+     stroke-width="7.918"
+     stroke-linecap="butt"
+     opacity="0.3"
+     id="line15" />
+  <polyline
+     points="649.0,120.5 655.5,115.0 649.0,109.5"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline16"
+     transform="translate(-150.28489)" />
+  <polyline
+     points="668.0,120.5 674.5,115.0 668.0,109.5"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline17"
+     transform="translate(-145.60229)" />
+  <polyline
+     points="687.0,120.5 693.5,115.0 687.0,109.5"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline18"
+     transform="translate(-145.60229)" />
+  <g
+     id="g28"
+     transform="translate(-144.72674)">
+    <circle
+       cx="443"
+       cy="115"
+       r="12.5"
+       fill="#ffffff"
+       stroke="#bf6253"
+       stroke-width="1.9"
+       id="circle18" />
+    <polygon
+       points="445,124 439,116 442,116 441,106 446.5,113 443,113 "
+       fill="#bf6253"
+       id="polygon18" />
+  </g>
+  <g
+     id="g27"
+     transform="translate(-145.69362)">
+    <circle
+       cx="669"
+       cy="115"
+       r="12.5"
+       fill="#ffffff"
+       stroke="#bf6253"
+       stroke-width="1.9"
+       id="circle19" />
+    <polygon
+       points="671,124 665,116 668,116 667,106 672.5,113 669,113 "
+       fill="#bf6253"
+       id="polygon19" />
+  </g>
+  <rect
+     x="64.397705"
+     y="210"
+     width="497"
+     height="44"
+     rx="9"
+     ry="9"
+     fill="#eef0ea"
+     stroke="#8b968c"
+     stroke-width="1.5"
+     id="rect19" />
+  <circle
+     cx="90.397705"
+     cy="232"
+     r="9"
+     fill="#ffffff"
+     stroke="#8b968c"
+     stroke-width="1.7"
+     id="circle20" />
+  <line
+     x1="86.397705"
+     y1="232"
+     x2="94.397705"
+     y2="232"
+     stroke="#8b968c"
+     stroke-width="2.2"
+     stroke-linecap="round"
+     id="line20" />
+  <text
+     x="110.39771"
+     y="236"
+     font-size="12px"
+     font-weight="600"
+     fill="#8b968c"
+     text-anchor="start"
+     id="text20">STALE · still needs processing</text>
+  <rect
+     x="569.28607"
+     y="209.88835"
+     width="137.7468"
+     height="44.223301"
+     rx="6.6295247"
+     ry="9.0456753"
+     fill="#eaf6ef"
+     stroke="#239b72"
+     stroke-width="1.3767"
+     id="rect20" />
+  <circle
+     cx="591.39771"
+     cy="232"
+     r="13"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.4"
+     opacity="0.4"
+     id="circle21" />
+  <circle
+     cx="591.39771"
+     cy="232"
+     r="9"
+     fill="#239b72"
+     id="circle22" />
+  <polyline
+     points="733,232 736,235.5 742,228"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="polyline22"
+     transform="translate(-145.60229)" />
+  <text
+     x="611.39771"
+     y="236"
+     font-size="13px"
+     font-weight="700"
+     fill="#239b72"
+     text-anchor="start"
+     id="text22">SYNCED</text>
+  <line
+     x1="298.27325"
+     y1="128.45"
+     x2="298.27325"
+     y2="210"
+     stroke="#8b968c"
+     stroke-width="1.44505"
+     stroke-dasharray="3, 4"
+     opacity="0.7"
+     id="line22" />
+  <line
+     x1="523.3064"
+     y1="128.45"
+     x2="523.3064"
+     y2="210"
+     stroke="#8b968c"
+     stroke-width="1.44505"
+     stroke-dasharray="3, 4"
+     opacity="0.7"
+     id="line23" />
+  <path
+     d="m 636.39771,144 v 64"
+     fill="none"
+     stroke="#137e59"
+     stroke-width="1.8"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mD)"
+     opacity="0.95"
+     id="path23" />
+  <g
+     id="g29"
+     style="display:none">
+    <path
+       d="m 561.39771,208 -6,-9 h 12 z"
+       fill="#137e59"
+       id="path24" />
+    <g
+       id="g24"
+       transform="translate(-145.60229)">
+      <rect
+         x="637.5"
+         y="179"
+         width="139"
+         height="18"
+         rx="6"
+         fill="#f5f3ec"
+         opacity="0.94"
+         id="rect24" />
+      <text
+         x="707"
+         y="191.5"
+         font-size="10.5px"
+         font-weight="500"
+         fill="#137e59"
+         text-anchor="middle"
+         font-family="'Spline Sans Mono', monospace"
+         id="text24">files write flips it</text>
+    </g>
+  </g>
+  <circle
+     cx="106.39771"
+     cy="300"
+     r="12.5"
+     fill="#ffffff"
+     stroke="#bf6253"
+     stroke-width="1.9"
+     id="circle26" />
+  <polygon
+     points="252,298 254,309 248,301 251,301 250,291 255.5,298 "
+     fill="#bf6253"
+     id="polygon26"
+     transform="translate(-145.60229)" />
+  <text
+     x="128.39771"
+     y="304"
+     font-size="10.5px"
+     font-weight="500"
+     fill="#6a7a70"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text27">crash before the files write → row stays STALE → reprocessed next run (idempotent, harmless)</text>
+</svg>

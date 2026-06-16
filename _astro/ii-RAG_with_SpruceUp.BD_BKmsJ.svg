@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1300 660"
+   width="100%"
+   font-family="'Montserrat',system-ui,sans-serif"
+   version="1.1"
+   id="svg82"
+   sodipodi:docname="ii-RAG_with_SpruceUp.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview82"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.89095454"
+     inkscape:cx="517.98378"
+     inkscape:cy="409.67298"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg82" />
+  <defs
+     id="defs24">
+    <pattern
+       id="kgrid"
+       width="28"
+       height="28"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M28 0H0V28"
+         fill="none"
+         stroke="#1b2b22"
+         stroke-width="1"
+         opacity="0.035"
+         id="path1" />
+    </pattern>
+    <symbol
+       id="spruce"
+       viewBox="16.69 7.51 162.17 246.80">
+      <path
+         d="M 97.776461,66.450208 74.434216,77.68053 97.847257,93.404118 Z"
+         fill="#369a5f"
+         id="path2" />
+      <path
+         d="m 97.776461,66.450208 0.0708,26.95391 23.568579,-15.735991 z"
+         fill="#146a45"
+         id="path3" />
+      <path
+         d="M 97.847257,93.404118 42.036711,126.40469 h 21.398693 l 34.411853,13.98157 z"
+         fill="#4d8c50"
+         id="path4" />
+      <path
+         d="m 97.847257,93.404118 v 46.982142 l 34.444413,-13.98157 h 21.43486 z"
+         fill="#12623f"
+         id="path5" />
+      <path
+         d="M 97.847374,140.38626 28.262082,177.54714 H 52.08375 l 26.372335,15.77706 z"
+         fill="#369a5f"
+         id="path6" />
+      <path
+         d="m 97.847374,140.38626 69.625606,37.16088 H 143.4633 l -25.00354,19.96075 z"
+         fill="#20734a"
+         id="path7" />
+      <path
+         d="M 16.688174,226.49737 78.456085,193.3242 97.837954,226.56437 Z"
+         fill="#369255"
+         id="path8" />
+      <path
+         d="M 178.85887,226.49737 118.45976,197.50789 97.837954,226.56437 Z"
+         fill="#437646"
+         id="path9" />
+      <path
+         d="M 97.837952,226.56437 78.456085,193.3242 97.847374,140.38626 Z"
+         fill="#7cb24d"
+         id="path10" />
+      <path
+         d="M 97.837952,226.56437 118.45976,197.50789 97.847374,140.38626 Z"
+         fill="#369a5f"
+         id="path11" />
+      <path
+         d="M 178.85887,226.49737 143.4633,177.54714 118.45976,197.50789 Z"
+         fill="#12623f"
+         id="path12" />
+      <path
+         d="M 16.688174,226.49737 78.456085,193.3242 52.08375,177.54714 Z"
+         fill="#7cb24d"
+         id="path13" />
+      <path
+         d="M 28.262082,177.54714 97.847374,140.38626 63.435404,126.40469 Z"
+         fill="#94be7b"
+         id="path14" />
+      <path
+         d="M 167.47298,177.54714 132.29167,126.40469 97.847374,140.38626 Z"
+         fill="#369a5f"
+         id="path15" />
+      <path
+         d="M 153.72653,126.40469 121.41587,77.668286 97.847374,93.404017 Z"
+         fill="#437646"
+         id="path16" />
+      <path
+         d="M 42.036711,126.40469 97.847374,93.404017 74.434059,77.680687 Z"
+         fill="#7cb24d"
+         id="path17" />
+      <path
+         d="M 74.434059,77.680687 97.77646,66.450207 97.822577,7.5061232 57.510902,77.766859 Z"
+         fill="#94be7b"
+         id="path18" />
+      <path
+         d="m 121.41584,77.668127 h 16.73619 L 97.822577,7.506123 97.77646,66.450207 Z"
+         fill="#369a5f"
+         id="path19" />
+      <path
+         d="m 77.595025,254.3052 h 20.252346 l -8.86043,-27.74083 z"
+         fill="#926e44"
+         id="path20" />
+      <path
+         d="M 97.847371,254.3052 106.7078,226.56437 H 88.986941 Z"
+         fill="#785633"
+         id="path21" />
+      <path
+         d="m 97.847371,254.3052 8.860429,-27.74083 11.42866,27.74083 z"
+         fill="#623f1c"
+         id="path22" />
+    </symbol>
+    <marker
+       id="loopHead"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="7"
+       markerHeight="7"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#6a7a70"
+         id="path23" />
+    </marker>
+    <marker
+       id="wHead"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#239b72"
+         id="path24" />
+    </marker>
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="1300"
+     height="660"
+     fill="#f5f3ec"
+     id="rect24"
+     style="display:inline"
+     sodipodi:insensitive="true" />
+  <rect
+     x="0"
+     y="0"
+     width="1300"
+     height="660"
+     fill="url(#kgrid)"
+     id="rect25"
+     style="display:inline"
+     sodipodi:insensitive="true" />
+  <rect
+     x="45.73214"
+     y="59.812134"
+     width="687.83728"
+     height="250.42398"
+     rx="17.995743"
+     ry="22.538158"
+     fill="#eef7f1"
+     stroke="#239b72"
+     stroke-width="1.79016"
+     id="rect27" />
+  <use
+     href="#spruce"
+     x="60"
+     y="126"
+     width="22"
+     height="30"
+     id="use28"
+     transform="translate(-6.3492063,-57.539682)" />
+  <text
+     x="83.650795"
+     y="90.460312"
+     font-size="15px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="start"
+     id="text28">SpruceUp</text>
+  <rect
+     x="65.650795"
+     y="116.82539"
+     width="170"
+     height="52"
+     rx="10"
+     ry="10"
+     fill="#ffffff"
+     stroke="#239b72"
+     stroke-width="1.6"
+     id="rect29" />
+  <circle
+     cx="91.650795"
+     cy="142.82539"
+     r="10"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.6"
+     opacity="0.5"
+     id="circle29" />
+  <circle
+     cx="91.650795"
+     cy="142.82539"
+     r="15"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.6"
+     opacity="0.34"
+     id="circle30" />
+  <circle
+     class="spring"
+     cx="91.650795"
+     cy="142.82539"
+     r="11"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.6"
+     id="circle31" />
+  <circle
+     class="spdot"
+     cx="91.650795"
+     cy="142.82539"
+     r="4.5"
+     fill="#4ec62a"
+     id="circle32" />
+  <text
+     x="115.65079"
+     y="138.82539"
+     font-size="14.5px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="start"
+     id="text32">Monitor</text>
+  <text
+     x="115.65079"
+     y="155.82539"
+     font-size="10.5px"
+     font-weight="500"
+     fill="#239b72"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text33">watching · live</text>
+  <rect
+     x="65.650795"
+     y="206.31746"
+     width="170"
+     height="84"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect33" />
+  <text
+     x="121.65079"
+     y="246.31746"
+     font-size="16.5px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="start"
+     id="text34">Data corpus</text>
+  <text
+     x="121.65079"
+     y="266.31747"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#6a7a70"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text35">files</text>
+  <path
+     d="m 84.650794,238.31746 18.699996,-7.3 7.3,7.3 v 26 H 84.650794 Z"
+     fill="#f0eee4"
+     stroke="#6a7a70"
+     stroke-width="1.4"
+     stroke-linejoin="round"
+     id="path35" />
+  <path
+     d="m 82.150794,235.81746 18.699996,-7.3 7.3,7.3 v 26 H 82.150794 Z"
+     fill="#ffffff"
+     stroke="#6a7a70"
+     stroke-width="1.4"
+     stroke-linejoin="round"
+     id="path36" />
+  <path
+     d="m 79.650794,233.31746 18.7,-7.3 7.299996,7.3 v 26 H 79.650794 Z"
+     fill="#eefbe6"
+     stroke="#35a016"
+     stroke-width="1.4"
+     stroke-linejoin="round"
+     id="path37" />
+  <circle
+     class="spring"
+     cx="103.65079"
+     cy="228.31746"
+     r="6"
+     fill="none"
+     stroke="#4ec62a"
+     stroke-width="1.4"
+     id="circle37" />
+  <circle
+     class="spdot"
+     cx="103.65079"
+     cy="228.31746"
+     r="5.5"
+     fill="#4ec62a"
+     id="circle38" />
+  <path
+     d="m 143.65079,169.62539 c 0,13.41944 0,20.12915 0,33.54859"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.07225"
+     marker-end="url(#wHead)"
+     opacity="0.9"
+     id="path38" />
+  <path
+     d="m 168.65079,206.31746 c 0,-14.52297 0,-21.78446 0,-34.49206"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.15577"
+     stroke-dasharray="4, 3"
+     marker-end="url(#wHead)"
+     opacity="0.9"
+     id="path39" />
+  <g
+     id="g39"
+     transform="translate(-9.7222222,-45.833333)">
+    <rect
+       x="180.5"
+       y="224"
+       width="89"
+       height="20"
+       rx="6"
+       fill="#f5f3ec"
+       opacity="0.92"
+       id="rect39"
+       style="display:none" />
+    <text
+       x="225"
+       y="238"
+       font-size="11px"
+       font-weight="500"
+       fill="#137e59"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text39">file events</text>
+  </g>
+  <rect
+     x="295.65079"
+     y="206.31746"
+     width="170"
+     height="84"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect40" />
+  <text
+     x="380.65079"
+     y="246.31746"
+     font-size="16.5px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     id="text40">Chunk</text>
+  <text
+     x="380.65079"
+     y="266.31747"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text41">split into chunks</text>
+  <rect
+     x="525.65082"
+     y="206.31746"
+     width="170"
+     height="84"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect41" />
+  <text
+     x="610.65082"
+     y="246.31746"
+     font-size="16.5px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     id="text42">Embed</text>
+  <text
+     x="610.65082"
+     y="266.31747"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text43">changed chunks</text>
+  <line
+     x1="235.65079"
+     y1="248.31746"
+     x2="295.65079"
+     y2="248.31746"
+     stroke="#239b72"
+     stroke-width="9"
+     stroke-linecap="butt"
+     opacity="0.34"
+     id="line43" />
+  <polyline
+     points="261.0,294.0 268.0,288.0 261.0,282.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline43"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="281.0,294.0 288.0,288.0 281.0,282.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline44"
+     transform="translate(-6.3492063,-39.682539)" />
+  <line
+     x1="465.65079"
+     y1="248.31746"
+     x2="525.65082"
+     y2="248.31746"
+     stroke="#239b72"
+     stroke-width="9"
+     stroke-linecap="butt"
+     opacity="0.34"
+     id="line44" />
+  <polyline
+     points="491.0,294.0 498.0,288.0 491.0,282.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline45"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="511.0,294.0 518.0,288.0 511.0,282.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline46"
+     transform="translate(-6.3492063,-39.682539)" />
+  <g
+     id="g46"
+     transform="translate(-6.3492063,-39.682539)">
+    <rect
+       x="224.10001"
+       y="262"
+       width="95.800003"
+       height="20"
+       rx="6"
+       fill="#f5f3ec"
+       opacity="0.92"
+       id="rect46"
+       style="display:none" />
+    <text
+       x="272"
+       y="260"
+       font-size="11px"
+       font-weight="500"
+       fill="#137e59"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text46"><tspan
+         sodipodi:role="line"
+         id="tspan84"
+         x="272"
+         y="260">changed</tspan><tspan
+         sodipodi:role="line"
+         id="tspan85"
+         x="272"
+         y="273.75">file</tspan></text>
+  </g>
+  <path
+     d="m 800.90359,175.31746 a 80,15 0 0 1 160,0 v 170 a 80,15 0 0 1 -160,0 z"
+     fill="#eaf6ef"
+     stroke="#137e59"
+     stroke-width="1.6"
+     id="path46" />
+  <path
+     d="m 800.90359,175.31746 a 80,15 0 0 0 160,0"
+     fill="none"
+     stroke="#137e59"
+     stroke-width="1.6"
+     opacity="0.75"
+     id="path47" />
+  <path
+     d="m 800.90359,217.81746 a 80,15 0 0 0 160,0"
+     fill="none"
+     stroke="#137e59"
+     stroke-width="1"
+     opacity="0.28"
+     id="path48" />
+  <path
+     d="m 800.90359,260.31746 a 80,15 0 0 0 160,0"
+     fill="none"
+     stroke="#137e59"
+     stroke-width="1"
+     opacity="0.28"
+     id="path49" />
+  <path
+     d="m 800.90359,302.81746 a 80,15 0 0 0 160,0"
+     fill="none"
+     stroke="#137e59"
+     stroke-width="1"
+     opacity="0.28"
+     id="path50" />
+  <text
+     x="880.90363"
+     y="258.31747"
+     font-size="16.5px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="middle"
+     id="text50">Vector DB</text>
+  <line
+     x1="696.35571"
+     y1="249.27486"
+     x2="800.13239"
+     y2="249.36006"
+     stroke="#239b72"
+     stroke-width="10.693"
+     stroke-linecap="butt"
+     opacity="0.34"
+     id="line51" />
+  <polyline
+     points="725.2,294.6 732.3,288.8 725.5,282.6"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline51"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="749.5,295.3 756.7,289.5 749.8,283.3"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline52"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="749.5,295.3 756.7,289.5 749.8,283.3"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline52-5"
+     transform="translate(15.053077,-40.163237)" />
+  <g
+     id="g52"
+     transform="translate(25.90359,-39.682539)">
+    <rect
+       x="707.70001"
+       y="262"
+       width="68.599998"
+       height="20"
+       rx="6"
+       fill="#f5f3ec"
+       opacity="0.92"
+       id="rect52"
+       style="display:none" />
+    <text
+       x="742"
+       y="276"
+       font-size="11px"
+       font-weight="500"
+       fill="#137e59"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text52">upsert Δ</text>
+  </g>
+  <text
+     x="53.650795"
+     y="390.31747"
+     font-size="12.5px"
+     font-weight="600"
+     fill="#6a7a70"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="2.6"
+     id="text53">Retrieval</text>
+  <rect
+     x="65.650795"
+     y="412.31747"
+     width="170"
+     height="84"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect53" />
+  <text
+     x="150.16406"
+     y="460.00995"
+     font-size="16.5px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     id="text54">User</text>
+  <rect
+     x="800.90363"
+     y="412.31747"
+     width="170"
+     height="84"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect55" />
+  <text
+     x="885.90363"
+     y="452.31747"
+     font-size="16.5px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     id="text56">Retrieval</text>
+  <text
+     x="885.90363"
+     y="472.31747"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text57">fetch + bundle</text>
+  <rect
+     x="1093.9036"
+     y="412.31747"
+     width="170"
+     height="84"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect57" />
+  <text
+     x="1178.9036"
+     y="452.31747"
+     font-size="16.5px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     id="text58">LLM</text>
+  <text
+     x="1178.9036"
+     y="472.31747"
+     font-size="11.5px"
+     font-weight="400"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text59">augmented prompt</text>
+  <line
+     x1="235.65079"
+     y1="454.31747"
+     x2="800.20361"
+     y2="454.31747"
+     stroke="#239b72"
+     stroke-width="9.26256"
+     stroke-linecap="butt"
+     opacity="0.34"
+     id="line59" />
+  <polyline
+     points="272.4,500.0 279.4,494.0 272.4,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline59"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="303.7,500.0 310.7,494.0 303.7,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline60"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="335.1,500.0 342.1,494.0 335.1,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline61"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="366.4,500.0 373.4,494.0 366.4,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline62"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="397.8,500.0 404.8,494.0 397.8,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline63"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="429.1,500.0 436.1,494.0 429.1,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline64"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="460.5,500.0 467.5,494.0 460.5,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline65"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="491.8,500.0 498.8,494.0 491.8,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline66"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="523.2,500.0 530.2,494.0 523.2,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline67"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="554.5,500.0 561.5,494.0 554.5,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline68"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="585.9,500.0 592.9,494.0 585.9,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline69"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="617.2,500.0 624.2,494.0 617.2,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline70"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="648.6,500.0 655.6,494.0 648.6,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline71"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="679.9,500.0 686.9,494.0 679.9,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline72"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="711.3,500.0 718.3,494.0 711.3,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline73"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="742.6,500.0 749.6,494.0 742.6,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline74"
+     transform="translate(-6.3492063,-39.682539)" />
+  <polyline
+     points="742.6,500.0 749.6,494.0 742.6,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline74-5"
+     transform="translate(26.250794,-39.482539)" />
+  <g
+     id="g74"
+     transform="translate(-6.3492063,-61.682539)">
+    <rect
+       x="466.89999"
+       y="484"
+       width="82.199997"
+       height="20"
+       rx="6"
+       fill="#f5f3ec"
+       opacity="0.92"
+       id="rect74"
+       style="display:none" />
+    <text
+       x="508"
+       y="498"
+       font-size="11px"
+       font-weight="500"
+       fill="#137e59"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text74">user query</text>
+  </g>
+  <line
+     x1="880.90363"
+     y1="360.31747"
+     x2="880.90363"
+     y2="412.31747"
+     stroke="#239b72"
+     stroke-width="9"
+     stroke-linecap="butt"
+     opacity="0.34"
+     id="line74" />
+  <polyline
+     points="849.0,416.3 855.0,423.3 861.0,416.3"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline75"
+     transform="translate(25.90359,-39.682539)" />
+  <polyline
+     points="849.0,433.7 855.0,440.7 861.0,433.7"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline76"
+     style="display:inline"
+     transform="translate(25.90359,-39.682539)" />
+  <g
+     id="g76"
+     transform="translate(25.90359,-39.682539)">
+    <rect
+       x="807.09998"
+       y="416"
+       width="95.800003"
+       height="20"
+       rx="6"
+       fill="#f5f3ec"
+       opacity="0.92"
+       id="rect76"
+       style="display:none" />
+    <text
+       x="795.87299"
+       y="432.38095"
+       font-size="11px"
+       font-weight="500"
+       fill="#137e59"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text76">top-k chunks</text>
+  </g>
+  <text
+     x="1028.6335"
+     y="412.13339"
+     font-size="10.5px"
+     font-weight="600"
+     fill="#137e59"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text77">prompt</text>
+  <text
+     x="1028.8976"
+     y="423.13339"
+     font-size="10.5px"
+     font-weight="500"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text78"><tspan
+       sodipodi:role="line"
+       id="tspan82"
+       x="1028.8976"
+       y="423.13339">query</tspan><tspan
+       sodipodi:role="line"
+       id="tspan83"
+       x="1028.8976"
+       y="436.25839">+ context</tspan></text>
+  <line
+     x1="970.90363"
+     y1="454.31747"
+     x2="1093.2036"
+     y2="454.31747"
+     stroke="#239b72"
+     stroke-width="10.7956"
+     stroke-linecap="butt"
+     opacity="0.34"
+     id="line78" />
+  <polyline
+     points="965.3,500.0 972.3,494.0 965.3,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline78"
+     transform="translate(25.90359,-39.682539)" />
+  <polyline
+     points="986.5,500.0 993.5,494.0 986.5,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline79"
+     transform="translate(25.90359,-39.682539)" />
+  <polyline
+     points="1007.8,500.0 1014.8,494.0 1007.8,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline80"
+     transform="translate(25.90359,-39.682539)" />
+  <polyline
+     points="1007.8,500.0 1014.8,494.0 1007.8,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline80-6"
+     transform="translate(49.128987,-39.682539)" />
+  <line
+     x1="1178.9036"
+     y1="496.31747"
+     x2="1178.9036"
+     y2="520.31744"
+     stroke="#239b72"
+     stroke-width="9"
+     stroke-linecap="butt"
+     opacity="0.34"
+     id="line80" />
+  <polyline
+     points="1109.0,547.0 1115.0,554.0 1121.0,547.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline81"
+     transform="translate(63.90359,-39.682539)" />
+  <rect
+     x="1093.9036"
+     y="520.31744"
+     width="170"
+     height="44"
+     rx="9"
+     ry="9"
+     fill="#1b2b22"
+     id="rect81" />
+  <text
+     x="1178.9036"
+     y="548.31744"
+     font-size="14.5px"
+     font-weight="600"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text81">Answer</text>
+  <path
+     d="m 1146.6508,564.31746 c 0,30 -453.00001,32 -753.00001,32 -180,0 -242,-12 -243,-98"
+     fill="none"
+     stroke="#6a7a70"
+     stroke-width="1.6"
+     stroke-dasharray="5, 4"
+     stroke-linecap="round"
+     marker-end="url(#loopHead)"
+     id="path81"
+     sodipodi:nodetypes="csc" />
+  <g
+     id="g82"
+     transform="translate(-6.3492063,-55.682539)">
+    <rect
+       x="498.39999"
+       y="626"
+       width="123.1"
+       height="20"
+       rx="6"
+       fill="#f5f3ec"
+       opacity="0.92"
+       id="rect82"
+       style="display:none" />
+    <text
+       x="560"
+       y="640"
+       font-size="11px"
+       font-weight="500"
+       fill="#6a7a70"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text82">response to user</text>
+  </g>
+</svg>

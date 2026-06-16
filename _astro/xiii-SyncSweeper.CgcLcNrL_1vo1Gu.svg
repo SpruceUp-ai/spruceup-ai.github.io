@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1300 590"
+   width="1300"
+   height="590"
+   font-family="'Montserrat',system-ui,sans-serif"
+   version="1.1"
+   id="svg45"
+   sodipodi:docname="xiii-SyncSweeper.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview45"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.96601665"
+     inkscape:cx="616.449"
+     inkscape:cy="277.94552"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg45" />
+  <defs
+     id="defs6">
+    <pattern
+       id="kgrid"
+       width="28"
+       height="28"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M28 0H0V28"
+         fill="none"
+         stroke="#1b2b22"
+         stroke-width="1"
+         opacity="0.035"
+         id="path1" />
+    </pattern>
+    <marker
+       id="mG"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#239b72"
+         id="path2" />
+    </marker>
+    <marker
+       id="mW"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#bf6253"
+         id="path3" />
+    </marker>
+    <marker
+       id="mE"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#2f74c0"
+         id="path4" />
+    </marker>
+    <marker
+       id="mS"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#239b72"
+         id="path5" />
+    </marker>
+    <marker
+       id="mI"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M0,0 L10,5 L0,10 z"
+         fill="#6a7a70"
+         id="path6" />
+    </marker>
+    <marker
+       id="mI-8"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#6a7a70"
+         id="path6-2" />
+    </marker>
+    <marker
+       id="mI-5"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#6a7a70"
+         id="path6-1" />
+    </marker>
+    <marker
+       id="mG-1"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#239b72"
+         id="path2-5" />
+    </marker>
+    <marker
+       id="mG-3"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#239b72"
+         id="path2-2" />
+    </marker>
+    <marker
+       id="mG-6"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#239b72"
+         id="path2-8" />
+    </marker>
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="1300"
+     height="590"
+     rx="0"
+     ry="0"
+     fill="#f5f3ec"
+     id="rect6" />
+  <rect
+     x="0"
+     y="0"
+     width="1300"
+     height="590"
+     fill="url(#kgrid)"
+     id="rect7" />
+  <rect
+     x="1062"
+     y="56"
+     width="180"
+     height="474"
+     rx="18"
+     ry="18"
+     fill="#eaf6ef"
+     stroke="#239b72"
+     stroke-width="2.2"
+     id="rect8" />
+  <rect
+     x="1062"
+     y="56"
+     width="180"
+     height="474"
+     rx="18"
+     ry="18"
+     fill="none"
+     stroke="#5bc29f"
+     stroke-width="1"
+     stroke-dasharray="2, 8"
+     stroke-linecap="round"
+     opacity="0.5"
+     id="rect9" />
+  <circle
+     cx="1150.536"
+     cy="261.14639"
+     r="24"
+     fill="#239b72"
+     id="circle9" />
+  <polyline
+     points="1137.2,196 1145.1,205.6 1160.0,185.9"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="4.32"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="polyline9"
+     transform="translate(2.536036,67.146397)" />
+  <text
+     x="1153.4639"
+     y="346.21848"
+     font-size="26px"
+     font-weight="700"
+     fill="#239b72"
+     text-anchor="middle"
+     id="text10">synced</text>
+  <text
+     x="59.972466"
+     y="102.28143"
+     font-size="11px"
+     font-weight="600"
+     fill="#239b72"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="1.4"
+     id="text13"
+     style="font-size:16px">CLEAN RUN</text>
+  <rect
+     x="262.16974"
+     y="76.517586"
+     width="129.60001"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#eef0ea"
+     stroke="#8b968c"
+     stroke-width="1.7"
+     id="rect15" />
+  <circle
+     cx="283.65213"
+     cy="98.517586"
+     r="6.5"
+     fill="#8b968c"
+     id="circle15" />
+  <text
+     x="295.65213"
+     y="103.01759"
+     font-size="14px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text16">in-flight</text>
+  <text
+     x="112.00907"
+     y="223.74121"
+     font-size="11px"
+     font-weight="600"
+     fill="#bf6253"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="1.4"
+     id="text18"
+     style="font-size:16px;text-align:center;text-anchor:middle"><tspan
+       sodipodi:role="line"
+       id="tspan46"
+       x="112.00907"
+       y="223.74121">TRANSIENT</tspan><tspan
+       sodipodi:role="line"
+       id="tspan47"
+       x="112.70908"
+       y="243.74121">FAILURE</tspan></text>
+  <path
+     d="m 167.96344,228 h 89.19091"
+     fill="none"
+     stroke="#6a7a70"
+     stroke-width="1.66303"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mI)"
+     opacity="0.95"
+     id="path19" />
+  <path
+     d="m 168.99732,98.766437 h 89.19091"
+     fill="none"
+     stroke="#6a7a70"
+     stroke-width="1.66303"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mI-8)"
+     opacity="0.95"
+     id="path19-5"
+     style="marker-end:url(#mI-8)" />
+  <rect
+     x="261.2"
+     y="206"
+     width="129.60000000000002"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#eef0ea"
+     stroke="#8b968c"
+     stroke-width="1.7"
+     id="rect20" />
+  <circle
+     cx="283.2"
+     cy="228"
+     r="6.5"
+     fill="#8b968c"
+     id="circle20" />
+  <text
+     x="295.2"
+     y="232.5"
+     font-size="14"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="start"
+     font-family="'Spline Sans Mono',monospace"
+     id="text21">in-flight</text>
+  <path
+     d="M 391.42463,228 H 575.00816"
+     fill="none"
+     stroke="#bf6253"
+     stroke-width="2.54922"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mW)"
+     opacity="0.95"
+     id="path21" />
+  <g
+     id="g22"
+     transform="translate(43.186937,3.6599099)">
+    <text
+       x="447.29999"
+       y="216.5"
+       font-size="10.5px"
+       font-weight="500"
+       fill="#bf6253"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text22"
+       style="font-size:13.3333px">error</text>
+  </g>
+  <rect
+     x="580.00104"
+     y="206.99077"
+     width="104.4"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#f7e8e3"
+     stroke="#bf6253"
+     stroke-width="1.7"
+     id="rect22" />
+  <circle
+     cx="602.00104"
+     cy="228.99077"
+     r="6.5"
+     fill="#bf6253"
+     id="circle22" />
+  <text
+     x="614.00104"
+     y="233.49077"
+     font-size="14px"
+     font-weight="600"
+     fill="#bf6253"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text23">failed</text>
+  <path
+     d="M 684.67467,228.73198 H 786.89384"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.03899"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mG)"
+     opacity="0.95"
+     id="path23"
+     style="fill:#666666;stroke:#868686;stroke-opacity:1" />
+  <g
+     id="g24"
+     transform="translate(62.181685,2.5619369)">
+    <text
+       x="667.70001"
+       y="216.5"
+       font-size="10.5px"
+       font-weight="500"
+       fill="#239b72"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text24"
+       style="font-size:13.3333px;fill:#4d4d4d">requeued</text>
+  </g>
+  <rect
+     x="790.88245"
+     y="206.73198"
+     width="129.60001"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#eef0ea"
+     stroke="#8b968c"
+     stroke-width="1.7"
+     id="rect24" />
+  <circle
+     cx="812.88245"
+     cy="228.73198"
+     r="6.5"
+     fill="#8b968c"
+     id="circle24" />
+  <text
+     x="824.88245"
+     y="233.23198"
+     font-size="14px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text25">in-flight</text>
+  <text
+     x="113.14288"
+     y="350.70602"
+     font-size="11px"
+     font-weight="600"
+     fill="#bf6253"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="1.4"
+     id="text27"
+     style="font-size:16px;text-align:center;text-anchor:middle"><tspan
+       sodipodi:role="line"
+       id="tspan48"
+       x="113.14288"
+       y="350.70602">CRASH</tspan><tspan
+       sodipodi:role="line"
+       id="tspan49"
+       x="113.84287"
+       y="370.70602">RECOVERY</tspan></text>
+  <path
+     d="m 167.96801,356 h 89.69205"
+     fill="none"
+     stroke="#6a7a70"
+     stroke-width="1.6677"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mI)"
+     opacity="0.95"
+     id="path28" />
+  <rect
+     x="261.2"
+     y="334"
+     width="129.60000000000002"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#eef0ea"
+     stroke="#8b968c"
+     stroke-width="1.7"
+     id="rect29" />
+  <circle
+     cx="283.2"
+     cy="356"
+     r="6.5"
+     fill="#8b968c"
+     id="circle29" />
+  <text
+     x="295.2"
+     y="360.5"
+     font-size="14"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="start"
+     font-family="'Spline Sans Mono',monospace"
+     id="text30">in-flight</text>
+  <path
+     d="M 391.02547,356 H 472.1514"
+     fill="none"
+     stroke="#bf6253"
+     stroke-width="2.21402"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mW)"
+     opacity="0.95"
+     id="path30" />
+  <circle
+     cx="490.12952"
+     cy="355.26801"
+     r="12.5"
+     fill="#ffffff"
+     stroke="#bf6253"
+     stroke-width="1.9"
+     id="circle30" />
+  <polygon
+     points="470,354 472,365 466,357 469,357 468,347 473.5,354 "
+     fill="#bf6253"
+     id="polygon30"
+     transform="translate(20.861486,-0.36599099)" />
+  <g
+     id="g31"
+     transform="translate(9.5157658,22.32545)">
+    <text
+       x="482.4437"
+       y="313.71057"
+       font-size="10.5px"
+       font-weight="500"
+       fill="#bf6253"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text31"
+       style="font-size:13.3333px">process dies</text>
+  </g>
+  <path
+     d="m 504.6649,356 h 71.15396"
+     fill="none"
+     stroke="#bf6253"
+     stroke-width="1.72094"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mW)"
+     opacity="0.95"
+     id="path31" />
+  <rect
+     x="579.40045"
+     y="334.25879"
+     width="104.4"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#f7e8e3"
+     stroke="#bf6253"
+     stroke-width="1.7"
+     id="rect32" />
+  <circle
+     cx="601.40045"
+     cy="356.25879"
+     r="6.5"
+     fill="#bf6253"
+     id="circle32" />
+  <text
+     x="613.40045"
+     y="360.75879"
+     font-size="14px"
+     font-weight="600"
+     fill="#bf6253"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text33">failed</text>
+  <path
+     d="M 684.04976,355.99998 H 786.10072"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.13573"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mG)"
+     opacity="0.95"
+     id="path33"
+     style="stroke:#969696;stroke-opacity:1" />
+  <rect
+     x="791.2"
+     y="334"
+     width="129.60000000000002"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#eef0ea"
+     stroke="#8b968c"
+     stroke-width="1.7"
+     id="rect34" />
+  <circle
+     cx="813.2"
+     cy="356"
+     r="6.5"
+     fill="#8b968c"
+     id="circle34" />
+  <text
+     x="825.2"
+     y="360.5"
+     font-size="14"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="start"
+     font-family="'Spline Sans Mono',monospace"
+     id="text35">in-flight</text>
+  <path
+     d="M920.8,356 L1058,356"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mG)"
+     opacity="0.95"
+     id="path35" />
+  <text
+     x="80.247246"
+     y="489.31662"
+     font-size="11px"
+     font-weight="600"
+     fill="#2f74c0"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="1.4"
+     id="text37"
+     style="font-size:16px">REINDEX</text>
+  <rect
+     x="260.63861"
+     y="461.74121"
+     width="163.2"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#e7eff8"
+     stroke="#2f74c0"
+     stroke-width="1.7"
+     id="rect39" />
+  <circle
+     cx="282.63861"
+     cy="483.74121"
+     r="6.5"
+     fill="#2f74c0"
+     id="circle39" />
+  <text
+     x="294.63861"
+     y="488.24121"
+     font-size="14px"
+     font-weight="600"
+     fill="#2f74c0"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text40">needs_reindex</text>
+  <path
+     d="M 426.63841,484.73198 H 785.52083"
+     fill="none"
+     stroke="#2f74c0"
+     stroke-width="2.72304"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mE)"
+     opacity="0.95"
+     id="path40" />
+  <g
+     id="g41"
+     transform="translate(36.23126,1.0351788)">
+    <text
+       x="550.40002"
+       y="472.5"
+       font-size="10.5px"
+       font-weight="500"
+       fill="#2f74c0"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text41"
+       style="font-size:13.3333px">full re-upsert</text>
+  </g>
+  <rect
+     x="790.71289"
+     y="462.12939"
+     width="129.60001"
+     height="44"
+     rx="22"
+     ry="22"
+     fill="#eef0ea"
+     stroke="#8b968c"
+     stroke-width="1.7"
+     id="rect41" />
+  <circle
+     cx="812.71289"
+     cy="484.12939"
+     r="6.5"
+     fill="#8b968c"
+     id="circle41" />
+  <text
+     x="824.71289"
+     y="488.62939"
+     font-size="14px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text42">in-flight</text>
+  <path
+     d="M 920.76904,484.12644 H 1057.969"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mG-1)"
+     opacity="0.95"
+     id="path35-7"
+     style="marker-end:url(#mG-1)" />
+  <text
+     x="44"
+     y="562"
+     font-size="10.5px"
+     font-weight="500"
+     fill="#239b72"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text44" />
+  <text
+     x="700"
+     y="562"
+     font-size="10.5px"
+     font-weight="500"
+     fill="#bf6253"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text45" />
+  <g
+     id="g24-9"
+     transform="translate(65.51662,88.803917)">
+    <text
+       x="664.59448"
+       y="257.90717"
+       font-size="10.5px"
+       font-weight="500"
+       fill="#239b72"
+       text-anchor="middle"
+       font-family="'Spline Sans Mono', monospace"
+       id="text24-8"
+       style="font-size:13.3333px;fill:#4d4d4d">requeued</text>
+  </g>
+  <path
+     d="m 167.8618,484.29931 h 89.19091"
+     fill="none"
+     stroke="#6a7a70"
+     stroke-width="1.66303"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mI-5)"
+     opacity="0.95"
+     id="path19-1"
+     style="marker-end:url(#mI-5)" />
+  <path
+     d="M 920.89444,227.98423 H 1058.0944"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mG-3)"
+     opacity="0.95"
+     id="path35-1"
+     style="marker-end:url(#mG-3)" />
+  <path
+     d="m 393.4703,97.944959 h 663.5705"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mG-6)"
+     opacity="0.95"
+     id="path35-76"
+     style="marker-end:url(#mG-6)" />
+</svg>

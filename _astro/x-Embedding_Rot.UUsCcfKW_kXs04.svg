@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svg25" version="1.1" font-family="'Montserrat',system-ui,sans-serif" width="1206.4" viewBox="46.8 167.53246753246754 1206.4 376.6233766233766" style="max-height: 500px" height="376.6233766233766">
+  
+  <defs id="defs3">
+    <pattern patternUnits="userSpaceOnUse" height="28" width="28" id="kgrid">
+      <path id="path1" opacity="0.035" stroke-width="1" stroke="#1b2b22" fill="none" d="M28 0H0V28"/>
+    </pattern>
+    <marker orient="auto-start-reverse" markerHeight="6.5" markerWidth="6.5" refY="5" refX="8" viewBox="0 0 10 10" id="mW">
+      <path id="path2" fill="#bf6253" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+    <marker orient="auto-start-reverse" markerHeight="6.5" markerWidth="6.5" refY="5" refX="8" viewBox="0 0 10 10" id="mI">
+      <path id="path3" fill="#6a7a70" d="M0,0 L10,5 L0,10 z"/>
+    </marker>
+  </defs>
+  <rect y="0" x="0" id="rect3" fill="#f5f3ec" height="600" width="1300"/>
+  <rect y="0" x="0" id="rect4" fill="url(#kgrid)" height="600" width="1300"/>
+  <text style="display:none" id="text4" letter-spacing="2.6" font-family="'Spline Sans Mono', monospace" text-anchor="start" fill="#239b72" font-weight="600" font-size="12.5px" y="52" x="50">EMBEDDING ROT · 1 of 2</text>
+  <text style="display:none" id="text5" letter-spacing="-0.01em" text-anchor="start" fill="#1b2b22" font-weight="700" font-size="25px" y="86" x="50">Embedding drift: the database falls behind</text>
+  <text style="display:none" id="text6" text-anchor="start" fill="#6a7a70" font-weight="400" font-size="13.5px" y="112" x="50">A vector database is a snapshot taken at one moment. The corpus keeps changing after that moment — so the two diverge, and the gap only widens.</text>
+  <polygon id="polygon6" opacity="0.12" fill="#bf6253" points="190,410 370,410 370,369 550,369 550,328 730,328 730,287 910,287 910,246 1080,246 1080,410 190,410"/>
+  <path id="path6" marker-end="url(#mI)" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.4" stroke="#6a7a70" fill="none" d="m 190,470 h 910"/>
+  <text id="text7" font-family="'Spline Sans Mono',monospace" text-anchor="start" fill="#6a7a70" font-weight="500" font-size="11" y="474" x="1104">time</text>
+  <line id="line7" stroke-width="1.4" stroke="#6a7a70" y2="470" x2="190" y1="236" x1="190"/>
+  <text id="text8" transform="rotate(-90,168,330)" font-family="'Spline Sans Mono', monospace" text-anchor="middle" fill="#6a7a70" font-weight="500" font-size="10.5px" y="330" x="168">changes since t₀</text>
+  <line style="fill:#9ea79f;fill-opacity:1;stroke:#6b7b71;stroke-opacity:1" id="line8" stroke-width="1.6" stroke="#bf6253" y2="476" x2="370" y1="464" x1="370"/>
+  <text style="fill:#9ea79f;fill-opacity:1" id="text9" font-family="'Spline Sans Mono',monospace" text-anchor="middle" fill="#bf6253" font-weight="500" font-size="9.5" y="492" x="370">edit</text>
+  <line style="fill:#9ea79f;fill-opacity:1;stroke:#6b7b71;stroke-opacity:1" id="line9" stroke-width="1.6" stroke="#bf6253" y2="476" x2="550" y1="464" x1="550"/>
+  <text style="fill:#9ea79f;fill-opacity:1" id="text10" font-family="'Spline Sans Mono',monospace" text-anchor="middle" fill="#bf6253" font-weight="500" font-size="9.5" y="492" x="550">edit</text>
+  <line style="fill:#9ea79f;fill-opacity:1;stroke:#6b7b71;stroke-opacity:1" id="line10" stroke-width="1.6" stroke="#bf6253" y2="476" x2="730" y1="464" x1="730"/>
+  <text style="fill:#9ea79f;fill-opacity:1" id="text11" font-family="'Spline Sans Mono',monospace" text-anchor="middle" fill="#bf6253" font-weight="500" font-size="9.5" y="492" x="730">edit</text>
+  <line style="fill:#9ea79f;fill-opacity:1;stroke:#6b7b71;stroke-opacity:1" id="line11" stroke-width="1.6" stroke="#bf6253" y2="476" x2="910" y1="464" x1="910"/>
+  <text style="fill:#9ea79f;fill-opacity:1" id="text12" font-family="'Spline Sans Mono',monospace" text-anchor="middle" fill="#bf6253" font-weight="500" font-size="9.5" y="492" x="910">edit</text>
+  <g id="g1">
+    <polyline style="display:inline;stroke:#c06253;stroke-opacity:1" id="polyline12" stroke-linejoin="round" stroke-width="3" stroke="#239b72" fill="none" points="190,410 370,410 370,369 550,369 550,328 730,328 730,287 910,287 910,246 1080,246"/>
+    <circle style="fill:#c06253;fill-opacity:1" id="circle12" fill="#239b72" r="4.5" cy="369" cx="370"/>
+    <circle style="fill:#c06253;fill-opacity:1" id="circle13" fill="#239b72" r="4.5" cy="328" cx="550"/>
+    <circle style="fill:#c06253;fill-opacity:1" id="circle14" fill="#239b72" r="4.5" cy="287" cx="730"/>
+    <circle style="fill:#c06253;fill-opacity:1" id="circle15" fill="#239b72" r="4.5" cy="246" cx="910"/>
+  </g>
+  <line style="stroke:#239a70;stroke-opacity:1;stroke-dasharray:24, 12;stroke-dashoffset:0;fill:none;fill-opacity:1" id="line12" stroke-width="3" stroke="#137e59" y2="410" x2="1080" y1="410" x1="190"/>
+  <circle id="circle16" stroke-width="2" stroke="#137e59" fill="#fff" r="6.5" cy="410" cx="190"/>
+  <text id="text16" font-family="'Spline Sans Mono', monospace" text-anchor="middle" fill="#6a7a70" font-weight="600" font-size="10.5px" y="428.91342" x="145.42075">t₀ ingested</text>
+  <text style="fill:#239b72;fill-opacity:1" id="text18" text-anchor="start" fill="#137e59" font-weight="600" font-size="13" y="434" x="745">Vector DB — frozen at t₀</text>
+  <text id="text19" text-anchor="start" fill="#239b72" font-weight="600" font-size="13" y="238" x="560">Data corpus — keeps changing</text>
+  <path id="path19" marker-end="url(#mW)" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.6" stroke="#bf6253" fill="none" d="M1092,408 L1092,250"/>
+  <path id="path20" marker-end="url(#mW)" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.6" stroke="#bf6253" fill="none" d="M1092,250 L1092,408"/>
+  <text id="text20" text-anchor="start" fill="#bf6253" font-weight="700" font-size="13" y="322" x="1110">embedding</text>
+  <text id="text21" text-anchor="start" fill="#bf6253" font-weight="700" font-size="13px" y="340" x="1110">rot</text>
+  <line id="line21" opacity="0.7" stroke-dasharray="3 4" stroke-width="1" stroke="#6a7a70" y2="466" x2="1080" y1="238" x1="1080"/>
+  <text id="text22" font-family="'Spline Sans Mono',monospace" text-anchor="middle" fill="#6a7a70" font-weight="600" font-size="10.5" y="230" x="1080">now</text>
+</svg>

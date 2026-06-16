@@ -1,0 +1,601 @@
+<!DOCTYPE html><html lang="en" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-bguv2lll"> <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Docs | SpruceUp</title><link rel="canonical" href="https://spruceup-ai.github.io/docs/"/><link rel="sitemap" href="/sitemap-index.xml"/><link rel="shortcut icon" href="/spruceup-logo-only-transparent.png" type="image/png"/><meta name="generator" content="Astro v6.4.4"/><meta name="generator" content="Starlight v0.39.3"/><meta property="og:title" content="Docs"/><meta property="og:type" content="article"/><meta property="og:url" content="https://spruceup-ai.github.io/docs/"/><meta property="og:locale" content="en"/><meta property="og:description" content="SpruceUp technical documentation and guides."/><meta property="og:site_name" content="SpruceUp"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="SpruceUp technical documentation and guides."/><script>
+	document.documentElement.dataset.theme = 'light';
+</script><link rel="stylesheet" href="/_astro/print.DNXP8c50.css" media="print"><link rel="stylesheet" href="/_astro/common.CkBTpfyq.css"><script type="module" src="/_astro/page.B_tncCx8.js"></script></head> <body class="astro-bguv2lll"> <a href="#_top" class="astro-7q3lir66">Skip to content</a> <div class="page sl-flex astro-vrdttmbt"> <header class="header astro-vrdttmbt"><div class="header astro-3ef6ksr2"> <a href="/" class="logo-link astro-3ef6ksr2" aria-label="SpruceUp home"> <img src="/_astro/spruceup-logo-only-transparent.iL2BIKzi.png" width="1376" height="768" alt="" aria-hidden="true" class="logo-img astro-3ef6ksr2"> </a> <!-- Desktop nav --> <div class="sl-hidden md:sl-flex print:hidden right-group astro-3ef6ksr2"> <nav class="top-nav sl-flex astro-3ef6ksr2" aria-label="Site navigation"> <a href="/case-study/" class="nav-link astro-3ef6ksr2">Case Study</a><a href="/docs/" class="nav-link astro-3ef6ksr2">Docs</a><a href="/team/" class="nav-link astro-3ef6ksr2">Team</a> <a href="https://github.com/SpruceUp-ai/SpruceUp" class="nav-link github-link astro-3ef6ksr2" target="_blank" rel="noopener noreferrer" aria-label="GitHub"> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="astro-3ef6ksr2"> <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" class="astro-3ef6ksr2"></path> </svg> </a> </nav> </div> <!-- Mobile hamburger --> <details class="mobile-nav md:sl-hidden print:hidden astro-3ef6ksr2"> <summary aria-label="Open navigation menu" class="astro-3ef6ksr2"> <span class="bar astro-3ef6ksr2"></span> <span class="bar astro-3ef6ksr2"></span> <span class="bar astro-3ef6ksr2"></span> </summary> <nav class="mobile-menu astro-3ef6ksr2" aria-label="Mobile navigation"> <a href="/case-study/" class="mobile-nav-link astro-3ef6ksr2">Case Study</a><a href="/docs/" class="mobile-nav-link astro-3ef6ksr2">Docs</a><a href="/team/" class="mobile-nav-link astro-3ef6ksr2">Team</a> <a href="https://github.com/SpruceUp-ai/SpruceUp" class="mobile-nav-link astro-3ef6ksr2" target="_blank" rel="noopener noreferrer"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="astro-3ef6ksr2"> <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" class="astro-3ef6ksr2"></path> </svg>
+GitHub
+</a> </nav> </details> </div> <script type="module">document.addEventListener("click",n=>{const e=document.querySelector(".mobile-nav");e?.open&&!e.contains(n.target)&&(e.open=!1)});</script></header> <nav class="sidebar print:hidden astro-vrdttmbt" aria-label="Main">  <div id="starlight__sidebar" class="sidebar-pane astro-vrdttmbt"> <div class="sidebar-content sl-flex astro-vrdttmbt"> <sl-sidebar-state-persist data-hash="0000000" class="astro-kku4brbg"> <script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script>  <ul class="top-level astro-3ii7xxms">  </ul>  <script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script> </sl-sidebar-state-persist> <div class="md:sl-hidden"> <div class="mobile-preferences sl-flex astro-wu23bvmt"> <div class="social-icons astro-wu23bvmt">  </div>  <script type="module">class s extends HTMLElement{constructor(){super();const e=this.querySelector("select");e&&(e.addEventListener("change",t=>{t.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=t.currentTarget.value)}),window.addEventListener("pageshow",t=>{if(!t.persisted)return;const n=e.querySelector("option[selected]")?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}}customElements.define("starlight-lang-select",s);</script> </div> </div> </div> </div> </nav> <div class="main-frame astro-vrdttmbt">  <script type="module">const a=document.getElementById("starlight__sidebar"),n=a?.querySelector("sl-sidebar-state-persist"),o="sl-sidebar-state",i=()=>{let t=[];const e=n?.dataset.hash||"";try{const s=sessionStorage.getItem(o),r=JSON.parse(s||"{}");Array.isArray(r.open)&&r.hash===e&&(t=r.open)}catch{}return{hash:e,open:t,scroll:a?.scrollTop||0}},c=t=>{try{sessionStorage.setItem(o,JSON.stringify(t))}catch{}},d=()=>c(i()),l=(t,e)=>{const s=i();s.open[e]=t,c(s)};n?.addEventListener("click",t=>{if(!(t.target instanceof Element))return;const e=t.target.closest("summary")?.closest("details");if(!e)return;const s=e.querySelector("sl-sidebar-restore"),r=parseInt(s?.dataset.index||"");isNaN(r)||l(!e.open,r)});addEventListener("visibilitychange",()=>{document.visibilityState==="hidden"&&d()});addEventListener("pageHide",d);</script> <div class="toc-layout astro-2hkjwgzv"> <aside class="toc-sidebar-container print:hidden astro-2hkjwgzv"> <div class="toc-sidebar astro-2hkjwgzv"> <div class="lg:sl-hidden astro-pb3aqygn"></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-pb3aqygn"><div class="sl-container astro-pb3aqygn"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">On this page</h2><ul class="astro-gnoq344e" style="--depth: 0;"> <li class="astro-gnoq344e" style="--depth: 0;"> <a href="#_top" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">Overview</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#overview" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">Overview</span> </a> <ul class="astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#installation" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">Installation</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#setup" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">Setup</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#running-spruceup" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">Running SpruceUp</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#imports" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">Imports</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#define_config" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">define_config()</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#the-transform-function" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">The Transform Function</span> </a> <ul class="astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#fileprops" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">FileProps</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#embed" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">embed</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#chunk-schema" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">Chunk Schema</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#source-connectors" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">Source Connectors</span> </a> <ul class="astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#localfilessource" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">LocalFilesSource</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#googledrivesource" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">GoogleDriveSource</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#target-connectors" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">Target Connectors</span> </a> <ul class="astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#pgvectortarget" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">PgVectorTarget</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#pineconetarget" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">PineconeTarget</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#weaviatetarget" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">WeaviateTarget</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#embedder-connectors" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">Embedder Connectors</span> </a> <ul class="astro-gnoq344e" style="--depth: 1;"> <li class="astro-gnoq344e" style="--depth: 1;"> <a href="#openaiembedder" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">OpenAIEmbedder</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#cohereembedder" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">CohereEmbedder</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#geminiembedder" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">GeminiEmbedder</span> </a>  </li><li class="astro-gnoq344e" style="--depth: 1;"> <a href="#voyageaiembedder" class="astro-gnoq344e" style="--depth: 1;"> <span class="astro-gnoq344e" style="--depth: 1;">VoyageAIEmbedder</span> </a>  </li> </ul> </li><li class="astro-gnoq344e" style="--depth: 0;"> <a href="#memoize" class="astro-gnoq344e" style="--depth: 0;"> <span class="astro-gnoq344e" style="--depth: 0;">@memoize</span> </a>  </li> </ul></nav></starlight-toc><script type="module">const m="_top";class H extends HTMLElement{constructor(){super(),this._current=this.querySelector('a[aria-current="true"]'),this.minH=parseInt(this.dataset.minH||"2",10),this.maxH=parseInt(this.dataset.maxH||"3",10),this.tocHeadingSelector=`h1#${m},:where(${[...Array.from({length:1+this.maxH-this.minH}).map((e,n)=>`h${this.minH+n}`)].join()})[id]`,this.onIdle=e=>(window.requestIdleCallback||(n=>setTimeout(n,1)))(e),this.init=()=>{const e=[...this.querySelectorAll("a")],n=t=>t.matches(this.tocHeadingSelector),i=t=>{if(!t)return null;const h=t;for(;t;){if(t.matches(".sl-markdown-content, main > *"))return document.getElementById(m);if(n(t))return t;const s=t.querySelector(this.tocHeadingSelector);if(s)return s;for(t=t.previousElementSibling;t?.lastElementChild;)t=t.lastElementChild;const o=i(t);if(o)return o}return i(h.parentElement)},c=t=>{for(const{isIntersecting:h,target:s}of t){if(!h)continue;const o=i(s);if(!o)continue;const l=e.find(g=>g.hash==="#"+encodeURIComponent(o.id));if(l){this.current=l;break}}},a=document.querySelectorAll([`main :where(${this.tocHeadingSelector})`,`main :where(${this.tocHeadingSelector}, .sl-heading-wrapper) ~ *:not(:has(${this.tocHeadingSelector}))`,`main .sl-markdown-content > *:not(:has(${this.tocHeadingSelector}))`,`main > *:not(:has(${this.tocHeadingSelector}))`].join());let r;const u=()=>{r||(r=new IntersectionObserver(c,{rootMargin:this.getRootMargin()}),a.forEach(t=>r.observe(t)))};u();let d;window.addEventListener("resize",()=>{r&&(r.disconnect(),r=void 0),clearTimeout(d),d=setTimeout(()=>this.onIdle(u),200)})},this.onIdle(()=>this.init())}set current(e){e!==this._current&&(this._current&&this._current.removeAttribute("aria-current"),e.setAttribute("aria-current","true"),this._current=e)}getRootMargin(){const e=document.querySelector("header")?.getBoundingClientRect().height||0,n=this.querySelector("summary")?.getBoundingClientRect().height||0,i=e+n+32,c=i+53,a=document.documentElement.clientHeight;return`-${i}px 0% ${c-a}px`}}customElements.define("starlight-toc",H);</script></div></div> </div> </aside> <div class="main-pane astro-2hkjwgzv">  <main data-pagefind-body class="astro-bguv2lll" lang="en" dir="ltr">    <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z">  </div> </div> <div class="content-panel astro-7nkwcw3z"> <div class="sl-container astro-7nkwcw3z"> <div class="sl-markdown-content"> <div class="sl-heading-wrapper level-h2"><h2 id="overview">Overview</h2><a class="sl-anchor-link" href="#overview"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Overview”</span></a></div>
+<p><strong>SpruceUp</strong> is a standalone system for making automated, incremental updates to a vector database.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="installation">Installation</h3><a class="sl-anchor-link" href="#installation"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Installation”</span></a></div>
+<p>Add SpruceUp to your project (e.g., with <code dir="auto">poetry</code>, <code dir="auto">pip</code>, or <code dir="auto">uv</code>):</p>
+<div class="expressive-code"><link rel="stylesheet" href="/_astro/ec.v4551.css"><script type="module" src="/_astro/ec.0vx5m.js"></script><figure class="frame is-terminal not-content"><figcaption class="header"><span class="title"></span><span class="sr-only">Terminal window</span></figcaption><pre data-language="bash"><code><div class="ec-line"><div class="code"><span style="--0:#82AAFF;--1:#3B61B0">poetry</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#ECC48D;--1:#3B61B0">add</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#ECC48D;--1:#3B61B0">spruceup-ai</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#919F9F;--1:#5F636F"># OR</span></div></div><div class="ec-line"><div class="code"><span style="--0:#82AAFF;--1:#3B61B0">pip</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#ECC48D;--1:#3B61B0">install</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#ECC48D;--1:#3B61B0">spruceup-ai</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#919F9F;--1:#5F636F"># OR</span></div></div><div class="ec-line"><div class="code"><span style="--0:#82AAFF;--1:#3B61B0">uv</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#ECC48D;--1:#3B61B0">add</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#ECC48D;--1:#3B61B0">spruceup-ai</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="poetry add spruceup-ai # ORpip install spruceup-ai # ORuv add spruceup-ai"><div></div></button></div></figure></div>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="setup">Setup</h3><a class="sl-anchor-link" href="#setup"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Setup”</span></a></div>
+<p>Create a file named <code dir="auto">spruceup_pipeline.py</code> in your project directory. This is the user-authored entry point SpruceUp loads at startup. It must export a single <code dir="auto">config</code> variable built with <code dir="auto">define_config()</code>.</p>
+<div class="expressive-code"><figure class="frame has-title not-content"><figcaption class="header"><span class="title">spruceup_pipeline.py</span></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">import</span><span style="--0:#D6DEEB;--1:#403F53"> re</span></div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">import</span><span style="--0:#D6DEEB;--1:#403F53"> os</span></div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">from</span><span style="--0:#D6DEEB;--1:#403F53"> dataclasses </span><span style="--0:#C792EA;--1:#8844AE">import</span><span style="--0:#D6DEEB;--1:#403F53"> dataclass</span></div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">from</span><span style="--0:#D6DEEB;--1:#403F53"> spruceup </span><span style="--0:#C792EA;--1:#8844AE">import</span><span style="--0:#D6DEEB;--1:#403F53"> define_config, FileProps, LocalFilesSource, PgVectorTarget, OpenAIEmbedder</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span style="--0:#C5E478;--1:#3B61B0">@dataclass</span></div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">class</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#FFCB8B;--1:#111111">ArticleChunk</span><span style="--0:#D6DEEB;--1:#403F53">:</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">title: </span><span style="--0:#C5E478;--1:#3B61B0">str</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">content: </span><span style="--0:#C5E478;--1:#3B61B0">str</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">embedding: list[</span><span style="--0:#C5E478;--1:#3B61B0">float</span><span style="--0:#D6DEEB;--1:#403F53">]</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">def</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#82AAFF;--1:#3B61B0">split_into_paragraphs</span><span style="--0:#D9F5DD;--1:#111111">(</span><span style="--0:#7FDBCA;--1:#096E72">text</span><span style="--0:#D6DEEB;--1:#403F53">: </span><span style="--0:#C5E478;--1:#3B61B0">str</span><span style="--0:#D9F5DD;--1:#111111">)</span><span style="--0:#D6DEEB;--1:#403F53"> -> list[</span><span style="--0:#C5E478;--1:#3B61B0">str</span><span style="--0:#D6DEEB;--1:#403F53">]:</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C792EA;--1:#8844AE">return</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#D9F5DD;--1:#111111">[</span><span style="--0:#D6DEEB;--1:#403F53">p.</span><span style="--0:#B2CCD6;--1:#096E72">strip</span><span style="--0:#D6DEEB;--1:#403F53">() </span><span style="--0:#C792EA;--1:#8844AE">for</span><span style="--0:#D6DEEB;--1:#403F53"> p </span><span style="--0:#C792EA;--1:#8844AE">in</span><span style="--0:#D6DEEB;--1:#403F53"> re.</span><span style="--0:#B2CCD6;--1:#096E72">split</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#C792EA;--1:#8844AE">r</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#F78C6C;--1:#AA0982">\n</span><span style="--0:#7FDBCA;--1:#096E72">{2,}</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span><span style="--0:#82AAFF;--1:#3B61B0"> text</span><span style="--0:#D6DEEB;--1:#403F53">) </span><span style="--0:#C792EA;--1:#8844AE">if</span><span style="--0:#D6DEEB;--1:#403F53"> p.</span><span style="--0:#B2CCD6;--1:#096E72">strip</span><span style="--0:#D6DEEB;--1:#403F53">()</span><span style="--0:#D9F5DD;--1:#111111">]</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">async</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">def</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#82AAFF;--1:#3B61B0">transform</span><span style="--0:#D9F5DD;--1:#111111">(</span><span style="--0:#7FDBCA;--1:#096E72">*</span><span style="--0:#D6DEEB;--1:#403F53">, </span><span style="--0:#7FDBCA;--1:#096E72">file_props</span><span style="--0:#D6DEEB;--1:#403F53">: FileProps, </span><span style="--0:#7FDBCA;--1:#096E72">embed</span><span style="--0:#D9F5DD;--1:#111111">)</span><span style="--0:#D6DEEB;--1:#403F53"> -> list[ArticleChunk]:</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">paragraphs </span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#B2CCD6;--1:#096E72">split_into_paragraphs</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#82AAFF;--1:#3B61B0">file_props.raw_content</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">embeddings </span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">await</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#B2CCD6;--1:#096E72">embed</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#82AAFF;--1:#3B61B0">paragraphs</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C792EA;--1:#8844AE">return</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#D9F5DD;--1:#111111">[</span></div></div><div class="ec-line"><div class="code"><span class="indent">        </span><span style="--0:#B2CCD6;--1:#096E72">ArticleChunk</span><span style="--1:#403F53"><span style="--0:#D6DEEB">(</span><span style="--0:#D7DBE0">title</span></span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">file_props.display_name</span><span style="--0:#D9F5DD;--1:#111111">,</span><span style="--0:#82AAFF;--1:#3B61B0"> </span><span style="--0:#D7DBE0;--1:#403F53">content</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">para</span><span style="--0:#D9F5DD;--1:#111111">,</span><span style="--0:#82AAFF;--1:#3B61B0"> </span><span style="--0:#D7DBE0;--1:#403F53">embedding</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">emb</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent">        </span><span style="--0:#C792EA;--1:#8844AE">for</span><span style="--0:#D6DEEB;--1:#403F53"> para, emb </span><span style="--0:#C792EA;--1:#8844AE">in</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">zip</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#82AAFF;--1:#3B61B0">paragraphs</span><span style="--0:#D9F5DD;--1:#111111">,</span><span style="--0:#82AAFF;--1:#3B61B0"> embeddings</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D9F5DD;--1:#111111">]</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">config </span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#B2CCD6;--1:#096E72">define_config</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">sources</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">[</span><span style="--0:#B2CCD6;--1:#096E72">LocalFilesSource</span><span style="--1:#403F53"><span style="--0:#D6DEEB">(</span><span style="--0:#D7DBE0">watched_dir</span></span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">./articles</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D6DEEB;--1:#403F53">)</span><span style="--0:#D9F5DD;--1:#111111">],</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">target</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#B2CCD6;--1:#096E72">PgVectorTarget</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">        </span><span style="--0:#D7DBE0;--1:#403F53">connstr</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">os.environ</span><span style="--0:#D6DEEB;--1:#403F53">[</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">PG_CONNSTR</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D6DEEB;--1:#403F53">]</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">        </span><span style="--0:#D7DBE0;--1:#403F53">table</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">article_chunks</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">        </span><span style="--0:#D7DBE0;--1:#403F53">schema</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">ArticleChunk</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">        </span><span style="--0:#D7DBE0;--1:#403F53">vector_column</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">embedding</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D6DEEB;--1:#403F53">)</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">embedder</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#B2CCD6;--1:#096E72">OpenAIEmbedder</span><span style="--1:#403F53"><span style="--0:#D6DEEB">(</span><span style="--0:#D7DBE0">api_key</span></span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">os.environ</span><span style="--0:#D6DEEB;--1:#403F53">[</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">OPENAI_API_KEY</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D6DEEB;--1:#403F53">])</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">transform</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">transform</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="import reimport osfrom dataclasses import dataclassfrom spruceup import define_config, FileProps, LocalFilesSource, PgVectorTarget, OpenAIEmbedder@dataclassclass ArticleChunk:    title: str    content: str    embedding: list[float]def split_into_paragraphs(text: str) -> list[str]:    return [p.strip() for p in re.split(r&#x22;\n{2,}&#x22;, text) if p.strip()]async def transform(*, file_props: FileProps, embed) -> list[ArticleChunk]:    paragraphs = split_into_paragraphs(file_props.raw_content)    embeddings = await embed(paragraphs)    return [        ArticleChunk(title=file_props.display_name, content=para, embedding=emb)        for para, emb in zip(paragraphs, embeddings)    ]config = define_config(    sources=[LocalFilesSource(watched_dir=&#x22;./articles&#x22;)],    target=PgVectorTarget(        connstr=os.environ[&#x22;PG_CONNSTR&#x22;],        table=&#x22;article_chunks&#x22;,        schema=ArticleChunk,        vector_column=&#x22;embedding&#x22;,    ),    embedder=OpenAIEmbedder(api_key=os.environ[&#x22;OPENAI_API_KEY&#x22;]),    transform=transform,)"><div></div></button></div></figure></div>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="running-spruceup">Running SpruceUp</h3><a class="sl-anchor-link" href="#running-spruceup"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Running SpruceUp”</span></a></div>
+<p>From the directory containing your <code dir="auto">spruceup_pipeline.py</code> file, with your virtual environment activated:</p>
+<div class="expressive-code"><figure class="frame is-terminal not-content"><figcaption class="header"><span class="title"></span><span class="sr-only">Terminal window</span></figcaption><pre data-language="bash"><code><div class="ec-line"><div class="code"><span style="--0:#82AAFF;--1:#3B61B0">spruceup</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#ECC48D;--1:#3B61B0">start</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="spruceup start"><div></div></button></div></figure></div>
+<p>SpruceUp will scan your sources, sync any files not yet in the manifest, then enter a watch loop for incremental updates.</p>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="imports">Imports</h3><a class="sl-anchor-link" href="#imports"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Imports”</span></a></div>
+<p>Everything you need is importable from the top-level <code dir="auto">spruceup</code> package:</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">from</span><span style="--0:#D6DEEB;--1:#403F53"> spruceup </span><span style="--0:#C792EA;--1:#8844AE">import</span><span style="--0:#D6DEEB;--1:#403F53"> (</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">define_config,</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">FileProps,</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#919F9F;--1:#5F636F"># Sources</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">LocalFilesSource,</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">GoogleDriveSource,</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#919F9F;--1:#5F636F"># Targets</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">PgVectorTarget,</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">PineconeTarget,</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">WeaviateTarget,</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#919F9F;--1:#5F636F"># Embedders</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">OpenAIEmbedder,</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">CohereEmbedder,</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">GeminiEmbedder,</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">VoyageAIEmbedder,</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#919F9F;--1:#5F636F"># Utilities</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">memoize,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="from spruceup import (    define_config,    FileProps,    # Sources    LocalFilesSource,    GoogleDriveSource,    # Targets    PgVectorTarget,    PineconeTarget,    WeaviateTarget,    # Embedders    OpenAIEmbedder,    CohereEmbedder,    GeminiEmbedder,    VoyageAIEmbedder,    # Utilities    memoize,)"><div></div></button></div></figure></div>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="define_config"><code dir="auto">define_config()</code></h3><a class="sl-anchor-link" href="#define_config"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “define_config()”</span></a></div>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">config </span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#B2CCD6;--1:#096E72">define_config</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">sources</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">[</span><span style="--0:#82AAFF;--1:#3B61B0">...</span><span style="--0:#D9F5DD;--1:#111111">],</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">target</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">...</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">embedder</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">...</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">transform</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">...</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="config = define_config(    sources=[...],    target=...,    embedder=...,    transform=...,)"><div></div></button></div></figure></div>
+<p>All parameters are keyword-only.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">sources</code></td><td><code dir="auto">list[SourceConnector]</code></td><td>Yes</td><td>—</td><td>At least one source connector</td></tr><tr><td><code dir="auto">target</code></td><td><code dir="auto">TargetConnector</code></td><td>Yes</td><td>—</td><td>Where synced chunks are written</td></tr><tr><td><code dir="auto">embedder</code></td><td><code dir="auto">EmbedderConnector</code></td><td>Yes</td><td>—</td><td>Generates embeddings for your chunks</td></tr><tr><td><code dir="auto">transform</code></td><td><code dir="auto">async callable</code></td><td>Yes</td><td>—</td><td>Converts a file into a list of chunks</td></tr><tr><td><code dir="auto">cache_files</code></td><td><code dir="auto">bool</code></td><td>No</td><td><code dir="auto">False</code></td><td>Cache raw file bytes in the manifest</td></tr></tbody></table>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="the-transform-function">The Transform Function</h2><a class="sl-anchor-link" href="#the-transform-function"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “The Transform Function”</span></a></div>
+<p>The transform function is where you split, enrich, and embed your documents. SpruceUp calls it for every file that changes. This function <strong>must</strong> be async.</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">async</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">def</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#82AAFF;--1:#3B61B0">transform</span><span style="--0:#D9F5DD;--1:#111111">(</span><span style="--0:#7FDBCA;--1:#096E72">*</span><span style="--0:#D6DEEB;--1:#403F53">, </span><span style="--0:#7FDBCA;--1:#096E72">file_props</span><span style="--0:#D6DEEB;--1:#403F53">: FileProps, </span><span style="--0:#7FDBCA;--1:#096E72">embed</span><span style="--0:#D9F5DD;--1:#111111">)</span><span style="--0:#D6DEEB;--1:#403F53"> -> list[YourSchema]:</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#82AAFF;--1:#3B61B0">...</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="async def transform(*, file_props: FileProps, embed) -> list[YourSchema]:    ..."><div></div></button></div></figure></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="fileprops"><code dir="auto">FileProps</code></h3><a class="sl-anchor-link" href="#fileprops"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “FileProps”</span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">raw_content</code></td><td><code dir="auto">str | bytes</code></td><td>File content. Text formats are decoded as UTF-8; binary formats like PDF are passed through as raw <code dir="auto">bytes</code>.</td></tr><tr><td><code dir="auto">display_name</code></td><td><code dir="auto">str</code></td><td>The filename</td></tr><tr><td><code dir="auto">file_type</code></td><td><code dir="auto">str</code></td><td>File extension (e.g. <code dir="auto">"txt"</code>, <code dir="auto">"pdf"</code>)</td></tr></tbody></table>
+<div class="sl-heading-wrapper level-h3"><h3 id="embed"><code dir="auto">embed</code></h3><a class="sl-anchor-link" href="#embed"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “embed”</span></a></div>
+<p><code dir="auto">embed</code> is an async callable that takes a list of strings and returns a list of embedding vectors:</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">embeddings: list[list[</span><span style="--0:#C5E478;--1:#3B61B0">float</span><span style="--0:#D6DEEB;--1:#403F53">]] </span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">await</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#B2CCD6;--1:#096E72">embed</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#D9F5DD;--1:#111111">[</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">chunk one</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#82AAFF;--1:#3B61B0">, </span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">chunk two</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">]</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="embeddings: list[list[float]] = await embed([&#x22;chunk one&#x22;, &#x22;chunk two&#x22;])"><div></div></button></div></figure></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="chunk-schema">Chunk Schema</h3><a class="sl-anchor-link" href="#chunk-schema"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Chunk Schema”</span></a></div>
+<p>Your transform returns a list of instances of a user-defined dataclass. SpruceUp uses this schema for diffing and for writing to the target store. Define it as a plain dataclass:</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#C5E478;--1:#3B61B0">@dataclass</span></div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">class</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#FFCB8B;--1:#111111">MyChunk</span><span style="--0:#D6DEEB;--1:#403F53">:</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">title: </span><span style="--0:#C5E478;--1:#3B61B0">str</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">text: </span><span style="--0:#C5E478;--1:#3B61B0">str</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">embedding: list[</span><span style="--0:#C5E478;--1:#3B61B0">float</span><span style="--0:#D6DEEB;--1:#403F53">]</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="@dataclassclass MyChunk:    title: str    text: str    embedding: list[float]"><div></div></button></div></figure></div>
+<p>All target connectors support <code dir="auto">str</code>, <code dir="auto">int</code>, <code dir="auto">float</code>, <code dir="auto">bool</code>, and <code dir="auto">list[float]</code> as field types. Use <code dir="auto">list[float]</code> for your embedding vector. You do not need to define an <code dir="auto">id</code> field. SpruceUp generates one from each chunk’s content hash.</p>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="source-connectors">Source Connectors</h2><a class="sl-anchor-link" href="#source-connectors"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Source Connectors”</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="localfilessource"><code dir="auto">LocalFilesSource</code></h3><a class="sl-anchor-link" href="#localfilessource"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “LocalFilesSource”</span></a></div>
+<p>Watches a local directory for file changes.</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">LocalFilesSource</span><span style="--1:#403F53"><span style="--0:#D6DEEB">(</span><span style="--0:#D7DBE0">watched_dir</span></span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">./data</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="LocalFilesSource(watched_dir=&#x22;./data&#x22;)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">watched_dir</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>Path to the directory to watch</td></tr></tbody></table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="googledrivesource"><code dir="auto">GoogleDriveSource</code></h3><a class="sl-anchor-link" href="#googledrivesource"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “GoogleDriveSource”</span></a></div>
+<p>Watches a Google Drive folder for file changes. Requires the <code dir="auto">drive.readonly</code> OAuth scope.</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">GoogleDriveSource</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">watched_dir</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">&#x3C;folder-id></span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">on_token_expired</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">get_access_token</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">recursive</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#FF6A83;--1:#A24848">True</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="GoogleDriveSource(    watched_dir=&#x22;<folder-id>&#x22;,    on_token_expired=get_access_token,    recursive=True,)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">watched_dir</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>Google Drive folder ID</td></tr><tr><td><code dir="auto">on_token_expired</code></td><td><code dir="auto">Callable[[], str]</code></td><td>Yes</td><td>—</td><td>Called when the access token expires; must return a fresh token string</td></tr><tr><td><code dir="auto">recursive</code></td><td><code dir="auto">bool</code></td><td>No</td><td><code dir="auto">True</code></td><td>Whether to watch subfolders</td></tr></tbody></table>
+<p>The <code dir="auto">on_token_expired</code> callback is invoked whenever the connector needs a new OAuth token. It should return a valid access token or raise an exception.</p>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="target-connectors">Target Connectors</h2><a class="sl-anchor-link" href="#target-connectors"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Target Connectors”</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="pgvectortarget"><code dir="auto">PgVectorTarget</code></h3><a class="sl-anchor-link" href="#pgvectortarget"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “PgVectorTarget”</span></a></div>
+<p>Syncs chunks to a PostgreSQL table using the <code dir="auto">pgvector</code> extension.</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">PgVectorTarget</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">connstr</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">postgresql://user:pass@localhost/mydb</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">table</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">my_chunks</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">schema</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">MyChunk</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">vector_column</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">embedding</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="PgVectorTarget(    connstr=&#x22;postgresql://user:pass@localhost/mydb&#x22;,    table=&#x22;my_chunks&#x22;,    schema=MyChunk,    vector_column=&#x22;embedding&#x22;,)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">connstr</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>PostgreSQL connection string</td></tr><tr><td><code dir="auto">table</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>Table name</td></tr><tr><td><code dir="auto">schema</code></td><td><code dir="auto">type</code></td><td>Yes</td><td>—</td><td>Your chunk dataclass</td></tr><tr><td><code dir="auto">vector_column</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>Field name on your schema that holds the vector</td></tr></tbody></table>
+<p>SpruceUp creates the table and its columns automatically based on your schema’s type hints. The <code dir="auto">pgvector</code> extension must be installed on your database.</p>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="pineconetarget"><code dir="auto">PineconeTarget</code></h3><a class="sl-anchor-link" href="#pineconetarget"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “PineconeTarget”</span></a></div>
+<p>Syncs chunks to a Pinecone index.</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">PineconeTarget</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">api_key</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">pc-...</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">index_name</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">my-index</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">schema</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">MyChunk</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">vector_column</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">embedding</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">namespace</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">""</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">metric</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">cosine</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">cloud</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">aws</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">region</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">us-east-1</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="PineconeTarget(    api_key=&#x22;pc-...&#x22;,    index_name=&#x22;my-index&#x22;,    schema=MyChunk,    vector_column=&#x22;embedding&#x22;,    namespace=&#x22;&#x22;,    metric=&#x22;cosine&#x22;,    cloud=&#x22;aws&#x22;,    region=&#x22;us-east-1&#x22;,)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">api_key</code></td><td><code dir="auto">str | None</code></td><td>Yes</td><td>—</td><td>Pinecone API key</td></tr><tr><td><code dir="auto">index_name</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>Name of the Pinecone index</td></tr><tr><td><code dir="auto">schema</code></td><td><code dir="auto">type</code></td><td>Yes</td><td>—</td><td>Your chunk dataclass</td></tr><tr><td><code dir="auto">vector_column</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>Field name on your schema that holds the vector</td></tr><tr><td><code dir="auto">namespace</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">""</code></td><td>Namespace within the index</td></tr><tr><td><code dir="auto">metric</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">"cosine"</code></td><td>Distance metric (<code dir="auto">"cosine"</code>, <code dir="auto">"euclidean"</code>, <code dir="auto">"dotproduct"</code>)</td></tr><tr><td><code dir="auto">cloud</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">"aws"</code></td><td>Cloud provider</td></tr><tr><td><code dir="auto">region</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">"us-east-1"</code></td><td>Cloud region</td></tr></tbody></table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="weaviatetarget"><code dir="auto">WeaviateTarget</code></h3><a class="sl-anchor-link" href="#weaviatetarget"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “WeaviateTarget”</span></a></div>
+<p>Syncs chunks to a Weaviate collection.</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#919F9F;--1:#5F636F"># Local instance</span></div></div><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">WeaviateTarget</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">collection_name</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">MyChunks</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">schema</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">MyChunk</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">vector_column</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">embedding</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">url</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">http://localhost:8080</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span style="--0:#919F9F;--1:#5F636F"># Weaviate Cloud</span></div></div><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">WeaviateTarget</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">collection_name</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">MyChunks</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">schema</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">MyChunk</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">vector_column</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">embedding</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">cluster_url</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">https://my-cluster.weaviate.network</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">api_key</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">wvp-...</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="# Local instanceWeaviateTarget(    collection_name=&#x22;MyChunks&#x22;,    schema=MyChunk,    vector_column=&#x22;embedding&#x22;,    url=&#x22;http://localhost:8080&#x22;,)# Weaviate CloudWeaviateTarget(    collection_name=&#x22;MyChunks&#x22;,    schema=MyChunk,    vector_column=&#x22;embedding&#x22;,    cluster_url=&#x22;https://my-cluster.weaviate.network&#x22;,    api_key=&#x22;wvp-...&#x22;,)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">collection_name</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>Weaviate collection name</td></tr><tr><td><code dir="auto">schema</code></td><td><code dir="auto">type</code></td><td>Yes</td><td>—</td><td>Your chunk dataclass</td></tr><tr><td><code dir="auto">vector_column</code></td><td><code dir="auto">str</code></td><td>Yes</td><td>—</td><td>Field name on your schema that holds the vector</td></tr><tr><td><code dir="auto">url</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">"http://localhost:8080"</code></td><td>URL for a local Weaviate instance</td></tr><tr><td><code dir="auto">cluster_url</code></td><td><code dir="auto">str | None</code></td><td>No</td><td><code dir="auto">None</code></td><td>URL for a Weaviate Cloud cluster</td></tr><tr><td><code dir="auto">api_key</code></td><td><code dir="auto">str | None</code></td><td>No</td><td><code dir="auto">None</code></td><td>API key for Weaviate Cloud authentication</td></tr></tbody></table>
+<p>Use either <code dir="auto">url</code> for a local instance or <code dir="auto">cluster_url</code> + <code dir="auto">api_key</code> for a cloud deployment.</p>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="embedder-connectors">Embedder Connectors</h2><a class="sl-anchor-link" href="#embedder-connectors"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “Embedder Connectors”</span></a></div>
+<p>SpruceUp runs a health check at startup that embeds a test string and reads the actual output size from the API. The <code dir="auto">embedding_dimensions</code> parameter is optional on all embedders. If omitted, the dimension is detected automatically. If provided, SpruceUp validates it matches what the API actually returns and raises an error if not.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="openaiembedder"><code dir="auto">OpenAIEmbedder</code></h3><a class="sl-anchor-link" href="#openaiembedder"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “OpenAIEmbedder”</span></a></div>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">OpenAIEmbedder</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">api_key</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">sk-...</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">model</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">text-embedding-3-small</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">max_batch_size</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#F78C6C;--1:#AA0982">150</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">embedding_dimensions</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#FF6A83;--1:#A24848">None</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="OpenAIEmbedder(    api_key=&#x22;sk-...&#x22;,    model=&#x22;text-embedding-3-small&#x22;,    max_batch_size=150,    embedding_dimensions=None,)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">api_key</code></td><td><code dir="auto">str | Callable[[], str]</code></td><td>Yes</td><td>—</td><td>OpenAI API key, or a callable that returns one</td></tr><tr><td><code dir="auto">model</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">"text-embedding-3-small"</code></td><td>Embedding model</td></tr><tr><td><code dir="auto">max_batch_size</code></td><td><code dir="auto">int</code></td><td>No</td><td><code dir="auto">150</code></td><td>Max texts per API call</td></tr><tr><td><code dir="auto">embedding_dimensions</code></td><td><code dir="auto">int | None</code></td><td>No</td><td><code dir="auto">None</code></td><td>Override output dimensions. If omitted, SpruceUp reads the actual dimension from the API at startup.</td></tr></tbody></table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="cohereembedder"><code dir="auto">CohereEmbedder</code></h3><a class="sl-anchor-link" href="#cohereembedder"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “CohereEmbedder”</span></a></div>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">CohereEmbedder</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">api_key</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">...</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">model</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">embed-v4.0</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">max_batch_size</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#F78C6C;--1:#AA0982">96</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">embedding_dimensions</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#FF6A83;--1:#A24848">None</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="CohereEmbedder(    api_key=&#x22;...&#x22;,    model=&#x22;embed-v4.0&#x22;,    max_batch_size=96,    embedding_dimensions=None,)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">api_key</code></td><td><code dir="auto">str | Callable[[], str]</code></td><td>Yes</td><td>—</td><td>Cohere API key, or a callable that returns one</td></tr><tr><td><code dir="auto">model</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">"embed-v4.0"</code></td><td>Embedding model</td></tr><tr><td><code dir="auto">max_batch_size</code></td><td><code dir="auto">int</code></td><td>No</td><td><code dir="auto">96</code></td><td>Max texts per API call</td></tr><tr><td><code dir="auto">embedding_dimensions</code></td><td><code dir="auto">int | None</code></td><td>No</td><td><code dir="auto">None</code></td><td>Override output dimensions. If omitted, SpruceUp reads the actual dimension from the API at startup.</td></tr></tbody></table>
+<p>When using an <code dir="auto">embed-v4</code> model with a custom <code dir="auto">embedding_dimensions</code>, the value must be one of <code dir="auto">256</code>, <code dir="auto">512</code>, <code dir="auto">1024</code>, or <code dir="auto">1536</code>.</p>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="geminiembedder"><code dir="auto">GeminiEmbedder</code></h3><a class="sl-anchor-link" href="#geminiembedder"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “GeminiEmbedder”</span></a></div>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">GeminiEmbedder</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">api_key</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">...</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">model</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">gemini-embedding-001</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">max_batch_size</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#F78C6C;--1:#AA0982">100</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="GeminiEmbedder(    api_key=&#x22;...&#x22;,    model=&#x22;gemini-embedding-001&#x22;,    max_batch_size=100,)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">api_key</code></td><td><code dir="auto">str | Callable[[], str]</code></td><td>Yes</td><td>—</td><td>Google Generative AI API key, or a callable that returns one</td></tr><tr><td><code dir="auto">model</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">"gemini-embedding-001"</code></td><td>Embedding model</td></tr><tr><td><code dir="auto">max_batch_size</code></td><td><code dir="auto">int</code></td><td>No</td><td><code dir="auto">100</code></td><td>Max texts per API call (hard limit: 100)</td></tr><tr><td><code dir="auto">embedding_dimensions</code></td><td><code dir="auto">int | None</code></td><td>No</td><td><code dir="auto">None</code></td><td>Override output dimensions. If omitted, SpruceUp reads the actual dimension from the API at startup.</td></tr></tbody></table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="voyageaiembedder"><code dir="auto">VoyageAIEmbedder</code></h3><a class="sl-anchor-link" href="#voyageaiembedder"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “VoyageAIEmbedder”</span></a></div>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#B2CCD6;--1:#096E72">VoyageAIEmbedder</span><span style="--0:#D6DEEB;--1:#403F53">(</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">api_key</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">...</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">model</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#ECC48D;--1:#984E4D">voyage-4-large</span><span style="--0:#D9F5DD;--1:#111111">"</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">max_batch_size</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#F78C6C;--1:#AA0982">150</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D7DBE0;--1:#403F53">embedding_dimensions</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#FF6A83;--1:#A24848">None</span><span style="--0:#D9F5DD;--1:#111111">,</span></div></div><div class="ec-line"><div class="code"><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="VoyageAIEmbedder(    api_key=&#x22;...&#x22;,    model=&#x22;voyage-4-large&#x22;,    max_batch_size=150,    embedding_dimensions=None,)"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">api_key</code></td><td><code dir="auto">str | Callable[[], str]</code></td><td>Yes</td><td>—</td><td>Voyage AI API key, or a callable that returns one</td></tr><tr><td><code dir="auto">model</code></td><td><code dir="auto">str</code></td><td>No</td><td><code dir="auto">"voyage-4-large"</code></td><td>Embedding model</td></tr><tr><td><code dir="auto">max_batch_size</code></td><td><code dir="auto">int</code></td><td>No</td><td><code dir="auto">150</code></td><td>Max texts per API call</td></tr><tr><td><code dir="auto">embedding_dimensions</code></td><td><code dir="auto">int | None</code></td><td>No</td><td><code dir="auto">None</code></td><td>Override output dimensions. If omitted, SpruceUp reads the actual dimension from the API at startup.</td></tr></tbody></table>
+<p>When using a <code dir="auto">voyage-4</code> model with a custom <code dir="auto">embedding_dimensions</code>, the value must be one of <code dir="auto">256</code>, <code dir="auto">512</code>, <code dir="auto">1024</code>, or <code dir="auto">2048</code>.</p>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="memoize"><code dir="auto">@memoize</code></h2><a class="sl-anchor-link" href="#memoize"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24"><path fill="currentcolor" d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 0 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 1 0-1.42-1.42Zm8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 0 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 1 0 1.42 1.42l3.88-3.89a4.49 4.49 0 0 0 0-6.33ZM8.83 15.17a1 1 0 0 0 1.1.22 1 1 0 0 0 .32-.22l4.92-4.92a1 1 0 0 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42Z"></path></svg></span><span class="sr-only" data-pagefind-ignore="">Section titled “@memoize”</span></a></div>
+<p>The <code dir="auto">memoize</code> decorator caches the results of expensive subfunctions inside your transform. Results are stored in the SpruceUp manifest (a local SQLite database), scoped per file and invalidated automatically when the decorated function’s body changes.</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="python"><code><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">from</span><span style="--0:#D6DEEB;--1:#403F53"> spruceup </span><span style="--0:#C792EA;--1:#8844AE">import</span><span style="--0:#D6DEEB;--1:#403F53"> memoize</span></div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">import</span><span style="--0:#D6DEEB;--1:#403F53"> asyncio</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span style="--0:#C5E478;--1:#3B61B0">@memoize</span><span style="--1:#403F53"><span style="--0:#D6DEEB">(</span><span style="--0:#D7DBE0">return_type</span></span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#C5E478;--1:#3B61B0">str</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">async</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">def</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#82AAFF;--1:#3B61B0">summarize</span><span style="--0:#D9F5DD;--1:#111111">(</span><span style="--0:#7FDBCA;--1:#096E72">text</span><span style="--0:#D6DEEB;--1:#403F53">: </span><span style="--0:#C5E478;--1:#3B61B0">str</span><span style="--0:#D9F5DD;--1:#111111">)</span><span style="--0:#D6DEEB;--1:#403F53"> -> </span><span style="--0:#C5E478;--1:#3B61B0">str</span><span style="--0:#D6DEEB;--1:#403F53">:</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#919F9F;--1:#5F636F"># expensive LLM call</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#82AAFF;--1:#3B61B0">...</span></div></div><div class="ec-line"><div class="code">
+</div></div><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">async</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">def</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#82AAFF;--1:#3B61B0">transform</span><span style="--0:#D9F5DD;--1:#111111">(</span><span style="--0:#7FDBCA;--1:#096E72">*</span><span style="--0:#D6DEEB;--1:#403F53">, </span><span style="--0:#7FDBCA;--1:#096E72">file_props</span><span style="--0:#D6DEEB;--1:#403F53">: FileProps, </span><span style="--0:#7FDBCA;--1:#096E72">embed</span><span style="--0:#D9F5DD;--1:#111111">)</span><span style="--0:#D6DEEB;--1:#403F53"> -> list[MyChunk]:</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">chunk_strs </span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#B2CCD6;--1:#096E72">split_into_chunks</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#82AAFF;--1:#3B61B0">file_props.raw_content</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#919F9F;--1:#5F636F"># summarize each chunk concurrently; results are cached per file</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">summaries </span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">await</span><span style="--0:#D6DEEB;--1:#403F53"> asyncio.</span><span style="--0:#B2CCD6;--1:#096E72">gather</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#7FDBCA;--1:#096E72">*</span><span style="--0:#D9F5DD;--1:#111111">[</span><span style="--0:#B2CCD6;--1:#096E72">summarize</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#82AAFF;--1:#3B61B0">c</span><span style="--0:#D6DEEB;--1:#403F53">)</span><span style="--0:#82AAFF;--1:#3B61B0"> </span><span style="--0:#C792EA;--1:#8844AE">for</span><span style="--0:#82AAFF;--1:#3B61B0"> c </span><span style="--0:#C792EA;--1:#8844AE">in</span><span style="--0:#82AAFF;--1:#3B61B0"> chunk_strs</span><span style="--0:#D9F5DD;--1:#111111">]</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#D6DEEB;--1:#403F53">    </span></span><span style="--0:#D6DEEB;--1:#403F53">embeddings </span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">await</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#B2CCD6;--1:#096E72">embed</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#82AAFF;--1:#3B61B0">chunk_strs</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C792EA;--1:#8844AE">return</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#D9F5DD;--1:#111111">[</span></div></div><div class="ec-line"><div class="code"><span class="indent">        </span><span style="--0:#B2CCD6;--1:#096E72">MyChunk</span><span style="--1:#403F53"><span style="--0:#D6DEEB">(</span><span style="--0:#D7DBE0">content</span></span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">c</span><span style="--0:#D9F5DD;--1:#111111">,</span><span style="--0:#82AAFF;--1:#3B61B0"> </span><span style="--0:#D7DBE0;--1:#403F53">summary</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">s</span><span style="--0:#D9F5DD;--1:#111111">,</span><span style="--0:#82AAFF;--1:#3B61B0"> </span><span style="--0:#D7DBE0;--1:#403F53">embedding</span><span style="--0:#C792EA;--1:#8844AE">=</span><span style="--0:#82AAFF;--1:#3B61B0">e</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent">        </span><span style="--0:#C792EA;--1:#8844AE">for</span><span style="--0:#D6DEEB;--1:#403F53"> c, s, e </span><span style="--0:#C792EA;--1:#8844AE">in</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">zip</span><span style="--0:#D6DEEB;--1:#403F53">(</span><span style="--0:#82AAFF;--1:#3B61B0">chunk_strs</span><span style="--0:#D9F5DD;--1:#111111">,</span><span style="--0:#82AAFF;--1:#3B61B0"> summaries</span><span style="--0:#D9F5DD;--1:#111111">,</span><span style="--0:#82AAFF;--1:#3B61B0"> embeddings</span><span style="--0:#D6DEEB;--1:#403F53">)</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#D9F5DD;--1:#111111">]</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copy to clipboard" data-copied="Copied!" data-code="from spruceup import memoizeimport asyncio@memoize(return_type=str)async def summarize(text: str) -> str:    # expensive LLM call    ...async def transform(*, file_props: FileProps, embed) -> list[MyChunk]:    chunk_strs = split_into_chunks(file_props.raw_content)    # summarize each chunk concurrently; results are cached per file    summaries = await asyncio.gather(*[summarize(c) for c in chunk_strs])    embeddings = await embed(chunk_strs)    return [        MyChunk(content=c, summary=s, embedding=e)        for c, s, e in zip(chunk_strs, summaries, embeddings)    ]"><div></div></button></div></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td><code dir="auto">return_type</code></td><td><code dir="auto">type</code></td><td>Yes</td><td>Return type of the decorated function — used for serialization</td></tr></tbody></table>
+<p>Supported return types: <code dir="auto">str</code>, <code dir="auto">int</code>, <code dir="auto">float</code>, <code dir="auto">bool</code>, <code dir="auto">list</code>, <code dir="auto">dict</code>.</p>
+<p><code dir="auto">memoize</code> only works on <code dir="auto">async</code> functions. Decorating a sync function raises a <code dir="auto">TypeError</code>. It can only be used inside a transform function. Calling a memoized function outside of a transform context will raise a <code dir="auto">RuntimeError</code>.</p> </div>  </div> </div>  </main> </div> </div> </div> </div> </body></html>

@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1300 465.71909"
+   width="1300"
+   font-family="Montserrat, system-ui, sans-serif"
+   version="1.1"
+   id="svg36"
+   sodipodi:docname="ix-Transform_Caching_Checkpoints.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   height="465.71909"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.7819091"
+     inkscape:cx="541.27341"
+     inkscape:cy="348.50263"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg36" />
+  <defs
+     id="defs4">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#kgrid"
+       id="pattern36"
+       patternTransform="scale(1,0.83164124)" />
+    <pattern
+       id="kgrid"
+       width="28"
+       height="28"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M28 0H0V28"
+         fill="none"
+         stroke="#1b2b22"
+         stroke-width="1"
+         opacity="0.035"
+         id="path1" />
+    </pattern>
+    <marker
+       id="mG"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#239b72"
+         id="path2" />
+    </marker>
+    <marker
+       id="mB"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2f74c0"
+         id="path3" />
+    </marker>
+    <marker
+       id="mI"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6.5"
+       markerHeight="6.5"
+       orient="auto-start-reverse">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#6a7a70"
+         id="path4" />
+    </marker>
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="1300"
+     height="465.71909"
+     rx="0"
+     ry="0"
+     fill="#f5f3ec"
+     id="rect4"
+     style="display:inline;stroke-width:0.911944" />
+  <rect
+     x="0"
+     y="0"
+     width="1300"
+     height="465.71909"
+     fill="url(#kgrid)"
+     id="rect5"
+     style="fill:url(#pattern36);stroke-width:0.911944" />
+  <text
+     x="50"
+     y="16.268456"
+     font-size="12.5px"
+     font-weight="600"
+     fill="#239b72"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="2.6"
+     id="text5"
+     style="display:none"
+     sodipodi:insensitive="true">FIG. ix</text>
+  <text
+     x="50"
+     y="50.268456"
+     font-size="25px"
+     font-weight="700"
+     fill="#1b2b22"
+     text-anchor="start"
+     letter-spacing="-0.01em"
+     id="text6"
+     style="display:none"
+     sodipodi:insensitive="true">Two caching checkpoints inside transform()</text>
+  <text
+     x="50"
+     y="76.268456"
+     font-size="13.5px"
+     font-weight="400"
+     fill="#6a7a70"
+     text-anchor="start"
+     id="text7"
+     style="display:none"
+     sodipodi:insensitive="true">A single pass of the user’s transform consults two independent caches: the per-sub-function @memoize cache, then the embedding cache.</text>
+  <rect
+     x="50"
+     y="188.26846"
+     width="150"
+     height="54"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect7" />
+  <text
+     x="125"
+     y="221.26846"
+     font-size="15px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text8">file content</text>
+  <rect
+     x="50"
+     y="260.26846"
+     width="150"
+     height="54"
+     rx="11"
+     ry="11"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect8" />
+  <text
+     x="126.06567"
+     y="291.97794"
+     font-size="15px"
+     font-weight="600"
+     fill="#1b2b22"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text9">embed( )</text>
+  <line
+     x1="200"
+     y1="215.26846"
+     x2="244"
+     y2="236.26846"
+     stroke="#239b72"
+     stroke-width="9"
+     stroke-linecap="butt"
+     opacity="0.32"
+     id="line10" />
+  <polyline
+     points="211.2,289.0 220.1,286.6 216.3,278.2"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline10"
+     transform="translate(0,-61.731544)" />
+  <line
+     x1="200"
+     y1="287.26846"
+     x2="244"
+     y2="260.26846"
+     stroke="#239b72"
+     stroke-width="9"
+     stroke-linecap="butt"
+     opacity="0.22"
+     id="line11" />
+  <polyline
+     points="217.0,345.6 219.8,336.9 210.7,335.4"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline12"
+     transform="translate(0,-61.731544)" />
+  <rect
+     x="232"
+     y="116.26846"
+     width="830"
+     height="300"
+     rx="18"
+     ry="18"
+     fill="#eef7f1"
+     stroke="#239b72"
+     stroke-width="1.6"
+     id="rect13" />
+  <rect
+     x="232"
+     y="116.26846"
+     width="830"
+     height="300"
+     rx="18"
+     ry="18"
+     fill="none"
+     stroke="#5bc29f"
+     stroke-width="1"
+     stroke-dasharray="2, 7"
+     stroke-linecap="round"
+     opacity="0.6"
+     id="rect14" />
+  <text
+     x="258"
+     y="146.26846"
+     font-size="14px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     id="text14">user transform( )</text>
+  <rect
+     x="256"
+     y="194.26846"
+     width="372"
+     height="186"
+     rx="13"
+     ry="13"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect15" />
+  <circle
+     cx="286"
+     cy="228.26846"
+     r="12"
+     fill="#239b72"
+     id="circle15" />
+  <text
+     x="286"
+     y="232.76846"
+     font-size="13px"
+     font-weight="700"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text16">1</text>
+  <text
+     x="306"
+     y="233.26846"
+     font-size="11.5px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="0.4"
+     id="text17">SUB-FUNCTION MEMOIZATION</text>
+  <path
+     d="m 286,272.26846 a 52,12 0 0 1 104,0 v 50 a 52,12 0 0 1 -104,0 z"
+     fill="#eaf6ef"
+     stroke="#137e59"
+     stroke-width="1.5"
+     id="path17" />
+  <path
+     d="m 286,272.26846 a 52,12 0 0 0 104,0"
+     fill="none"
+     stroke="#137e59"
+     stroke-width="1.5"
+     opacity="0.75"
+     id="path18" />
+  <text
+     x="338"
+     y="299.26846"
+     font-size="13px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text18">@memoize</text>
+  <text
+     x="338"
+     y="315.26846"
+     font-size="10px"
+     font-weight="400"
+     fill="#137e59"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     opacity="0.8"
+     id="text19">per sub-fn</text>
+  <path
+     d="m 406,286.26846 h 56"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.9"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mG)"
+     opacity="0.95"
+     id="path19" />
+  <text
+     x="406"
+     y="276.26846"
+     font-size="11px"
+     font-weight="700"
+     fill="#239b72"
+     text-anchor="start"
+     id="text20">hit</text>
+  <text
+     x="470"
+     y="290.26846"
+     font-size="12.5px"
+     font-weight="500"
+     fill="#1b2b22"
+     text-anchor="start"
+     id="text21">use cached chunk</text>
+  <path
+     d="m 406,330.26846 h 56"
+     fill="none"
+     stroke="#2f74c0"
+     stroke-width="1.9"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mB)"
+     opacity="0.95"
+     id="path21" />
+  <text
+     x="406"
+     y="346.26846"
+     font-size="11px"
+     font-weight="700"
+     fill="#2f74c0"
+     text-anchor="start"
+     id="text22">miss</text>
+  <text
+     x="470"
+     y="334.26846"
+     font-size="12.5px"
+     font-weight="500"
+     fill="#1b2b22"
+     text-anchor="start"
+     id="text23">run the sub-fn</text>
+  <line
+     x1="628"
+     y1="287.26846"
+     x2="660"
+     y2="287.26846"
+     stroke="#239b72"
+     stroke-width="9"
+     stroke-linecap="butt"
+     opacity="0.32"
+     id="line23" />
+  <polyline
+     points="637.7,355.0 644.7,349.0 637.7,343.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline23"
+     transform="translate(0,-61.731544)" />
+  <polyline
+     points="648.3,355.0 655.3,349.0 648.3,343.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline24"
+     transform="translate(0,-61.731544)" />
+  <text
+     x="644"
+     y="273.26846"
+     font-size="10px"
+     font-weight="600"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text24">chunks</text>
+  <rect
+     x="662"
+     y="194.26846"
+     width="372"
+     height="186"
+     rx="13"
+     ry="13"
+     fill="#ffffff"
+     stroke="#c4c8ba"
+     stroke-width="1.4"
+     id="rect24" />
+  <circle
+     cx="692"
+     cy="228.26846"
+     r="12"
+     fill="#239b72"
+     id="circle24" />
+  <text
+     x="692"
+     y="232.76846"
+     font-size="13px"
+     font-weight="700"
+     fill="#ffffff"
+     text-anchor="middle"
+     id="text25">2</text>
+  <text
+     x="712"
+     y="233.26846"
+     font-size="11.5px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="start"
+     font-family="'Spline Sans Mono', monospace"
+     letter-spacing="0.4"
+     id="text26">EMBEDDING CACHE</text>
+  <path
+     d="m 692,272.26846 a 52,12 0 0 1 104,0 v 50 a 52,12 0 0 1 -104,0 z"
+     fill="#eaf6ef"
+     stroke="#137e59"
+     stroke-width="1.5"
+     id="path26" />
+  <path
+     d="m 692,272.26846 a 52,12 0 0 0 104,0"
+     fill="none"
+     stroke="#137e59"
+     stroke-width="1.5"
+     opacity="0.75"
+     id="path27" />
+  <text
+     x="744"
+     y="299.26846"
+     font-size="13px"
+     font-weight="700"
+     fill="#137e59"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text27">embed( )</text>
+  <text
+     x="744"
+     y="315.26846"
+     font-size="10px"
+     font-weight="400"
+     fill="#137e59"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     opacity="0.8"
+     id="text28">per chunk</text>
+  <path
+     d="m 812,286.26846 h 56"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="1.9"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mG)"
+     opacity="0.95"
+     id="path28" />
+  <text
+     x="812"
+     y="276.26846"
+     font-size="11px"
+     font-weight="700"
+     fill="#239b72"
+     text-anchor="start"
+     id="text29">hit</text>
+  <text
+     x="876"
+     y="290.26846"
+     font-size="12.5px"
+     font-weight="500"
+     fill="#1b2b22"
+     text-anchor="start"
+     id="text30">use cached vector</text>
+  <path
+     d="m 812,330.26846 h 56"
+     fill="none"
+     stroke="#2f74c0"
+     stroke-width="1.9"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     marker-end="url(#mB)"
+     opacity="0.95"
+     id="path30" />
+  <text
+     x="812"
+     y="346.26846"
+     font-size="11px"
+     font-weight="700"
+     fill="#2f74c0"
+     text-anchor="start"
+     id="text31">miss</text>
+  <text
+     x="876"
+     y="334.26846"
+     font-size="12.5px"
+     font-weight="500"
+     fill="#1b2b22"
+     text-anchor="start"
+     id="text32">call embedding API</text>
+  <line
+     x1="1062"
+     y1="243.26846"
+     x2="1096"
+     y2="243.26846"
+     stroke="#239b72"
+     stroke-width="9"
+     stroke-linecap="butt"
+     opacity="0.32"
+     id="line32" />
+  <polyline
+     points="1072.3,311.0 1079.3,305.0 1072.3,299.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline32"
+     transform="translate(0,-61.731544)" />
+  <polyline
+     points="1083.7,311.0 1090.7,305.0 1083.7,299.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline33"
+     transform="translate(0,-61.731544)" />
+  <rect
+     x="1096"
+     y="215.26846"
+     width="158"
+     height="64"
+     rx="11"
+     ry="11"
+     fill="#eaf6ef"
+     stroke="#137e59"
+     stroke-width="1.5"
+     id="rect33" />
+  <text
+     x="1175"
+     y="245.26846"
+     font-size="16.5px"
+     font-weight="600"
+     fill="#137e59"
+     text-anchor="middle"
+     id="text33">chunk + vector</text>
+  <text
+     x="1175"
+     y="265.26846"
+     font-size="11px"
+     font-weight="400"
+     fill="#6a7a70"
+     text-anchor="middle"
+     font-family="'Spline Sans Mono', monospace"
+     id="text34">to Sync Engine</text>
+</svg>
