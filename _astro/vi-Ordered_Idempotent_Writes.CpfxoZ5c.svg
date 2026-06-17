@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 771.46539 336.45023"
-   width="771.46539"
+   viewBox="0 0 879.237 448.30359"
+   width="879.237"
    font-family="Montserrat, system-ui, sans-serif"
    version="1.1"
    id="svg27"
    sodipodi:docname="vi-Ordered_Idempotent_Writes.svg"
-   height="336.45023"
+   height="448.30359"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,9 +22,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="1.4148128"
-     inkscape:cx="139.94784"
-     inkscape:cy="202.14688"
+     inkscape:zoom="0.7074064"
+     inkscape:cx="436.1001"
+     inkscape:cy="207.80134"
      inkscape:window-width="1854"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -106,7 +106,7 @@
   </defs>
   <g
      id="g30"
-     transform="scale(0.7458112,0.95582454)"
+     transform="scale(0.849999,1.2735897)"
      style="display:none">
     <rect
        x="0"
@@ -128,14 +128,14 @@
        style="fill:url(#pattern28);stroke-width:0.936274" />
   </g>
   <path
-     d="m 100.39771,54 v -7 h 168 v 7"
+     d="m 54.085336,96.538727 v -7 H 222.08534 v 7"
      fill="none"
      stroke="#d8d9cd"
      stroke-width="1.4"
      id="path6" />
   <text
-     x="184.39771"
-     y="40"
+     x="138.08533"
+     y="82.538727"
      font-size="10px"
      font-weight="600"
      fill="#6a7a70"
@@ -145,14 +145,14 @@
      id="text6"
      style="font-size:16px">VECTOR DB</text>
   <path
-     d="m 326.39771,54 v -7 h 394 v 7"
+     d="m 280.08534,96.538727 v -7 h 394 v 7"
      fill="none"
      stroke="#d8d9cd"
      stroke-width="1.4"
      id="path7" />
   <text
-     x="523.39771"
-     y="40"
+     x="477.08536"
+     y="82.538727"
      font-size="10px"
      font-weight="600"
      fill="#6a7a70"
@@ -162,8 +162,8 @@
      id="text7"
      style="font-size:16px">MANIFEST</text>
   <rect
-     x="109.39771"
-     y="86"
+     x="63.08535"
+     y="128.53873"
      width="150"
      height="58"
      rx="11"
@@ -173,22 +173,22 @@
      stroke-width="1.4"
      id="rect7" />
   <circle
-     cx="184.39771"
-     cy="86"
+     cx="138.08533"
+     cy="128.53873"
      r="14"
      fill="#239b72"
      id="circle7" />
   <text
-     x="184.39771"
-     y="91"
+     x="138.08533"
+     y="133.53873"
      font-size="14px"
      font-weight="700"
      fill="#ffffff"
      text-anchor="middle"
      id="text8">1</text>
   <text
-     x="184.39771"
-     y="121"
+     x="138.08533"
+     y="163.53873"
      font-size="15px"
      font-weight="600"
      fill="#1b2b22"
@@ -196,8 +196,8 @@
      font-family="'Spline Sans Mono', monospace"
      id="text9">embeddings</text>
   <rect
-     x="335.39771"
-     y="86"
+     x="289.0853"
+     y="128.53873"
      width="150"
      height="58"
      rx="11"
@@ -207,22 +207,22 @@
      stroke-width="1.4"
      id="rect9" />
   <circle
-     cx="410.39771"
-     cy="86"
+     cx="364.0853"
+     cy="128.53873"
      r="14"
      fill="#239b72"
      id="circle9" />
   <text
-     x="410.39771"
-     y="91"
+     x="364.0853"
+     y="133.53873"
      font-size="14px"
      font-weight="700"
      fill="#ffffff"
      text-anchor="middle"
      id="text10">2</text>
   <text
-     x="410.39771"
-     y="121"
+     x="364.0853"
+     y="163.53873"
      font-size="15px"
      font-weight="600"
      fill="#1b2b22"
@@ -230,8 +230,8 @@
      font-family="'Spline Sans Mono', monospace"
      id="text11">chunks</text>
   <rect
-     x="561.39771"
-     y="86"
+     x="515.08539"
+     y="128.53873"
      width="150"
      height="58"
      rx="11"
@@ -241,22 +241,22 @@
      stroke-width="1.7"
      id="rect11" />
   <circle
-     cx="636.39771"
-     cy="86"
+     cx="590.08539"
+     cy="128.53873"
      r="14"
      fill="#137e59"
      id="circle11" />
   <text
-     x="636.39771"
-     y="91"
+     x="590.08539"
+     y="133.53873"
      font-size="14px"
      font-weight="700"
      fill="#ffffff"
      text-anchor="middle"
      id="text12">3</text>
   <text
-     x="636.39771"
-     y="121"
+     x="590.08539"
+     y="163.53873"
      font-size="15px"
      font-weight="600"
      fill="#137e59"
@@ -264,10 +264,10 @@
      font-family="'Spline Sans Mono', monospace"
      id="text13">files</text>
   <line
-     x1="260.09772"
-     y1="115"
-     x2="334.69769"
-     y2="115"
+     x1="213.78532"
+     y1="157.53873"
+     x2="288.38528"
+     y2="157.53873"
      stroke="#239b72"
      stroke-width="7.92597"
      stroke-linecap="butt"
@@ -282,7 +282,7 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline13"
-     transform="translate(-150.35028)" />
+     transform="translate(-196.66265,42.538727)" />
   <polyline
      points="442.0,120.5 448.5,115.0 442.0,109.5"
      fill="none"
@@ -292,7 +292,7 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline14"
-     transform="translate(-145.60229)" />
+     transform="translate(-191.91466,42.538727)" />
   <polyline
      points="461.0,120.5 467.5,115.0 461.0,109.5"
      fill="none"
@@ -302,12 +302,12 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline15"
-     transform="translate(-143.60314)" />
+     transform="translate(-189.91551,42.538727)" />
   <line
-     x1="486.09772"
-     y1="115"
-     x2="560.54773"
-     y2="115"
+     x1="439.78534"
+     y1="157.53873"
+     x2="514.23541"
+     y2="157.53873"
      stroke="#239b72"
      stroke-width="7.918"
      stroke-linecap="butt"
@@ -322,7 +322,7 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline16"
-     transform="translate(-150.28489)" />
+     transform="translate(-196.59726,42.538727)" />
   <polyline
      points="668.0,120.5 674.5,115.0 668.0,109.5"
      fill="none"
@@ -332,7 +332,7 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline17"
-     transform="translate(-145.60229)" />
+     transform="translate(-191.91466,42.538727)" />
   <polyline
      points="687.0,120.5 693.5,115.0 687.0,109.5"
      fill="none"
@@ -342,10 +342,10 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline18"
-     transform="translate(-145.60229)" />
+     transform="translate(-191.91466,42.538727)" />
   <g
      id="g28"
-     transform="translate(-144.72674)">
+     transform="translate(-191.03911,42.538727)">
     <circle
        cx="443"
        cy="115"
@@ -361,7 +361,7 @@
   </g>
   <g
      id="g27"
-     transform="translate(-145.69362)">
+     transform="translate(-192.00599,42.538727)">
     <circle
        cx="669"
        cy="115"
@@ -376,8 +376,8 @@
        id="polygon19" />
   </g>
   <rect
-     x="64.397705"
-     y="210"
+     x="18.08534"
+     y="252.53873"
      width="497"
      height="44"
      rx="9"
@@ -387,25 +387,25 @@
      stroke-width="1.5"
      id="rect19" />
   <circle
-     cx="90.397705"
-     cy="232"
+     cx="44.085342"
+     cy="274.53873"
      r="9"
      fill="#ffffff"
      stroke="#8b968c"
      stroke-width="1.7"
      id="circle20" />
   <line
-     x1="86.397705"
-     y1="232"
-     x2="94.397705"
-     y2="232"
+     x1="40.085342"
+     y1="274.53873"
+     x2="48.085342"
+     y2="274.53873"
      stroke="#8b968c"
      stroke-width="2.2"
      stroke-linecap="round"
      id="line20" />
   <text
-     x="109.6909"
-     y="237.41362"
+     x="63.37854"
+     y="279.95236"
      font-size="12px"
      font-weight="600"
      fill="#8b968c"
@@ -413,8 +413,8 @@
      id="text20"
      style="font-size:13.3333px">STALE FILE · still needs processing</text>
   <rect
-     x="569.28607"
-     y="209.88835"
+     x="522.97375"
+     y="252.42708"
      width="137.7468"
      height="44.223301"
      rx="6.6295247"
@@ -424,8 +424,8 @@
      stroke-width="1.3767"
      id="rect20" />
   <circle
-     cx="591.39771"
-     cy="232"
+     cx="545.08539"
+     cy="274.53873"
      r="13"
      fill="none"
      stroke="#239b72"
@@ -433,8 +433,8 @@
      opacity="0.4"
      id="circle21" />
   <circle
-     cx="591.39771"
-     cy="232"
+     cx="545.08539"
+     cy="274.53873"
      r="9"
      fill="#239b72"
      id="circle22" />
@@ -446,37 +446,37 @@
      stroke-linecap="round"
      stroke-linejoin="round"
      id="polyline22"
-     transform="translate(-145.60229)" />
+     transform="translate(-191.91466,42.538727)" />
   <text
-     x="611.39771"
-     y="236"
+     x="565.08539"
+     y="278.53873"
      font-size="13px"
      font-weight="700"
      fill="#239b72"
      text-anchor="start"
      id="text22">SYNCED</text>
   <line
-     x1="298.27325"
-     y1="128.45"
-     x2="298.27325"
-     y2="210"
+     x1="251.96086"
+     y1="170.98872"
+     x2="251.96086"
+     y2="252.53873"
      stroke="#8b968c"
      stroke-width="1.44505"
      stroke-dasharray="3, 4"
      opacity="0.7"
      id="line22" />
   <line
-     x1="523.3064"
-     y1="128.45"
-     x2="523.3064"
-     y2="210"
+     x1="476.99405"
+     y1="170.98872"
+     x2="476.99405"
+     y2="252.53873"
      stroke="#8b968c"
      stroke-width="1.44505"
      stroke-dasharray="3, 4"
      opacity="0.7"
      id="line23" />
   <path
-     d="m 636.39771,144 v 64"
+     d="m 590.08534,186.53873 v 64"
      fill="none"
      stroke="#137e59"
      stroke-width="1.8"
@@ -487,7 +487,8 @@
      id="path23" />
   <g
      id="g29"
-     style="display:none">
+     style="display:none"
+     transform="translate(-46.312375,42.538727)">
     <path
        d="m 561.39771,208 -6,-9 h 12 z"
        fill="#137e59"
@@ -515,22 +516,26 @@
          id="text24">files write flips it</text>
     </g>
   </g>
-  <circle
-     cx="48.439514"
-     cy="295.75919"
-     r="12.5"
-     fill="#ffffff"
-     stroke="#bf6253"
-     stroke-width="1.9"
-     id="circle26" />
-  <polygon
-     points="250,291 255.5,298 252,298 254,309 248,301 251,301 "
-     fill="#bf6253"
-     id="polygon26"
-     transform="translate(-203.56048,-4.2408437)" />
+  <g
+     id="g1"
+     transform="translate(-19.139604)">
+    <circle
+       cx="51.26675"
+       cy="338.29791"
+       r="12.5"
+       fill="#ffffff"
+       stroke="#bf6253"
+       stroke-width="1.9"
+       id="circle26" />
+    <polygon
+       points="250,291 255.5,298 252,298 254,309 248,301 251,301 "
+       fill="#bf6253"
+       id="polygon26"
+       transform="translate(-200.73325,38.297883)" />
+  </g>
   <text
-     x="74.680344"
-     y="299.05237"
+     x="58.367981"
+     y="341.59109"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"

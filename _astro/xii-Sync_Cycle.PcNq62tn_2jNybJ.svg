@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 1077.5519 501.63489"
-   width="1077.5519"
+   viewBox="0 0 1001.0166 501.63489"
+   width="1001.0165"
    font-family="Montserrat, system-ui, sans-serif"
    version="1.1"
    id="svg33"
@@ -21,9 +21,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="0.64210735"
-     inkscape:cx="351.96607"
-     inkscape:cy="233.6058"
+     inkscape:zoom="0.45403846"
+     inkscape:cx="437.18763"
+     inkscape:cy="409.65693"
      inkscape:window-width="1854"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -116,7 +116,7 @@
   </defs>
   <g
      id="g33"
-     transform="scale(0.82888607,0.89577661)"
+     transform="scale(0.77001271,0.89577661)"
      style="display:none">
     <rect
        x="0"
@@ -136,9 +136,9 @@
        id="rect6" />
   </g>
   <line
-     x1="372.97839"
+     x1="296.44302"
      y1="147.6349"
-     x2="446.97839"
+     x2="370.44302"
      y2="147.6349"
      stroke="#d8d9cd"
      stroke-width="1.3"
@@ -146,9 +146,9 @@
      id="line6"
      style="stroke:#828474;stroke-opacity:1" />
   <line
-     x1="634.97839"
+     x1="558.44305"
      y1="147.6349"
-     x2="708.97839"
+     x2="632.44305"
      y2="147.6349"
      stroke="#d8d9cd"
      stroke-width="1.3"
@@ -156,9 +156,9 @@
      id="line7"
      style="stroke:#828474;stroke-opacity:1" />
   <line
-     x1="372.97839"
+     x1="296.44302"
      y1="259.63489"
-     x2="446.97839"
+     x2="370.44302"
      y2="259.63489"
      stroke="#d8d9cd"
      stroke-width="1.3"
@@ -166,9 +166,9 @@
      id="line8"
      style="stroke:#828474;stroke-opacity:1" />
   <line
-     x1="634.97839"
+     x1="558.44305"
      y1="259.63489"
-     x2="708.97839"
+     x2="632.44305"
      y2="259.63489"
      stroke="#d8d9cd"
      stroke-width="1.3"
@@ -176,9 +176,9 @@
      id="line9"
      style="stroke:#828474;stroke-opacity:1" />
   <line
-     x1="372.97839"
+     x1="296.44302"
      y1="371.63489"
-     x2="446.97839"
+     x2="370.44302"
      y2="371.63489"
      stroke="#d8d9cd"
      stroke-width="1.3"
@@ -186,9 +186,9 @@
      id="line10"
      style="stroke:#828474;stroke-opacity:1" />
   <line
-     x1="634.97839"
+     x1="558.44305"
      y1="371.63489"
-     x2="708.97839"
+     x2="632.44305"
      y2="371.63489"
      stroke="#d8d9cd"
      stroke-width="1.3"
@@ -196,7 +196,7 @@
      id="line11"
      style="stroke:#828474;stroke-opacity:1" />
   <rect
-     x="446.97839"
+     x="370.44302"
      y="110.6349"
      width="188"
      height="74"
@@ -207,7 +207,7 @@
      stroke-width="1.6"
      id="rect11" />
   <text
-     x="540.97839"
+     x="464.44302"
      y="152.6349"
      font-size="14px"
      font-weight="700"
@@ -216,7 +216,7 @@
      font-family="'Spline Sans Mono', monospace"
      id="text11">file</text>
   <rect
-     x="446.97839"
+     x="370.44302"
      y="222.6349"
      width="188"
      height="74"
@@ -227,7 +227,7 @@
      stroke-width="1.6"
      id="rect12" />
   <text
-     x="540.97839"
+     x="464.44302"
      y="264.63489"
      font-size="14px"
      font-weight="700"
@@ -236,7 +236,7 @@
      font-family="'Spline Sans Mono', monospace"
      id="text12">chunks</text>
   <rect
-     x="446.97839"
+     x="370.44302"
      y="334.63489"
      width="188"
      height="74"
@@ -247,7 +247,7 @@
      stroke-width="1.6"
      id="rect13" />
   <text
-     x="540.97839"
+     x="464.44302"
      y="376.63489"
      font-size="14px"
      font-weight="700"
@@ -256,7 +256,7 @@
      font-family="'Spline Sans Mono', monospace"
      id="text13">embeddings</text>
   <rect
-     x="140.97839"
+     x="64.443031"
      y="121.6349"
      width="232"
      height="52"
@@ -267,13 +267,13 @@
      stroke-width="1.4"
      id="rect14" />
   <circle
-     cx="166.97839"
+     cx="90.443031"
      cy="147.6349"
      r="13"
      fill="#6a7a70"
      id="circle14" />
   <text
-     x="166.97839"
+     x="90.443031"
      y="152.6349"
      font-size="13px"
      font-weight="700"
@@ -281,7 +281,7 @@
      text-anchor="middle"
      id="text14">1</text>
   <text
-     x="192.97839"
+     x="116.44303"
      y="152.6349"
      font-size="15.5px"
      font-weight="700"
@@ -289,7 +289,7 @@
      text-anchor="start"
      id="text15">read</text>
   <rect
-     x="140.97839"
+     x="64.443031"
      y="233.6349"
      width="232"
      height="52"
@@ -300,13 +300,13 @@
      stroke-width="1.4"
      id="rect15" />
   <circle
-     cx="166.97839"
+     cx="90.443031"
      cy="259.63489"
      r="13"
      fill="#6a7a70"
      id="circle15" />
   <text
-     x="166.97839"
+     x="90.443031"
      y="264.63489"
      font-size="13px"
      font-weight="700"
@@ -314,7 +314,7 @@
      text-anchor="middle"
      id="text16">2</text>
   <text
-     x="192.97839"
+     x="116.44303"
      y="264.63489"
      font-size="15.5px"
      font-weight="700"
@@ -322,7 +322,7 @@
      text-anchor="start"
      id="text17">split</text>
   <rect
-     x="140.97839"
+     x="64.443031"
      y="345.63489"
      width="232"
      height="52"
@@ -333,13 +333,13 @@
      stroke-width="1.4"
      id="rect17" />
   <circle
-     cx="166.97839"
+     cx="90.443031"
      cy="371.63489"
      r="13"
      fill="#6a7a70"
      id="circle17" />
   <text
-     x="166.97839"
+     x="90.443031"
      y="376.63489"
      font-size="13px"
      font-weight="700"
@@ -347,7 +347,7 @@
      text-anchor="middle"
      id="text18">3</text>
   <text
-     x="192.97839"
+     x="116.44303"
      y="376.63489"
      font-size="15.5px"
      font-weight="700"
@@ -355,7 +355,7 @@
      text-anchor="start"
      id="text19">embed</text>
   <rect
-     x="708.97839"
+     x="632.44305"
      y="121.6349"
      width="240"
      height="52"
@@ -366,13 +366,13 @@
      stroke-width="1.7"
      id="rect19" />
   <circle
-     cx="734.97839"
+     cx="658.44305"
      cy="147.6349"
      r="13"
      fill="#137e59"
      id="circle19" />
   <text
-     x="734.97839"
+     x="658.44305"
      y="152.6349"
      font-size="13px"
      font-weight="700"
@@ -380,7 +380,7 @@
      text-anchor="middle"
      id="text20">3</text>
   <text
-     x="760.97839"
+     x="684.44305"
      y="145.6349"
      font-size="12px"
      font-weight="600"
@@ -389,7 +389,7 @@
      font-family="'Spline Sans Mono', monospace"
      id="text21">files table</text>
   <text
-     x="760.97839"
+     x="684.44305"
      y="161.6349"
      font-size="9px"
      font-weight="400"
@@ -398,7 +398,7 @@
      font-family="'Spline Sans Mono', monospace"
      id="text22">Manifest</text>
   <rect
-     x="708.97839"
+     x="632.44305"
      y="233.6349"
      width="240"
      height="52"
@@ -409,13 +409,13 @@
      stroke-width="1.4"
      id="rect22" />
   <circle
-     cx="734.97839"
+     cx="658.44305"
      cy="259.63489"
      r="13"
      fill="#239b72"
      id="circle22" />
   <text
-     x="734.97839"
+     x="658.44305"
      y="264.63489"
      font-size="13px"
      font-weight="700"
@@ -423,7 +423,7 @@
      text-anchor="middle"
      id="text23">2</text>
   <text
-     x="760.97839"
+     x="684.44305"
      y="257.63489"
      font-size="12px"
      font-weight="600"
@@ -432,7 +432,7 @@
      font-family="'Spline Sans Mono', monospace"
      id="text24">chunks table</text>
   <text
-     x="760.97839"
+     x="684.44305"
      y="273.63489"
      font-size="9px"
      font-weight="400"
@@ -441,7 +441,7 @@
      font-family="'Spline Sans Mono', monospace"
      id="text25">Manifest</text>
   <rect
-     x="708.97839"
+     x="632.44305"
      y="345.63489"
      width="240"
      height="52"
@@ -452,13 +452,13 @@
      stroke-width="1.4"
      id="rect25" />
   <circle
-     cx="734.97839"
+     cx="658.44305"
      cy="371.63489"
      r="13"
      fill="#239b72"
      id="circle25" />
   <text
-     x="734.97839"
+     x="658.44305"
      y="376.63489"
      font-size="13px"
      font-weight="700"
@@ -466,7 +466,7 @@
      text-anchor="middle"
      id="text26">1</text>
   <text
-     x="760.97839"
+     x="684.44305"
      y="375.14102"
      font-size="12px"
      font-weight="600"
@@ -476,7 +476,7 @@
      id="text27">VectorDB</text>
   <g
      id="g37"
-     transform="translate(323.96941,-58.3651)">
+     transform="translate(247.43404,-58.3651)">
     <rect
        x="80.668419"
        y="485.09146"
@@ -513,7 +513,7 @@
        id="text29">file fully processed</text>
   </g>
   <rect
-     x="711.07971"
+     x="634.54437"
      y="38.736217"
      width="296.92419"
      height="45.797359"
@@ -525,7 +525,7 @@
      id="rect29" />
   <g
      id="g36"
-     transform="translate(-30.689355,-58.3651)">
+     transform="translate(-107.22472,-58.3651)">
     <g
        id="g35">
       <g
@@ -557,7 +557,7 @@
        id="text30">file synced</text>
   </g>
   <path
-     d="M 701.24783,449.6349 H 990.9784 c 0.8655,-135.16581 -1.2786,-224.02729 0.1904,-359.18862"
+     d="m 624.71246,449.6349 h 289.73057 c 0.8655,-135.16581 -1.2786,-224.02729 0.1904,-359.18862"
      fill="none"
      stroke="#239b72"
      stroke-width="3"
@@ -568,7 +568,7 @@
      id="path31"
      sodipodi:nodetypes="ccc" />
   <path
-     d="m 119.7959,102.31804 v 348.79935 c 105.43381,1.04195 174.74871,-1.53927 280.17903,0.22922"
+     d="m 43.260534,102.31804 v 348.79935 c 105.433806,1.04195 174.748706,-1.53927 280.179026,0.22922"
      fill="none"
      stroke="#239b72"
      stroke-width="2.90716"
@@ -580,7 +580,7 @@
      sodipodi:nodetypes="ccc"
      style="fill:none;fill-opacity:1;stroke:#6a7a70;stroke-opacity:1;marker-end:url(#mP)" />
   <text
-     x="114.95251"
+     x="38.417141"
      y="89.87854"
      font-size="10.5px"
      font-weight="600"
@@ -590,7 +590,7 @@
      letter-spacing="1.4"
      id="text32">PHASE 1 · PROCESSING ↓</text>
   <text
-     x="754.09088"
+     x="677.55554"
      y="473.51428"
      font-size="10.5px"
      font-weight="600"
