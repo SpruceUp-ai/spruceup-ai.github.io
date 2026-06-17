@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg77"
+   version="1.1"
+   font-family="'Montserrat',system-ui,sans-serif"
+   width="1261"
+   viewBox="19.5 135.864 1261 412.92"
+   style="max-height: 500px"
+   height="412.92"
+   sodipodi:docname="v-Multilevel_Diffing.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.99589345"
+     inkscape:cx="609.00089"
+     inkscape:cy="196.30614"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg77" />
+  <defs
+     id="defs2">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#kgrid"
+       id="pattern1"
+       patternTransform="translate(29.820946,175.37556)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       height="28"
+       width="28"
+       id="kgrid">
+      <path
+         id="path1"
+         opacity="0.035"
+         stroke-width="1"
+         stroke="#1b2b22"
+         fill="none"
+         d="M28 0H0V28" />
+    </pattern>
+    <marker
+       preserveAspectRatio="xMidYMid"
+       orient="auto-start-reverse"
+       markerHeight="7"
+       markerWidth="7"
+       refY="5"
+       refX="8"
+       viewBox="0 0 10 10"
+       id="aHead">
+      <path
+         id="path2"
+         fill="#239b72"
+         d="M0,0 L10,5 L0,10 z" />
+    </marker>
+  </defs>
+  <rect
+     style="display:inline"
+     id="rect2"
+     fill="#f5f3ec"
+     height="666"
+     width="1300"
+     y="0"
+     x="0" />
+  <rect
+     style="display:inline;fill:url(#pattern1)"
+     id="rect3"
+     fill="url(#kgrid)"
+     height="666"
+     width="1300"
+     y="175.37556"
+     x="29.820946" />
+  <rect
+     id="rect5"
+     stroke-width="1.3768"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="15.473573"
+     rx="16.000668"
+     height="261.11652"
+     width="556.02319"
+     y="185.60667"
+     x="46.334835" />
+  <text
+     id="text6"
+     letter-spacing="2.2"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#137e59"
+     font-weight="600"
+     font-size="12px"
+     y="215.29984"
+     x="65.071213"
+     style="font-size:16px">FILE-LEVEL</text>
+  <text
+     id="text8"
+     letter-spacing="1.5"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="middle"
+     fill="#6a7a70"
+     font-weight="600"
+     font-size="10.5px"
+     y="246.32123"
+     x="148.34232"
+     style="font-size:13.3333px">manifest</text>
+  <text
+     id="text9"
+     letter-spacing="1.5"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="middle"
+     fill="#6a7a70"
+     font-weight="600"
+     font-size="10.5px"
+     y="251.34184"
+     x="503.36288"
+     style="font-size:13.3333px">this run</text>
+  <rect
+     id="rect9"
+     stroke-width="1.4"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="9"
+     rx="9"
+     height="44"
+     width="158"
+     y="262.30472"
+     x="70.346436" />
+  <text
+     id="text10"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="289.30472"
+     x="85.346436">intro.md</text>
+  <text
+     id="text11"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="289.30472"
+     x="214.34644">h_a3f1</text>
+  <rect
+     id="rect11"
+     stroke-width="1.4"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="9"
+     rx="9"
+     height="44"
+     width="158"
+     y="262.30472"
+     x="420.34644" />
+  <text
+     id="text12"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="289.30472"
+     x="435.34644">intro.md</text>
+  <text
+     id="text13"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="289.30472"
+     x="564.34644">h_a3f1</text>
+  <line
+     id="line13"
+     stroke-linecap="butt"
+     stroke-width="2.2"
+     stroke="#8b968c"
+     y2="284.30472"
+     x2="413.34644"
+     y1="284.30472"
+     x1="228.34644" />
+  <path
+     id="path13"
+     fill="#8b968c"
+     d="m 411.34643,279.30471 9,5 -9,5 z" />
+  <rect
+     id="rect13"
+     fill="#f3f1ea"
+     ry="6"
+     rx="6.6973534"
+     height="20"
+     width="136.38045"
+     y="254.30473"
+     x="259.70633"
+     style="stroke-width:1" />
+  <rect
+     id="rect15"
+     stroke-width="1.7"
+     stroke="#7fb117"
+     fill="#f4f7e0"
+     ry="9"
+     rx="9"
+     height="44"
+     width="158"
+     y="324.30472"
+     x="70.346436" />
+  <text
+     id="text16"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="351.30472"
+     x="85.346436">guide.md</text>
+  <text
+     id="text17"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="351.30472"
+     x="214.34644">h_8c2d</text>
+  <rect
+     id="rect17"
+     stroke-width="1.7"
+     stroke="#7fb117"
+     fill="#f4f7e0"
+     ry="9"
+     rx="9"
+     height="44"
+     width="158"
+     y="324.30472"
+     x="420.34644" />
+  <text
+     id="text18"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="351.30472"
+     x="435.34644">guide.md</text>
+  <text
+     id="text19"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="351.30472"
+     x="564.34644">h_b440</text>
+  <line
+     id="line19"
+     stroke-linecap="butt"
+     stroke-width="2.2"
+     stroke="#7fb117"
+     y2="346.30472"
+     x2="413.34644"
+     y1="346.30472"
+     x1="228.34644" />
+  <path
+     id="path19"
+     fill="#7fb117"
+     d="m 411.34643,341.30471 9,5 -9,5 z" />
+  <rect
+     id="rect19"
+     fill="#f4f7e0"
+     ry="6"
+     rx="6.5107732"
+     height="20"
+     width="137.59433"
+     y="316.05368"
+     x="259.44025"
+     style="stroke-width:0.999999" />
+  <text
+     id="text20"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#7fb117"
+     font-weight="600"
+     font-size="11px"
+     y="330.09906"
+     x="264.02689"
+     style="font-size:13.3333px">modified</text>
+  <text
+     id="text21"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#7fb117"
+     font-weight="500"
+     font-size="11px"
+     y="329.41397"
+     x="394.61804"
+     style="font-size:13.3333px">→ upsert</text>
+  <circle
+     id="circle21"
+     fill="none"
+     r="0"
+     cy="365.00156"
+     cx="607.62555" />
+  <rect
+     id="rect21"
+     stroke-width="1.4"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="9"
+     rx="9"
+     height="44"
+     width="158"
+     y="386.30472"
+     x="70.346436" />
+  <text
+     id="text22"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="413.30472"
+     x="85.346436">api.md</text>
+  <text
+     id="text23"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="413.30472"
+     x="214.34644">h_5b91</text>
+  <rect
+     id="rect23"
+     stroke-width="1.4"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="9"
+     rx="9"
+     height="44"
+     width="158"
+     y="386.30472"
+     x="420.34644" />
+  <text
+     id="text24"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="413.30472"
+     x="435.34644">api.md</text>
+  <text
+     id="text25"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="413.30472"
+     x="564.34644">h_5b91</text>
+  <line
+     id="line25"
+     stroke-linecap="butt"
+     stroke-width="2.2"
+     stroke="#8b968c"
+     y2="408.30472"
+     x2="413.34644"
+     y1="408.30472"
+     x1="228.34644" />
+  <path
+     id="path25"
+     fill="#8b968c"
+     d="m 411.34643,403.30471 9,5 -9,5 z" />
+  <path
+     style="marker-end:url(#aHead)"
+     id="path27"
+     marker-end="url(#aHead)"
+     stroke-dasharray="5, 4"
+     stroke-width="2"
+     stroke="#239b72"
+     fill="none"
+     d="m 606,353.29327 c 70,0 33.13474,-85.32685 100.22835,-111" />
+  <text
+     id="text28"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="middle"
+     fill="#137e59"
+     font-weight="600"
+     font-size="11px"
+     y="232.76628"
+     x="658.9505"
+     style="font-size:13.3333px">stale file</text>
+  <rect
+     id="rect28"
+     stroke-width="1.23117"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="12.369747"
+     rx="16.005022"
+     height="320.06723"
+     width="538.16882"
+     y="184.20885"
+     x="711.91559" />
+  <text
+     id="text29"
+     letter-spacing="2.2"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#137e59"
+     font-weight="600"
+     font-size="12px"
+     y="213.72632"
+     x="731.25983"
+     style="font-size:16px">CHUNK-LEVEL</text>
+  <text
+     id="text31"
+     letter-spacing="1"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="middle"
+     fill="#6a7a70"
+     font-weight="600"
+     font-size="10.5px"
+     y="249.778"
+     x="812.73602"
+     style="font-size:13.3333px">manifest</text>
+  <text
+     id="text32"
+     letter-spacing="1"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="middle"
+     fill="#6a7a70"
+     font-weight="600"
+     font-size="10.5px"
+     y="251.78624"
+     x="1154.7444"
+     style="font-size:13.3333px">this run</text>
+  <rect
+     id="rect32"
+     stroke-width="1.4"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="9"
+     rx="9"
+     height="42"
+     width="150"
+     y="264.76562"
+     x="738.74017" />
+  <text
+     id="text33"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="290.76562"
+     x="753.74017">c1</text>
+  <text
+     id="text34"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="290.76562"
+     x="874.74017">h_a3f1</text>
+  <rect
+     id="rect34"
+     stroke-width="1.4"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="9"
+     rx="9"
+     height="42"
+     width="150"
+     y="264.76562"
+     x="1078.7402" />
+  <text
+     id="text35"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="290.76562"
+     x="1093.7402">c1</text>
+  <text
+     id="text36"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="290.76562"
+     x="1214.7402">h_a3f1</text>
+  <line
+     id="line36"
+     stroke-linecap="butt"
+     stroke-width="2.2"
+     stroke="#8b968c"
+     y2="285.76562"
+     x2="1071.7402"
+     y1="285.76562"
+     x1="888.74017" />
+  <path
+     id="path36"
+     fill="#8b968c"
+     d="m 1069.7402,280.76561 9,5 -9,5 z" />
+  <rect
+     id="rect44"
+     stroke-width="1.4"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="9"
+     rx="9"
+     height="42"
+     width="150"
+     y="324.76562"
+     x="738.74017" />
+  <text
+     id="text45"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="350.76562"
+     x="753.74017">c2</text>
+  <text
+     id="text46"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="350.76562"
+     x="874.74017">h_5b91</text>
+  <rect
+     id="rect46"
+     stroke-width="1.4"
+     stroke="#c4c8ba"
+     fill="#ffffff"
+     ry="9"
+     rx="9"
+     height="42"
+     width="150"
+     y="324.76562"
+     x="1078.7402" />
+  <text
+     id="text47"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="350.76562"
+     x="1093.7402">c2</text>
+  <text
+     id="text48"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="350.76562"
+     x="1214.7402">h_5b91</text>
+  <line
+     id="line48"
+     stroke-linecap="butt"
+     stroke-width="2.2"
+     stroke="#8b968c"
+     y2="345.76562"
+     x2="1071.7402"
+     y1="345.76562"
+     x1="888.74017" />
+  <path
+     id="path48"
+     fill="#8b968c"
+     d="m 1069.7402,340.76561 9,5 -9,5 z" />
+  <rect
+     id="rect50"
+     stroke-width="1.7"
+     stroke="#bf6253"
+     fill="#f7e8e3"
+     ry="9"
+     rx="9"
+     height="42"
+     width="150"
+     y="382.76562"
+     x="738.74017" />
+  <text
+     id="text51"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="408.76562"
+     x="753.74017">c3</text>
+  <text
+     id="text52"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="408.76562"
+     x="874.74017">h_e7d4</text>
+  <rect
+     id="rect52"
+     stroke-linecap="round"
+     stroke-dasharray="3, 4"
+     stroke-width="1.4"
+     stroke="#d8d9cd"
+     fill="none"
+     ry="9"
+     rx="9"
+     height="42"
+     width="150"
+     y="382.76562"
+     x="1078.7402" />
+  <text
+     id="text53"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="middle"
+     fill="#6a7a70"
+     font-weight="400"
+     font-size="11px"
+     y="407.76562"
+     x="1153.7402"
+     style="font-size:13.3333px">not present</text>
+  <line
+     id="line53"
+     stroke-dasharray="5, 4"
+     stroke-linecap="butt"
+     stroke-width="2.2"
+     stroke="#bf6253"
+     y2="403.76562"
+     x2="1071.7402"
+     y1="403.76562"
+     x1="888.74017" />
+  <path
+     id="path53"
+     fill="#bf6253"
+     d="m 1069.7402,398.76561 9,5 -9,5 z" />
+  <rect
+     style="stroke-width:0.988229"
+     id="rect53"
+     fill="#f7e8e3"
+     ry="6"
+     rx="6.5482774"
+     height="20"
+     width="138.38692"
+     y="373.76562"
+     x="914.30487" />
+  <text
+     id="text54"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#bf6253"
+     font-weight="600"
+     font-size="11px"
+     y="387.41061"
+     x="918.30493"
+     style="font-size:13.3333px">orphaned</text>
+  <text
+     id="text55"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#bf6253"
+     font-weight="500"
+     font-size="11px"
+     y="386.59891"
+     x="1049.7524"
+     style="font-size:13.3333px">→ delete</text>
+  <rect
+     id="rect55"
+     stroke-linecap="round"
+     stroke-dasharray="3, 4"
+     stroke-width="1.4"
+     stroke="#d8d9cd"
+     fill="none"
+     ry="9"
+     rx="9"
+     height="42"
+     width="150"
+     y="440.76562"
+     x="738.74017" />
+  <text
+     id="text56"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="middle"
+     fill="#6a7a70"
+     font-weight="400"
+     font-size="11px"
+     y="465.76559"
+     x="813.74017"
+     style="font-size:13.3333px">not present</text>
+  <rect
+     id="rect56"
+     stroke-width="1.7"
+     stroke="#239b72"
+     fill="#e7f4ee"
+     ry="9"
+     rx="9"
+     height="42"
+     width="150"
+     y="440.76562"
+     x="1078.7402" />
+  <text
+     id="text57"
+     text-anchor="start"
+     fill="#1b2b22"
+     font-weight="700"
+     font-size="14.5px"
+     y="466.76559"
+     x="1093.7402">c4</text>
+  <text
+     id="text58"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#6a7a70"
+     font-weight="500"
+     font-size="13px"
+     y="466.76559"
+     x="1214.7402">h_2f01</text>
+  <line
+     id="line58"
+     stroke-linecap="butt"
+     stroke-width="2.2"
+     stroke="#239b72"
+     y2="461.76559"
+     x2="1071.7402"
+     y1="461.76559"
+     x1="888.74017" />
+  <path
+     id="path58"
+     fill="#239b72"
+     d="m 1069.7402,456.76561 9,5 -9,5 z" />
+  <rect
+     style="stroke-width:1.06472"
+     id="rect58"
+     fill="#e7f4ee"
+     ry="6"
+     rx="7.4744358"
+     height="20"
+     width="134.1163"
+     y="431.76562"
+     x="915.78107" />
+  <text
+     id="text59"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#239b72"
+     font-weight="600"
+     font-size="11px"
+     y="445.86731"
+     x="929.28394"
+     style="font-size:13.3333px">added</text>
+  <text
+     id="text60"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#239b72"
+     font-weight="500"
+     font-size="11px"
+     y="444.95392"
+     x="1041.1042"
+     style="font-size:13.3333px">→ upsert</text>
+  <text
+     id="text26-4"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#8b968c"
+     font-weight="600"
+     font-size="11px"
+     y="267.98105"
+     x="265.11176"
+     style="font-size:13.3333px">unchanged</text>
+  <text
+     id="text27-2"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#8b968c"
+     font-weight="500"
+     font-size="11px"
+     y="266.78937"
+     x="389.68939"
+     style="font-size:13.3333px">→ skip</text>
+  <rect
+     id="rect13-4"
+     fill="#f3f1ea"
+     ry="6"
+     rx="6.6973534"
+     height="20"
+     width="136.38045"
+     y="379.84753"
+     x="259.76804"
+     style="stroke-width:1" />
+  <text
+     id="text26-4-88"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#8b968c"
+     font-weight="600"
+     font-size="11px"
+     y="393.52383"
+     x="265.17346"
+     style="font-size:13.3333px">unchanged</text>
+  <text
+     id="text27-2-2"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#8b968c"
+     font-weight="500"
+     font-size="11px"
+     y="392.33215"
+     x="389.7511"
+     style="font-size:13.3333px">→ skip</text>
+  <rect
+     id="rect13-5"
+     fill="#f3f1ea"
+     ry="6"
+     rx="6.6973534"
+     height="20"
+     width="136.38045"
+     y="258.4444"
+     x="913.97369"
+     style="stroke-width:1" />
+  <text
+     id="text26-4-1"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#8b968c"
+     font-weight="600"
+     font-size="11px"
+     y="272.12073"
+     x="919.37909"
+     style="font-size:13.3333px">unchanged</text>
+  <text
+     id="text27-2-7"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#8b968c"
+     font-weight="500"
+     font-size="11px"
+     y="270.92905"
+     x="1043.9568"
+     style="font-size:13.3333px">→ skip</text>
+  <rect
+     id="rect13-52"
+     fill="#f3f1ea"
+     ry="6"
+     rx="6.6973534"
+     height="20"
+     width="136.38045"
+     y="318.81454"
+     x="915.00256"
+     style="stroke-width:1" />
+  <text
+     id="text26-4-7"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="start"
+     fill="#8b968c"
+     font-weight="600"
+     font-size="11px"
+     y="332.49084"
+     x="920.40796"
+     style="font-size:13.3333px">unchanged</text>
+  <text
+     id="text27-2-6"
+     font-family="'Spline Sans Mono', monospace"
+     text-anchor="end"
+     fill="#8b968c"
+     font-weight="500"
+     font-size="11px"
+     y="331.29916"
+     x="1044.9856"
+     style="font-size:13.3333px">→ skip</text>
+</svg>

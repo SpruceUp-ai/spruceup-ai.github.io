@@ -7,7 +7,7 @@
    id="svg27"
    sodipodi:docname="vi-Ordered_Idempotent_Writes.svg"
    height="336.45023"
-   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="1.4148128"
-     inkscape:cx="369.30681"
-     inkscape:cy="122.27766"
-     inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:cx="357.29108"
+     inkscape:cy="166.45312"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg27" />
   <defs
@@ -141,7 +141,8 @@
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
      letter-spacing="1.2"
-     id="text6">VECTOR DB</text>
+     id="text6"
+     style="font-size:16px">VECTOR DB</text>
   <path
      d="m 326.39771,54 v -7 h 394 v 7"
      fill="none"
@@ -157,7 +158,8 @@
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
      letter-spacing="1.2"
-     id="text7">MANIFEST</text>
+     id="text7"
+     style="font-size:16px">MANIFEST</text>
   <rect
      x="109.39771"
      y="86"
@@ -401,13 +403,14 @@
      stroke-linecap="round"
      id="line20" />
   <text
-     x="110.39771"
-     y="236"
+     x="109.6909"
+     y="237.41362"
      font-size="12px"
      font-weight="600"
      fill="#8b968c"
      text-anchor="start"
-     id="text20">STALE · still needs processing</text>
+     id="text20"
+     style="font-size:13.3333px">STALE FILE · still needs processing</text>
   <rect
      x="569.28607"
      y="209.88835"
@@ -512,25 +515,28 @@
     </g>
   </g>
   <circle
-     cx="106.39771"
-     cy="300"
+     cx="48.439514"
+     cy="295.75919"
      r="12.5"
      fill="#ffffff"
      stroke="#bf6253"
      stroke-width="1.9"
      id="circle26" />
   <polygon
-     points="252,298 254,309 248,301 251,301 250,291 255.5,298 "
+     points="250,291 255.5,298 252,298 254,309 248,301 251,301 "
      fill="#bf6253"
      id="polygon26"
-     transform="translate(-145.60229)" />
+     transform="translate(-203.56048,-4.2408437)" />
   <text
-     x="128.39771"
-     y="304"
+     x="74.680344"
+     y="299.05237"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
      text-anchor="start"
      font-family="'Spline Sans Mono', monospace"
-     id="text27">crash before the files write → row stays STALE → reprocessed next run (idempotent, harmless)</text>
+     id="text27"
+     style="font-size:12.3333px">crash before <tspan
+   style="font-size:12.3333px;fill:#137e59;fill-opacity:1"
+   id="tspan1">files</tspan> write → file row stays stale → picked up next run (idempotent, harmless)</text>
 </svg>
