@@ -21,8 +21,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="0.89095454"
-     inkscape:cx="568.49141"
-     inkscape:cy="292.38304"
+     inkscape:cx="643.69165"
+     inkscape:cy="352.9922"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -257,14 +257,15 @@
        id="rect39"
        style="display:none" />
     <text
-       x="225"
-       y="238"
+       x="237.34631"
+       y="239.68359"
        font-size="11px"
        font-weight="500"
        fill="#137e59"
        text-anchor="middle"
        font-family="'Spline Sans Mono', monospace"
-       id="text39">file events</text>
+       id="text39"
+       style="font-size:14.6667px">file events</text>
   </g>
   <rect
      x="295.65079"
@@ -278,22 +279,13 @@
      stroke-width="1.4"
      id="rect40" />
   <text
-     x="380.65079"
-     y="246.31746"
+     x="382.23807"
+     y="253.46031"
      font-size="16.5px"
      font-weight="600"
      fill="#1b2b22"
      text-anchor="middle"
      id="text40">Chunk</text>
-  <text
-     x="380.65079"
-     y="266.31747"
-     font-size="11.5px"
-     font-weight="400"
-     fill="#6a7a70"
-     text-anchor="middle"
-     font-family="'Spline Sans Mono', monospace"
-     id="text41">split into chunks</text>
   <rect
      x="525.65082"
      y="206.31746"
@@ -306,22 +298,13 @@
      stroke-width="1.4"
      id="rect41" />
   <text
-     x="610.65082"
-     y="246.31746"
+     x="608.26984"
+     y="254.25397"
      font-size="16.5px"
      font-weight="600"
      fill="#1b2b22"
      text-anchor="middle"
      id="text42">Embed</text>
-  <text
-     x="610.65082"
-     y="266.31747"
-     font-size="11.5px"
-     font-weight="400"
-     fill="#6a7a70"
-     text-anchor="middle"
-     font-family="'Spline Sans Mono', monospace"
-     id="text43">changed chunks</text>
   <line
      x1="235.65079"
      y1="248.31746"
@@ -382,73 +365,42 @@
      opacity="0.95"
      id="polyline46"
      transform="translate(-6.3492063,-39.682539)" />
-  <g
-     id="g46"
-     transform="translate(-6.3492063,-39.682539)">
-    <rect
-       x="224.10001"
-       y="262"
-       width="95.800003"
-       height="20"
-       rx="6"
-       fill="#f5f3ec"
-       opacity="0.92"
-       id="rect46"
-       style="display:none" />
-    <text
-       x="272"
-       y="260"
-       font-size="11px"
-       font-weight="500"
-       fill="#137e59"
-       text-anchor="middle"
-       font-family="'Spline Sans Mono', monospace"
-       id="text46"><tspan
-         sodipodi:role="line"
-         id="tspan84"
-         x="272"
-         y="260">changed</tspan><tspan
-         sodipodi:role="line"
-         id="tspan85"
-         x="272"
-         y="273.75">file</tspan></text>
-  </g>
   <path
-     d="m 800.90359,175.31746 a 80,15 0 0 1 160,0 v 170 a 80,15 0 0 1 -160,0 z"
+     d="m 816.77661,175.31746 a 80,15 0 0 1 160,0 v 170 a 80,15 0 0 1 -160,0 z"
      fill="#eaf6ef"
      stroke="#137e59"
      stroke-width="1.6"
      id="path46" />
   <path
-     d="m 800.90359,175.31746 a 80,15 0 0 0 160,0"
+     d="m 816.77661,175.31746 a 80,15 0 0 0 160,0"
      fill="none"
      stroke="#137e59"
      stroke-width="1.6"
      opacity="0.75"
      id="path47" />
   <path
-     d="m 800.90359,217.81746 a 80,15 0 0 0 160,0"
+     d="m 816.77661,217.81746 a 80,15 0 0 0 160,0"
      fill="none"
      stroke="#137e59"
      stroke-width="1"
      opacity="0.28"
      id="path48" />
   <path
-     d="m 800.90359,260.31746 a 80,15 0 0 0 160,0"
+     d="m 816.77661,260.31746 a 80,15 0 0 0 160,0"
      fill="none"
      stroke="#137e59"
      stroke-width="1"
      opacity="0.28"
      id="path49" />
   <path
-     d="m 800.90359,302.81746 a 80,15 0 0 0 160,0"
+     d="m 816.77661,302.81746 a 80,15 0 0 0 160,0"
      fill="none"
      stroke="#137e59"
      stroke-width="1"
      opacity="0.28"
      id="path50" />
   <text
-     x="880.90363"
+     x="896.77661"
      y="258.31747"
      font-size="16.5px"
      font-weight="700"
@@ -456,9 +408,9 @@
      text-anchor="middle"
      id="text50">Vector DB</text>
   <line
-     x1="696.35571"
+     x1="696.33289"
      y1="249.27486"
-     x2="800.13239"
+     x2="816.0282"
      y2="249.36006"
      stroke="#239b72"
      stroke-width="10.693"
@@ -495,9 +447,19 @@
      opacity="0.95"
      id="polyline52-5"
      transform="translate(15.053077,-40.163237)" />
+  <polyline
+     points="749.5,295.3 756.7,289.5 749.8,283.3"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline52-5-5"
+     transform="translate(37.922219,-39.877775)" />
   <g
      id="g52"
-     transform="translate(25.90359,-39.682539)">
+     transform="translate(33.511357,-46.41689)">
     <rect
        x="707.70001"
        y="262"
@@ -516,18 +478,20 @@
        fill="#137e59"
        text-anchor="middle"
        font-family="'Spline Sans Mono', monospace"
-       id="text52">upsert Δ</text>
+       id="text52"
+       style="font-size:14.6667px">upsert Δ</text>
   </g>
   <text
-     x="53.650795"
-     y="390.31747"
+     x="51.40601"
+     y="394.80704"
      font-size="12.5px"
      font-weight="600"
      fill="#6a7a70"
      text-anchor="start"
      font-family="'Spline Sans Mono', monospace"
      letter-spacing="2.6"
-     id="text53">Retrieval</text>
+     id="text53"
+     style="font-size:16px">Retrieval</text>
   <rect
      x="65.650795"
      y="412.31747"
@@ -548,7 +512,7 @@
      text-anchor="middle"
      id="text54">User</text>
   <rect
-     x="800.90363"
+     x="816.77661"
      y="412.31747"
      width="170"
      height="84"
@@ -559,7 +523,7 @@
      stroke-width="1.4"
      id="rect55" />
   <text
-     x="885.90363"
+     x="901.77661"
      y="452.31747"
      font-size="16.5px"
      font-weight="600"
@@ -567,7 +531,7 @@
      text-anchor="middle"
      id="text56">Retrieval</text>
   <text
-     x="885.90363"
+     x="901.77661"
      y="472.31747"
      font-size="11.5px"
      font-weight="400"
@@ -576,8 +540,8 @@
      font-family="'Spline Sans Mono', monospace"
      id="text57">fetch + bundle</text>
   <rect
-     x="1093.9036"
-     y="412.31747"
+     x="1121.5618"
+     y="412.87866"
      width="170"
      height="84"
      rx="11"
@@ -587,8 +551,8 @@
      stroke-width="1.4"
      id="rect57" />
   <text
-     x="1178.9036"
-     y="452.31747"
+     x="1211.0514"
+     y="460.73541"
      font-size="16.5px"
      font-weight="600"
      fill="#1b2b22"
@@ -602,14 +566,14 @@
      fill="#6a7a70"
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
-     id="text59">augmented prompt</text>
+     id="text59" />
   <line
-     x1="235.65079"
-     y1="454.31747"
-     x2="800.20361"
-     y2="454.31747"
+     x1="235.6508"
+     y1="454.3175"
+     x2="816.47833"
+     y2="454.3175"
      stroke="#239b72"
-     stroke-width="9.26256"
+     stroke-width="9.26257"
      stroke-linecap="butt"
      opacity="0.34"
      id="line59" />
@@ -773,16 +737,6 @@
      opacity="0.95"
      id="polyline74"
      transform="translate(-6.3492063,-39.682539)" />
-  <polyline
-     points="742.6,500.0 749.6,494.0 742.6,488.0"
-     fill="none"
-     stroke="#239b72"
-     stroke-width="2.4"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     opacity="0.95"
-     id="polyline74-5"
-     transform="translate(26.250794,-39.482539)" />
   <g
      id="g74"
      transform="translate(-6.3492063,-61.682539)">
@@ -804,12 +758,13 @@
        fill="#137e59"
        text-anchor="middle"
        font-family="'Spline Sans Mono', monospace"
-       id="text74">user query</text>
+       id="text74"
+       style="font-size:14.6667px">user query</text>
   </g>
   <line
-     x1="880.90363"
+     x1="896.77661"
      y1="360.31747"
-     x2="880.90363"
+     x2="896.77661"
      y2="412.31747"
      stroke="#239b72"
      stroke-width="9"
@@ -825,7 +780,7 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline75"
-     transform="translate(25.90359,-39.682539)" />
+     transform="translate(41.776606,-39.682539)" />
   <polyline
      points="849.0,433.7 855.0,440.7 861.0,433.7"
      fill="none"
@@ -836,10 +791,10 @@
      opacity="0.95"
      id="polyline76"
      style="display:inline"
-     transform="translate(25.90359,-39.682539)" />
+     transform="translate(41.776606,-39.682539)" />
   <g
      id="g76"
-     transform="translate(25.90359,-39.682539)">
+     transform="translate(29.430297,-39.682539)">
     <rect
        x="807.09998"
        y="416"
@@ -858,35 +813,39 @@
        fill="#137e59"
        text-anchor="middle"
        font-family="'Spline Sans Mono', monospace"
-       id="text76">top-k chunks</text>
+       id="text76"
+       style="font-size:14.6667px">top-k chunks</text>
   </g>
   <text
-     x="1031.1591"
-     y="418.02594"
+     x="1051.5217"
+     y="421.95432"
      font-size="10.5px"
      font-weight="600"
      fill="#137e59"
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
-     id="text77">prompt</text>
+     id="text77"
+     style="font-size:14.6667px">prompt</text>
   <text
-     x="1032.8259"
-     y="433.79611"
+     x="1054.3109"
+     y="441.65286"
      font-size="10.5px"
      font-weight="500"
      fill="#6a7a70"
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
-     id="text78"><tspan
+     id="text78"
+     style="font-size:14px"><tspan
        sodipodi:role="line"
        id="tspan83"
-       x="1032.8259"
-       y="433.79611">query + context</tspan></text>
+       x="1054.3109"
+       y="441.65286"
+       style="font-size:14px">query + context</tspan></text>
   <line
-     x1="970.90363"
-     y1="454.31747"
-     x2="1093.2036"
-     y2="454.31747"
+     x1="986.77649"
+     y1="454.31741"
+     x2="1121.094"
+     y2="454.31741"
      stroke="#239b72"
      stroke-width="10.7956"
      stroke-linecap="butt"
@@ -901,7 +860,7 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline78"
-     transform="translate(25.90359,-39.682539)" />
+     transform="translate(39.531823,-39.682539)" />
   <polyline
      points="986.5,500.0 993.5,494.0 986.5,488.0"
      fill="none"
@@ -911,7 +870,7 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline79"
-     transform="translate(25.90359,-39.682539)" />
+     transform="translate(41.776606,-39.682539)" />
   <polyline
      points="1007.8,500.0 1014.8,494.0 1007.8,488.0"
      fill="none"
@@ -921,7 +880,7 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline80"
-     transform="translate(25.90359,-39.682539)" />
+     transform="translate(41.776606,-39.682539)" />
   <polyline
      points="1007.8,500.0 1014.8,494.0 1007.8,488.0"
      fill="none"
@@ -931,12 +890,22 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline80-6"
-     transform="translate(49.128987,-39.682539)" />
+     transform="translate(65.002003,-39.682539)" />
+  <polyline
+     points="1007.8,500.0 1014.8,494.0 1007.8,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline80-6-1"
+     transform="translate(88.307508,-39.167174)" />
   <line
-     x1="1178.9036"
-     y1="496.31747"
-     x2="1178.9036"
-     y2="520.31744"
+     x1="1206.5618"
+     y1="496.87866"
+     x2="1206.5618"
+     y2="520.87866"
      stroke="#239b72"
      stroke-width="9"
      stroke-linecap="butt"
@@ -951,10 +920,10 @@
      stroke-linejoin="round"
      opacity="0.95"
      id="polyline81"
-     transform="translate(63.90359,-39.682539)" />
+     transform="translate(91.561719,-39.121343)" />
   <rect
-     x="1093.9036"
-     y="520.31744"
+     x="1121.5618"
+     y="520.87866"
      width="170"
      height="44"
      rx="9"
@@ -962,15 +931,15 @@
      fill="#1b2b22"
      id="rect81" />
   <text
-     x="1178.9036"
-     y="548.31744"
+     x="1206.5618"
+     y="548.87866"
      font-size="14.5px"
      font-weight="600"
      fill="#ffffff"
      text-anchor="middle"
      id="text81">Answer</text>
   <path
-     d="m 1146.6508,564.31746 c 0,30 -453.00001,32 -753.00001,32 -180,0 -242,-12 -243,-98"
+     d="m 1206.2203,564.31746 c 0,30 -480.0037,32 -797.88691,32 -190.72993,0 -256.42579,-12 -257.4854,-98"
      fill="none"
      stroke="#6a7a70"
      stroke-width="1.6"
@@ -981,7 +950,7 @@
      sodipodi:nodetypes="csc" />
   <g
      id="g82"
-     transform="translate(-6.3492063,-55.682539)">
+     transform="translate(112.62432,-56.804931)">
     <rect
        x="498.39999"
        y="626"
@@ -1000,7 +969,8 @@
        fill="#6a7a70"
        text-anchor="middle"
        font-family="'Spline Sans Mono', monospace"
-       id="text82">response to user</text>
+       id="text82"
+       style="font-size:14.6667px">response to user</text>
   </g>
   <ellipse
      cx="92.141258"
@@ -1053,7 +1023,7 @@
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:17.1667px;font-family:Montserrat, system-ui, sans-serif;-inkscape-font-specification:'Montserrat, system-ui, sans-serif Semi-Bold';fill:#1a1a1a"
        id="tspan1">Monitor</tspan></text>
   <text
-     x="110.14315"
+     x="99.480431"
      y="267.91986"
      font-size="10.5px"
      font-weight="500"
@@ -1061,26 +1031,17 @@
      text-anchor="start"
      font-family="'Spline Sans Mono', monospace"
      id="text33"
-     style="font-size:11.5px"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Spline Sans Mono', monospace;-inkscape-font-specification:'Spline Sans Mono, monospace';fill:#666666"
+     style="font-size:14.6667px"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Spline Sans Mono', monospace;-inkscape-font-specification:'Spline Sans Mono, monospace';fill:#666666"
        id="tspan4">live watching</tspan></text>
   <text
-     x="109.11268"
-     y="141.84286"
+     x="111.91866"
+     y="148.57721"
      font-size="16.5px"
      font-weight="600"
      fill="#1b2b22"
      text-anchor="start"
      id="text34">Data corpus</text>
-  <text
-     x="134.90634"
-     y="156.28734"
-     font-size="11.5px"
-     font-weight="400"
-     fill="#6a7a70"
-     text-anchor="start"
-     font-family="'Spline Sans Mono', monospace"
-     id="text35">files</text>
   <path
      d="m 79.831593,137.81112 13.43374,-5.85159 5.244188,5.85159 v 20.84127 H 79.831593 Z"
      fill="#f0eee4"
@@ -1102,6 +1063,13 @@
      stroke-width="1.4"
      stroke-linejoin="round"
      id="path37" />
+  <path
+     d="m 260.4468,222.46052 10.20471,-4.37529 3.98366,4.37529 v 15.58322 H 260.4468 Z"
+     fill="#eefbe6"
+     stroke="#35a016"
+     stroke-width="1.4"
+     stroke-linejoin="round"
+     id="path37-8" />
   <ellipse
      class="spring"
      cx="93.480843"
@@ -1121,4 +1089,24 @@
      style="stroke-width:0.999999"
      rx="3.9511008"
      ry="4.4087305" />
+  <polyline
+     points="711.3,500.0 718.3,494.0 711.3,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline73-1"
+     transform="translate(54.683268,-39.116411)" />
+  <polyline
+     points="742.6,500.0 749.6,494.0 742.6,488.0"
+     fill="none"
+     stroke="#239b72"
+     stroke-width="2.4"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     opacity="0.95"
+     id="polyline74-7"
+     transform="translate(49.524538,-39.116411)" />
 </svg>

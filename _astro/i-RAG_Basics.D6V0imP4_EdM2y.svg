@@ -19,9 +19,9 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#505050"
-   inkscape:zoom="1.7732062"
-   inkscape:cx="839.43986"
-   inkscape:cy="305.94298"
+   inkscape:zoom="0.8866031"
+   inkscape:cx="531.80504"
+   inkscape:cy="356.98048"
    inkscape:window-width="1920"
    inkscape:window-height="1009"
    inkscape:window-x="-8"
@@ -78,7 +78,8 @@
    text-anchor="start"
    font-family="'Spline Sans Mono', monospace"
    letter-spacing="2.6"
-   id="text3">Ingestion pipeline</text>
+   id="text3"
+   style="font-size:16px">Ingestion pipeline</text>
 <rect
    x="73.383698"
    y="106.37239"
@@ -336,15 +337,16 @@
    text-anchor="middle"
    id="text21">Vector DB</text>
 <text
-   x="63.383701"
-   y="330.37238"
+   x="73.751801"
+   y="329.57483"
    font-size="12.5px"
    font-weight="600"
    fill="#6a7a70"
    text-anchor="start"
    font-family="'Spline Sans Mono', monospace"
    letter-spacing="2.6"
-   id="text22">Retrieval</text>
+   id="text22"
+   style="font-size:16px">Retrieval</text>
 <rect
    x="73.383698"
    y="346.37238"
@@ -393,8 +395,8 @@
    font-family="'Spline Sans Mono', monospace"
    id="text25">fetch + bundle</text>
 <rect
-   x="1051.3837"
-   y="346.37238"
+   x="1088.0708"
+   y="345.57483"
    width="180"
    height="84"
    rx="11"
@@ -404,8 +406,8 @@
    stroke-width="1.4"
    id="rect25" />
 <text
-   x="1141.3837"
-   y="394.37238"
+   x="1178.0708"
+   y="393.57483"
    font-size="16.5px"
    font-weight="600"
    fill="#1b2b22"
@@ -602,7 +604,8 @@
      fill="#137e59"
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
-     id="text41">user query</text>
+     id="text41"
+     style="font-size:14.6667px">user query</text>
 </g>
 <line
    x1="853.38373"
@@ -636,7 +639,7 @@
    transform="translate(3.3837012,-61.627617)" />
 <g
    id="g43"
-   transform="translate(-49.216336,-60.327617)">
+   transform="translate(-61.977072,-58.732525)">
   <rect
      x="803.40002"
      y="361"
@@ -655,34 +658,38 @@
      fill="#137e59"
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
-     id="text43">top-k chunks</text>
+     id="text43"
+     style="font-size:14.6667px">top-k chunks</text>
 </g>
 <text
-   x="996.98834"
-   y="355.64545"
+   x="1013.3594"
+   y="347.44467"
    font-size="10.5px"
    font-weight="600"
    fill="#137e59"
    text-anchor="middle"
    font-family="'Spline Sans Mono', monospace"
-   id="text44">prompt</text>
+   id="text44"
+   style="font-size:14.6667px">prompt</text>
 <text
-   x="997.25238"
-   y="368.83282"
+   x="1015.5807"
+   y="368.26886"
    font-size="10.5px"
    font-weight="500"
    fill="#6a7a70"
    text-anchor="middle"
    font-family="'Spline Sans Mono', monospace"
-   id="text45"><tspan
+   id="text45"
+   style="font-size:14.6667px"><tspan
      sodipodi:role="line"
      id="tspan50"
-     x="997.25238"
-     y="368.83282">query + context</tspan></text>
+     x="1015.5807"
+     y="368.26886"
+     style="font-size:14.6667px">query + context</tspan></text>
 <line
    x1="943.38373"
    y1="388.37238"
-   x2="1050.6837"
+   x2="1088.1683"
    y2="388.37238"
    stroke="#239b72"
    stroke-width="10.4232"
@@ -710,6 +717,26 @@
    id="polyline46"
    transform="translate(3.3837012,-61.627617)" />
 <polyline
+   points="959.0,456.0 966.0,450.0 959.0,444.0"
+   fill="none"
+   stroke="#239b72"
+   stroke-width="2.4"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   opacity="0.95"
+   id="polyline45-4"
+   transform="translate(63.163191,-61.34601)" />
+<polyline
+   points="979.0,456.0 986.0,450.0 979.0,444.0"
+   fill="none"
+   stroke="#239b72"
+   stroke-width="2.4"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   opacity="0.95"
+   id="polyline46-8"
+   transform="translate(63.163191,-61.34601)" />
+<polyline
    points="999.0,456.0 1006.0,450.0 999.0,444.0"
    fill="none"
    stroke="#239b72"
@@ -728,10 +755,10 @@
    stroke-linejoin="round"
    opacity="0.95"
    id="polyline46-7"
-   transform="translate(44.565296,-61.627617)" />
+   transform="translate(83.844438,-61.228844)" />
 <rect
-   x="1051.3837"
-   y="478.37238"
+   x="1088.0708"
+   y="477.57483"
    width="180"
    height="44"
    rx="9"
@@ -739,18 +766,18 @@
    fill="#1b2b22"
    id="rect47" />
 <text
-   x="1141.3837"
-   y="506.37238"
+   x="1178.0708"
+   y="505.57483"
    font-size="14.5px"
    font-weight="600"
    fill="#ffffff"
    text-anchor="middle"
    id="text47">Answer</text>
 <line
-   x1="1141.3837"
-   y1="430.37238"
-   x2="1141.3837"
-   y2="478.37238"
+   x1="1178.0708"
+   y1="429.57483"
+   x2="1178.0708"
+   y2="477.57483"
    stroke="#239b72"
    stroke-width="9"
    stroke-linecap="butt"
@@ -765,7 +792,7 @@
    stroke-linejoin="round"
    opacity="0.95"
    id="polyline48"
-   transform="translate(31.383701,-61.627617)" />
+   transform="translate(68.070818,-62.425163)" />
 <polyline
    points="1104.0,523.0 1110.0,530.0 1116.0,523.0"
    fill="none"
@@ -775,9 +802,9 @@
    stroke-linejoin="round"
    opacity="0.95"
    id="polyline49"
-   transform="translate(31.383701,-61.627617)" />
+   transform="translate(68.070818,-62.425163)" />
 <path
-   d="m 1141.3837,522.37238 c 0,28 -238,28 -538,28 -280,0 -444,-8 -445,-118"
+   d="m 1174.7038,522.37238 c 0,28 -246.04011,28 -556.17471,28 -289.45896,0 -458.99921,-8 -460.03299,-118"
    fill="none"
    stroke="#6a7a70"
    stroke-width="1.6"
@@ -807,8 +834,10 @@
      fill="#6a7a70"
      text-anchor="middle"
      font-family="'Spline Sans Mono', monospace"
-     id="text49">response to user</text>
+     id="text49"
+     style="font-size:14.6667px">response to user</text>
 </g>
+
 
 
 
