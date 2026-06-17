@@ -22,9 +22,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="1.7819091"
-     inkscape:cx="541.27341"
-     inkscape:cy="348.50263"
+     inkscape:zoom="0.89095455"
+     inkscape:cx="430.43722"
+     inkscape:cy="341.20708"
      inkscape:window-width="1854"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -100,7 +100,7 @@
      ry="0"
      fill="#f5f3ec"
      id="rect4"
-     style="display:inline;stroke-width:0.911944" />
+     style="display:none;stroke-width:0.911944" />
   <rect
      x="0"
      y="0"
@@ -108,7 +108,7 @@
      height="465.71909"
      fill="url(#kgrid)"
      id="rect5"
-     style="fill:url(#pattern36);stroke-width:0.911944" />
+     style="display:none;fill:url(#pattern36);stroke-width:0.911944" />
   <text
      x="50"
      y="16.268456"

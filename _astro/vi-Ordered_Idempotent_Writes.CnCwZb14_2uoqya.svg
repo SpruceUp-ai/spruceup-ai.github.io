@@ -7,7 +7,7 @@
    id="svg27"
    sodipodi:docname="vi-Ordered_Idempotent_Writes.svg"
    height="336.45023"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="1.4148128"
-     inkscape:cx="357.29108"
-     inkscape:cy="166.45312"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:cx="139.94784"
+     inkscape:cy="202.14688"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg27" />
   <defs
@@ -106,7 +106,8 @@
   </defs>
   <g
      id="g30"
-     transform="scale(0.7458112,0.95582454)">
+     transform="scale(0.7458112,0.95582454)"
+     style="display:none">
     <rect
        x="0"
        y="0"

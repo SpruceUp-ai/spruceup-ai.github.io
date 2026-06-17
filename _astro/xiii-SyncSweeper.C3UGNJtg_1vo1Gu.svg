@@ -7,7 +7,7 @@
    version="1.1"
    id="svg45"
    sodipodi:docname="xiii-SyncSweeper.svg"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,12 +22,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.96601665"
-     inkscape:cx="616.449"
-     inkscape:cy="277.94552"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:cx="170.28692"
+     inkscape:cy="338.50348"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg45" />
   <defs
@@ -184,14 +184,16 @@
      rx="0"
      ry="0"
      fill="#f5f3ec"
-     id="rect6" />
+     id="rect6"
+     style="display:none" />
   <rect
      x="0"
      y="0"
      width="1300"
      height="590"
      fill="url(#kgrid)"
-     id="rect7" />
+     id="rect7"
+     style="display:none" />
   <rect
      x="1062"
      y="56"

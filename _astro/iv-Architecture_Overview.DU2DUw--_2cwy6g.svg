@@ -6,27 +6,27 @@
    version="1.1"
    id="svg81"
    sodipodi:docname="iv-Architecture_Overview.svg"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview1"
-     pagecolor="#ffffff"
+     pagecolor="#515151"
      bordercolor="#000000"
-     borderopacity="0.25"
+     borderopacity="0.16470588"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.0590551"
-     inkscape:cx="658.60595"
-     inkscape:cy="365.89219"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:deskcolor="#4f4f4f"
+     inkscape:zoom="0.74886504"
+     inkscape:cx="553.50427"
+     inkscape:cy="528.80022"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg81" />
   <namedview
@@ -157,7 +157,8 @@
      width="1300"
      height="762"
      fill="#f5f3ec"
-     id="rect23" />
+     id="rect23"
+     style="display:none" />
   <text
      x="141.9585"
      y="86.446098"

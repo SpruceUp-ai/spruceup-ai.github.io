@@ -6,7 +6,7 @@
    version="1.1"
    id="svg49"
    sodipodi:docname="i-RAG_Basics.svg"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -20,12 +20,12 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#505050"
    inkscape:zoom="0.8866031"
-   inkscape:cx="531.80504"
-   inkscape:cy="356.98048"
-   inkscape:window-width="1920"
-   inkscape:window-height="1009"
-   inkscape:window-x="-8"
-   inkscape:window-y="-8"
+   inkscape:cx="618.65337"
+   inkscape:cy="163.54556"
+   inkscape:window-width="2560"
+   inkscape:window-height="1403"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg49" />
 <defs
@@ -53,7 +53,7 @@
    ry="0"
    fill="#f5f3ec"
    id="rect1"
-   style="display:inline"
+   style="display:none"
    sodipodi:insensitive="true" />
 <rect
    x="55.383701"
@@ -68,7 +68,8 @@
    stroke-dasharray="2, 7"
    stroke-linecap="round"
    opacity="0.85"
-   id="rect2" />
+   id="rect2"
+   style="display:none" />
 <text
    x="63.383701"
    y="80.372383"
@@ -837,6 +838,7 @@
      id="text49"
      style="font-size:14.6667px">response to user</text>
 </g>
+
 
 
 

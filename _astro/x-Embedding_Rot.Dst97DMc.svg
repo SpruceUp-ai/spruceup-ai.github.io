@@ -8,7 +8,7 @@
    style="max-height: 500px"
    height="376.6233766233766"
    sodipodi:docname="x-Embedding_Rot.svg"
-   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.0409662"
-     inkscape:cx="570.14339"
-     inkscape:cy="239.68117"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:cx="148.4198"
+     inkscape:cy="298.7609"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg25" />
   <defs
@@ -79,14 +79,16 @@
      id="rect3"
      fill="#f5f3ec"
      height="600"
-     width="1300" />
+     width="1300"
+     style="display:none" />
   <rect
      y="0"
      x="0"
      id="rect4"
      fill="url(#kgrid)"
      height="600"
-     width="1300" />
+     width="1300"
+     style="display:none" />
   <text
      style="display:none"
      id="text4"

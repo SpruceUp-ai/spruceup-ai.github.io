@@ -21,11 +21,11 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="1.2842147"
-     inkscape:cx="352.35541"
-     inkscape:cy="251.51558"
-     inkscape:window-width="2560"
-     inkscape:window-height="1403"
+     inkscape:zoom="0.64210735"
+     inkscape:cx="351.96607"
+     inkscape:cy="233.6058"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -116,7 +116,8 @@
   </defs>
   <g
      id="g33"
-     transform="scale(0.82888607,0.89577661)">
+     transform="scale(0.82888607,0.89577661)"
+     style="display:none">
     <rect
        x="0"
        y="0"
@@ -142,7 +143,8 @@
      stroke="#d8d9cd"
      stroke-width="1.3"
      stroke-dasharray="2, 5"
-     id="line6" />
+     id="line6"
+     style="stroke:#828474;stroke-opacity:1" />
   <line
      x1="634.97839"
      y1="147.6349"
@@ -151,7 +153,8 @@
      stroke="#d8d9cd"
      stroke-width="1.3"
      stroke-dasharray="2, 5"
-     id="line7" />
+     id="line7"
+     style="stroke:#828474;stroke-opacity:1" />
   <line
      x1="372.97839"
      y1="259.63489"
@@ -160,7 +163,8 @@
      stroke="#d8d9cd"
      stroke-width="1.3"
      stroke-dasharray="2, 5"
-     id="line8" />
+     id="line8"
+     style="stroke:#828474;stroke-opacity:1" />
   <line
      x1="634.97839"
      y1="259.63489"
@@ -169,7 +173,8 @@
      stroke="#d8d9cd"
      stroke-width="1.3"
      stroke-dasharray="2, 5"
-     id="line9" />
+     id="line9"
+     style="stroke:#828474;stroke-opacity:1" />
   <line
      x1="372.97839"
      y1="371.63489"
@@ -178,7 +183,8 @@
      stroke="#d8d9cd"
      stroke-width="1.3"
      stroke-dasharray="2, 5"
-     id="line10" />
+     id="line10"
+     style="stroke:#828474;stroke-opacity:1" />
   <line
      x1="634.97839"
      y1="371.63489"
@@ -187,7 +193,8 @@
      stroke="#d8d9cd"
      stroke-width="1.3"
      stroke-dasharray="2, 5"
-     id="line11" />
+     id="line11"
+     style="stroke:#828474;stroke-opacity:1" />
   <rect
      x="446.97839"
      y="110.6349"
